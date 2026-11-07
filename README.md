@@ -59,7 +59,7 @@ The script reports broken links, unreachable passages, loops, dead ends, and ill
 
 The illustrations are black-ink line art, generated with Cloudflare Workers AI (FLUX schnell), the same service the ai-mysteries project uses for its covers. Each scene has a prompt in `art/prompts.json`, which also holds the shared line-art style and the order to draw scenes in. Generated images go in `art/<name>.webp`, and `art/index.json` lists the scenes that have one. A scene with no image yet is simply shown without a picture.
 
-The free daily quota covers only a few images, so the art is filled in a few at a time:
+The free daily quota is 10,000 neurons, which works out to roughly 80 images a day (about 120 neurons each). The quota is shared with anything else on the same Cloudflare account. So the art is filled in over a few days:
 
 ```bash
 npm install
@@ -68,7 +68,7 @@ node tools/gen-art.cjs --list                                        # see which
 node tools/gen-art.cjs --force crow                                  # redraw one scene
 ```
 
-The script needs `CF_ACCOUNT_ID` and `CF_API_TOKEN`. It reads them from the environment, a gitignored `.env` in this repo, or the file named by `MYW_ENV_FILE`. When the quota runs out it stops and says so; run it again after the reset. Look over new images before committing them: the model sometimes adds made-up lettering, and a scene description that avoids signs and labels usually fixes it.
+The script needs `CF_ACCOUNT_ID` and `CF_API_TOKEN`. It reads them from the environment, a gitignored `.env` in this repo, or the file named by `MYW_ENV_FILE`. When the quota runs out it stops and says so; run it again after the reset. Look over new images before committing them: the model sometimes adds made-up lettering, stray colour, or the wrong subject. Rewrite the scene description and redraw it. Rejected drafts can be parked in the gitignored `art/rejects/` folder; the site only shows images listed in `art/index.json`, which the script rebuilds from the files in `art/`.
 
 The images are drawn black on white. The site multiplies them onto the paper colour in light mode and inverts them in dark mode, so they sit on the page in both themes.
 

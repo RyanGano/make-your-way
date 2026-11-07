@@ -1,0 +1,69 @@
+<svg class="lineart" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A ginger cat sitting calmly on a rock beside a flare pistol">
+<path d="M0 280 Q200 250 300 262 Q420 274 600 250 L600 320 L0 320 Z"/>
+<path class="thin" d="M0.0 282.0 L12.0 270.0"/>
+<path class="thin" d="M0.0 294.0 L24.0 270.0"/>
+<path class="thin" d="M0.0 306.0 L36.0 270.0"/>
+<path class="thin" d="M0.0 318.0 L48.0 270.0"/>
+<path class="thin" d="M10.0 320.0 L60.0 270.0"/>
+<path class="thin" d="M22.0 320.0 L72.0 270.0"/>
+<path class="thin" d="M34.0 320.0 L84.0 270.0"/>
+<path class="thin" d="M46.0 320.0 L96.0 270.0"/>
+<path class="thin" d="M58.0 320.0 L108.0 270.0"/>
+<path class="thin" d="M70.0 320.0 L120.0 270.0"/>
+<path class="thin" d="M82.0 320.0 L132.0 270.0"/>
+<path class="thin" d="M94.0 320.0 L144.0 270.0"/>
+<path class="thin" d="M106.0 320.0 L156.0 270.0"/>
+<path class="thin" d="M118.0 320.0 L168.0 270.0"/>
+<path class="thin" d="M130.0 320.0 L180.0 270.0"/>
+<path class="thin" d="M142.0 320.0 L192.0 270.0"/>
+<path class="thin" d="M154.0 320.0 L204.0 270.0"/>
+<path class="thin" d="M166.0 320.0 L216.0 270.0"/>
+<path class="thin" d="M178.0 320.0 L228.0 270.0"/>
+<path class="thin" d="M190.0 320.0 L240.0 270.0"/>
+<path class="thin" d="M202.0 320.0 L252.0 270.0"/>
+<path class="thin" d="M214.0 320.0 L264.0 270.0"/>
+<path class="thin" d="M226.0 320.0 L276.0 270.0"/>
+<path class="thin" d="M238.0 320.0 L288.0 270.0"/>
+<path class="thin" d="M250.0 320.0 L300.0 270.0"/>
+<path class="thin" d="M262.0 320.0 L312.0 270.0"/>
+<path class="thin" d="M274.0 320.0 L324.0 270.0"/>
+<path class="thin" d="M286.0 320.0 L336.0 270.0"/>
+<path class="thin" d="M298.0 320.0 L348.0 270.0"/>
+<path class="thin" d="M310.0 320.0 L360.0 270.0"/>
+<path class="thin" d="M322.0 320.0 L372.0 270.0"/>
+<path class="thin" d="M334.0 320.0 L384.0 270.0"/>
+<path class="thin" d="M346.0 320.0 L396.0 270.0"/>
+<path class="thin" d="M358.0 320.0 L408.0 270.0"/>
+<path class="thin" d="M370.0 320.0 L420.0 270.0"/>
+<path class="thin" d="M382.0 320.0 L432.0 270.0"/>
+<path class="thin" d="M394.0 320.0 L444.0 270.0"/>
+<path class="thin" d="M406.0 320.0 L456.0 270.0"/>
+<path class="thin" d="M418.0 320.0 L468.0 270.0"/>
+<path class="thin" d="M430.0 320.0 L480.0 270.0"/>
+<path class="thin" d="M442.0 320.0 L492.0 270.0"/>
+<path class="thin" d="M454.0 320.0 L504.0 270.0"/>
+<path class="thin" d="M466.0 320.0 L516.0 270.0"/>
+<path class="thin" d="M478.0 320.0 L528.0 270.0"/>
+<path class="thin" d="M490.0 320.0 L540.0 270.0"/>
+<path class="thin" d="M502.0 320.0 L552.0 270.0"/>
+<path class="thin" d="M514.0 320.0 L564.0 270.0"/>
+<path class="thin" d="M526.0 320.0 L576.0 270.0"/>
+<path class="thin" d="M538.0 320.0 L588.0 270.0"/>
+<path class="thin" d="M550.0 320.0 L600.0 270.0"/>
+<path class="thin" d="M562.0 320.0 L600.0 282.0"/>
+<path class="thin" d="M574.0 320.0 L600.0 294.0"/>
+<path class="thin" d="M586.0 320.0 L600.0 306.0"/>
+<path class="thin" d="M598.0 320.0 L600.0 318.0"/>
+<path d="M260 266 Q246 200 274 182 L268 156 L284 170 Q300 164 316 170 L332 156 L326 182 Q356 200 340 266 Z"/>
+<path d="M340 260 Q380 256 386 226 Q390 210 376 206"/>
+<circle class="fill" cx="288.0" cy="186.0" r="2.0"/>
+<circle class="fill" cx="312.0" cy="186.0" r="2.0"/>
+<path class="thin" d="M296 196 L300 200 L304 196"/>
+<path class="thin" d="M270.0 196.0 L250.0 192.0"/>
+<path class="thin" d="M270.0 200.0 L250.0 204.0"/>
+<path class="thin" d="M330.0 196.0 L350.0 192.0"/>
+<path class="thin" d="M330.0 200.0 L350.0 204.0"/>
+<path d="M420 262 L470 262 L476 252 L430 250 Z M440 262 L436 280 L450 280 L452 262"/>
+<circle cx="472.0" cy="256.0" r="0.1"/>
+<path class="thin" d="M290 230 Q300 240 310 230"/>
+</svg>

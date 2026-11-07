@@ -1,0 +1,29 @@
+<svg class="lineart" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A tiny cabin: bunk, porthole, a photo of two children on a beach and a crayon drawing of a rocket">
+<rect x="60.0" y="200.0" width="300.0" height="30.0" rx="0"/>
+<path d="M60.0 230.0 L60.0 300.0"/>
+<path class="thin" d="M60 200 L60 120"/>
+<rect class="thin" x="80.0" y="186.0" width="60.0" height="14.0" rx="5"/>
+<circle cx="470.0" cy="90.0" r="40.0"/>
+<circle class="thin" cx="470.0" cy="90.0" r="32.0"/>
+<circle class="fill" cx="506.0" cy="90.0" r="1.6"/>
+<circle class="fill" cx="495.5" cy="115.5" r="1.6"/>
+<circle class="fill" cx="470.0" cy="126.0" r="1.6"/>
+<circle class="fill" cx="444.5" cy="115.5" r="1.6"/>
+<circle class="fill" cx="434.0" cy="90.0" r="1.6"/>
+<circle class="fill" cx="444.5" cy="64.5" r="1.6"/>
+<circle class="fill" cx="470.0" cy="54.0" r="1.6"/>
+<circle class="fill" cx="495.5" cy="64.5" r="1.6"/>
+<rect x="200.0" y="70.0" width="90.0" height="70.0" rx="0"/>
+<circle class="thin" cx="230.0" cy="116.0" r="6.0"/>
+<circle class="thin" cx="260.0" cy="112.0" r="6.0"/>
+<path class="thin" d="M200.0 126.0 L290.0 126.0"/>
+<path class="thin" d="M200 120 Q245 110 290 120"/>
+<rect class="thin" x="320.0" y="60.0" width="70.0" height="90.0" rx="0"/>
+<path class="accent" d="M350 130 L350 90 L355 76 L360 90 L360 130 Z"/>
+<path class="accent" d="M350 120 L342 132 M360 120 L368 132"/>
+<circle class="thin" cx="355.0" cy="100.0" r="4.0"/>
+<rect x="420.0" y="200.0" width="140.0" height="12.0" rx="0"/>
+<path class="thin" d="M430.0 212.0 L430.0 300.0"/>
+<rect class="thin" x="460.0" y="172.0" width="30.0" height="28.0" rx="0"/>
+<path d="M0.0 300.0 L600.0 300.0"/>
+</svg>

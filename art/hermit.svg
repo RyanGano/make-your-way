@@ -1,0 +1,16 @@
+<svg class="lineart" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="An old hermit with a long beard unrolling a map across his knees outside his hut">
+<rect x="360.0" y="120.0" width="150.0" height="120.0" rx="0"/>
+<path d="M350 120 L435 70 L520 120"/>
+<rect class="thin" x="420.0" y="180.0" width="30.0" height="60.0" rx="0"/>
+<path d="M490.0 90.0 L490.0 70.0"/>
+<path class="thin" d="M490 66 q8 -10 0 -20 q-8 -10 0 -20"/>
+<circle cx="230.0" cy="140.0" r="14.0"/>
+<path class="thin" d="M220 150 Q230 200 240 150"/>
+<path d="M206 240 L210 166 L250 166 L254 240"/>
+<path d="M150 200 L320 196 L316 230 L154 236 Z"/>
+<path d="M150 200 Q140 216 154 236 M320 196 Q330 212 316 230"/>
+<path class="accent" d="M170 222 L210 204 L240 216 L290 206"/>
+<path class="thin" d="M200 230 L220 214 L236 226 Z"/>
+<path d="M0.0 240.0 L600.0 240.0"/>
+<path d="M530 240 L534 216 Q548 208 562 214 L566 206 L570 214 L568 224 L564 240"/>
+</svg>

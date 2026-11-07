@@ -1,0 +1,17 @@
+<svg class="lineart" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A long, wobbly slide drawn down the mountainside, with a loop in it">
+<path d="M120 40 L60 120 L20 320 M120 40 L200 100 L260 200 L300 320"/>
+<path d="M140 50 Q200 120 260 140 Q330 160 330 200 Q330 240 300 230 Q270 220 290 196 Q320 170 380 230 Q450 300 600 300"/>
+<path class="thin" d="M150 60 Q206 130 264 150 Q320 166 320 200"/>
+<path class="thin" d="M390 236 Q456 290 600 290"/>
+<path class="thin" d="M0 200 Q60 180 120 196 Q180 176 240 194 Q300 180 360 196 Q420 182 480 194"/>
+<circle cx="160.0" cy="40.0" r="3.5"/>
+<path d="M157.0 70.0 L158.5 55.0 M163.0 70.0 L161.5 55.0"/>
+<path d="M158.5 55.0 L157.5 45.0 L162.5 45.0 L161.5 55.0"/>
+<path d="M157.5 46.0 L155.0 39.0"/>
+<path d="M162.5 46.0 L165.0 39.0"/>
+<path class="fill" d="M237.6 40.0 L238.8 34.0 Q229.2 31.6 222.0 36.4 L212.4 41.2 L223.2 38.8 Q231.6 37.6 237.6 32.8 Q242.4 24.4 246.0 22.0 Q250.8 19.6 253.2 23.2 L259.2 24.4 L253.2 26.8 Q250.8 32.8 243.6 35.2 Z"/>
+<path class="thin" d="M238.8 40.0 L236.4 43.0"/>
+<path class="thin" d="M241.2 39.0 L241.8 43.0"/>
+<rect x="540.0" y="230.0" width="30.0" height="60.0" rx="0"/>
+<circle class="fill" cx="564.0" cy="260.0" r="2.0"/>
+</svg>

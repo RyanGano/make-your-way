@@ -1,0 +1,891 @@
+title: The Keeper of Gull Rock
+genre: Mystery · Coast
+blurb: You arrive on a fogbound island to be the new assistant lighthouse keeper. The keeper isn't there to meet you, the lamp is dark, and a ship is due tonight.
+cover: dawn-tower
+start: arrival
+
+## arrival
+[art: mailboat | The mail boat noses in toward Gull Rock.]
+The fog comes in before the island does. One minute you can see the whole grey line of the coast behind you, and the next there is nothing but the slap of water against the hull of the mail boat and the smell of diesel and kelp.
+
+"Not far now," says Tobias Wick, who runs the boat. He's a broad, quiet man with a beard the colour of old rope, and he has said maybe twenty words since you left the harbour. He keeps glancing at the compass, then at the water, then at you, as if he can't decide which of the three he trusts least.
+
+Then Gull Rock comes out of the murk all at once: a hump of black stone streaked white by birds, a low stone cottage with a slate roof, a boathouse, and above it all the lighthouse, tall and pale, its lamp room dark.
+
+You took this job because you wanted somewhere quiet. Six months of training at the lighthouse depot on the mainland, learning to strip and clean a burner with your eyes shut, learning the Morse alphabet, learning the names of clouds. The instructors said Gull Rock was the loneliest posting on the coast and the easiest: one keeper, one assistant, a light that had burned every night for ninety years without a hitch. Nothing ever happens on Gull Rock, they said. You'd liked the sound of that.
+
+You have a letter in your coat pocket. You've read it so many times the folds have gone soft. *Report to Miss Ada Marrow, Principal Keeper, Gull Rock Light, on Thursday the 14th. She will meet the boat.* It's Thursday the 14th. There is nobody on the landing.
+
+Tobias brings the boat alongside the slip and throws a line around a bollard with one easy motion. He hands up your kitbag and a crate of supplies: tinned milk, paraffin, a sack of potatoes, a bundle of newspapers a week out of date.
+
+"Where's Miss Marrow?" you ask.
+
+He doesn't answer straight away. He looks up at the tower, then out toward the south, where the fog hides a long reef the charts call the Teeth. "Ada keeps her own hours," he says at last. "She'll turn up." He unhooks the line. "You'll want that lamp lit by dark. Fog like this, the *Halloran*'s due past tonight. Big steamer. Doesn't like surprises."
+
+"Will you wait? Just until I find her?"
+
+"Tide won't," says Tobias, and something in his voice makes you think it isn't really the tide he's worried about. He pushes off. "If you see lights out on the Teeth," he calls, already half swallowed by the fog, "don't go chasing them. That's all. Don't go chasing them."
+
+Then the engine coughs, and he's gone, and you are alone on an island the size of a football pitch, with a dark lighthouse, an empty cottage, and about three hours of daylight left.
+
+> Knock at the cottage first. The keeper might be inside. -> cottage
+> Go straight up the lighthouse. The lamp matters most. -> tower
+
+## cottage
+[art: cottage-kitchen | A supper nobody finished.]
+The cottage door isn't locked. It isn't even closed. It stands an inch open, and the fog has crept in after it and left a damp sheen across the flagstones.
+
+"Miss Marrow?" you call. "Hello? I'm the new assistant."
+
+A cat answers: a fat ginger tom who comes trotting out of the gloom with his tail straight up, complaining loudly. He winds around your ankles and then marches to an empty bowl by the range and sits beside it, glaring at you as if you're very late with something. A brass tag on his collar says BISCUIT.
+
+The kitchen is small and warm-smelling and very tidy, apart from the table. On the table is a supper somebody walked away from: a bowl of fish stew with a skin on it, half a loaf, a mug of tea gone cold and brown. The chair is pushed back hard, as though whoever sat in it stood up fast.
+
+You feed Biscuit from a tin you find on the shelf, mostly so you can think without him shouting at you. Then you look around properly.
+
+Oilskins hang on a hook by the door, but there's an empty hook beside them. A pair of sea boots is missing from the row along the wall. On the dresser there's a framed photograph of a sailing ship with a crew lined up along her rail. Someone has written underneath in faded ink: *The Wren, 1911. Lost with all hands.* One of the young men in the picture has been circled in pencil, very faintly.
+
+And on the table, beside the abandoned stew, there's a thick ledger bound in green cloth with GULL ROCK LIGHT stamped on the cover in gold. The keeper's log. It's lying open, a pencil tucked into the gutter. Next to it is a scrap of paper weighed down with a salt cellar. On it, in a quick, slanted hand:
+
+*New keeper. If I'm not back, light the lamp by six. Whatever you see from the gallery, keep it lit. Trust the log. A.M.*
+
+So she knew she might not be here. Wherever she went, she went on purpose.
+
+Biscuit has finished eating and has climbed onto the chair to supervise. Through the window, you can just see the white shaft of the tower fading in and out of the fog.
+
+> Sit down and read the log. You need to know what she knew. -> log
+> Take the note and go up the tower. Six o'clock isn't far off. -> tower
+
+## log
+[art: logbook | Ada Marrow's log, written in a hurry toward the end.]
+The early pages of the log are exactly what you expected: wind direction, visibility, barometer readings, ships sighted. *Wind SW 4. Vis good. Coal boat Agnes passed 14:20.* Ada Marrow's handwriting is small and square and very neat.
+
+Then, about five weeks back, something changes.
+
+*Sept 2. Light seen on the Teeth, 02:10, approx. ten minutes. White, steady, low. No vessel. No reason for it.*
+
+*Sept 9. Light on the Teeth again. Fog. Motor heard to the east afterwards.*
+
+*Sept 11. Coaster Corrie Belle ran onto the outer Teeth in fog, 01:40. Crew taken off by lifeboat. Cargo (wool, machine parts, two crates of whisky) gone by the time salvage arrived. Salvage firm: Pruitt Bros. of Ferris Cove. Quick work on their part. Very quick.*
+
+The handwriting starts to lean after that, as if she's writing faster.
+
+*Sept 18. Spoke to the coastguard at Ferris. Told them someone is showing a false light on the Teeth to draw ships in. They said it was likely phosphorescence or my imagination. Asked me whether I was sleeping well.*
+
+*Sept 25. Light again. I went down to the shore with the glass and saw it plainly. A lantern on a pole, wedged in the rocks. A ship in fog would take it for the harbour light at Ferris and steer straight for it. Straight onto the reef.*
+
+*Oct 3. Tobias came out with the mail. Asked him outright whether he knew anything. He wouldn't look at me. He has debts. Everyone knows he has debts.*
+
+*Oct 10. The Halloran makes her run on the 14th. Big ship, rich cargo, and the forecast says fog. If they mean to try again, that's the night.*
+
+*Oct 13. Lamp prepared. I have written to the new assistant. I'm going out to the Teeth before dark tomorrow to pull that lantern down myself. If anyone reads this and I'm not here, they'll know why.*
+
+That's the last entry. Yesterday.
+
+You sit back. Wreckers. People who lure ships onto rocks and strip them for whatever washes free. You'd thought of them as something out of old stories, smugglers' tales, pirates with cutlasses. But this is a coastguard brush-off, a salvage firm that turns up suspiciously fast, and a lighthouse keeper who decided to stop asking permission.
+
+And she isn't back.
+
+You close the log. The light outside the window has gone from grey to a deeper grey. Biscuit, sensing a mood, jumps down and heads for the door.
+
+> Follow him. It's time to get up the tower. -> tower
+
+## tower
+[art: tower-stairs | One hundred and seventeen steps.]
+The lighthouse door is heavy oak bound with iron, and it groans when you put your shoulder to it. Inside, an iron staircase spirals up and up into the dark. The air smells of paraffin and brass polish and cold stone.
+
+You count the steps because it's something to do. Thirty, and your thighs start to burn. Sixty, and you pass a narrow window that shows nothing but white. Ninety, and you're breathing hard. At one hundred and seventeen, you push through a hatch into the lamp room.
+
+There's a small table under the window with a kettle on a spirit stove, two chipped mugs, and a tin of biscuits with a picture of the King on the lid. On the wall hangs a framed notice in faded copperplate: THE LIGHT SHALL BE EXHIBITED FROM SUNSET TO SUNRISE WITHOUT FAIL. Someone has added underneath, in pencil, in Ada Marrow's square hand: *And that means you.*
+
+The lamp itself is beautiful, even unlit. The great lens sits in the middle of the room like a giant beehive made of glass, all ridges and prisms, taller than you are. Inside it is the burner, a brass contraption with a mantle like a small silk sock. Everything gleams. Somebody has cleaned every surface in here recently and carefully. The paraffin tank is full. Matches and a spare mantle sit in a tin on the shelf. Ada Marrow left this light ready to go.
+
+A door leads out onto the gallery, the narrow iron balcony that rings the top of the tower. You step out into wet air.
+
+At first there's nothing. Then the fog thins, the way it does sometimes, as if somebody has breathed on a window and then wiped it.
+
+To the south, out over the water, there's a light. Small, white, and steady, low down where the sea should be, about where the chart shows the Teeth. It doesn't move. It doesn't flash. It just sits there, patient as a cat at a mousehole.
+
+You look down. The island lies spread out below you like a map. The boathouse door is open and the slipway beside it is empty. There's a long scrape in the weed on the slip where a boat has been dragged down to the water.
+
+And on the rocks at the western end of the island, near a dark gap where the sea runs into a cave, someone is standing. A small figure in a dark coat, too far away and too blurred by fog for you to see a face. Whoever it is, they're looking up at the tower. At you.
+
+You raise a hand. The figure ducks behind a boulder.
+
+The fog closes in again, and the light on the Teeth and the figure on the rocks are both gone. Behind you, the clock on the lamp room wall says ten minutes to five.
+
+> Light the lamp now, while you still can. -> lamp
+> Get down to the rocks and find out who that is. -> rocks
+
+## lamp
+[art: lamp-lens | The lamp is lit.]
+You remember your training, mostly. Open the valve. Pump up the pressure in the paraffin tank until the gauge needle trembles at the red line. Warm the vaporiser tube with the methylated spirit burner until the paraffin turns to gas. Then hold a match to the mantle and wait.
+
+For a long moment, nothing. Then there's a soft *whump*, and the mantle catches, and the lamp room fills with light so white and fierce that you have to turn away.
+
+You find the clockwork that turns the lens and wind it, crank by heavy crank, until the great glass beehive begins to rotate. As it turns, the light gathers itself into beams and swings out through the windows: one, two, three, four, sweeping across the fog like the spokes of a wheel.
+
+Out on the gallery again, you watch the beams go. In the fog they're solid things, white bars you feel you could walk along. Every time one sweeps south, it lights up a patch of sea.
+
+On the third sweep, you see it properly. The false light on the Teeth isn't a light at all, not the way yours is. It's a hurricane lantern hung from a pole jammed upright among the rocks. Someone has put it there to look exactly like the harbour light at Ferris Cove, the light a ship's captain would steer toward to find safe water.
+
+On the fifth sweep, you see the ship.
+
+She's a long way out still, a big shadow with a lit bridge and a row of glowing portholes, moving slowly through the fog. The *Halloran*. And she's not heading for open water. She's heading for the lantern.
+
+You feel your heartbeat in your throat. Your lamp is lit now, and any captain worth his salt should see it and know where he is. But in fog like this, with a second light that looks like a safe harbour, a tired helmsman might trust the wrong one.
+
+Somewhere below you, on the water south of the island, there's a brief sound: oars knocking in rowlocks, and then silence.
+
+On the shelf in the lamp room there's a signal lamp with a trigger shutter and a battered booklet of Morse code tucked beside it. By the door there's a coat with a torch in the pocket.
+
+> Grab the signal lamp. Try to warn the *Halloran* directly. -> signal
+> Take the torch and get down to the shore. Someone's out there on the water. -> shore
+
+## rocks
+[art: davy | The mouth of the sea cave.]
+You take the stairs down so fast you nearly fall twice. Outside, the fog has settled thick and low, and you have to pick your way over slippery black rock toward the western end of the island, guided mostly by the sound of the sea booming in and out of the cave.
+
+"Hello?" you call. "I saw you. I'm not angry. I'm the new keeper."
+
+Nothing. Then a scuffle of boots, and you see the figure scramble out from behind a boulder and bolt, but the rock is slick with weed and they go down hard with a yelp.
+
+When you reach them, they're sitting up and clutching an ankle. It's a boy, maybe twelve years old, with a thin face and a dripping wool hat. He glares at you like a cornered fox.
+
+"Didn't do anything," he says.
+
+"I didn't say you did. Are you hurt?"
+
+"No." Then, grudgingly: "Bit."
+
+You help him up. He tests the ankle and winces but can stand on it. There's a small skiff pulled up in a crack of the rocks behind him, the kind of boat a boy might row across the strait on a calm day if he was brave, or foolish, or desperate.
+
+"I'm Davy," he says eventually. "Davy Wick."
+
+"Wick? Like Tobias?"
+
+"He's my uncle." Davy looks away. "He's not bad. He's not. He just owes money to the Pruitts, and the Pruitts said they'd let him off if he did things for them. Kept watch. Took messages. Kept his mouth shut."
+
+"Things like putting a light on the Teeth?"
+
+Davy goes very still. Then he nods.
+
+It comes out of him in a rush after that. The Pruitt brothers, who run a salvage business at Ferris Cove, have been setting false lights on foggy nights. When a ship runs aground, they're first on the scene, and the cargo vanishes. Miss Marrow worked it out. Davy heard his uncle arguing with Ezra Pruitt last night: Ada had threatened to go to the newspapers. And then this afternoon Davy saw her row out toward the Teeth alone.
+
+"She hasn't come back," he says. "And the Pruitts' launch went out after her. I came to tell someone. But there wasn't anyone. Just you."
+
+He says it like it's a disappointment. You can't entirely blame him.
+
+From the top of the tower, the clock must be ticking toward six. The lamp is still dark.
+
+> Get Davy up the tower. Light the lamp first, together. -> lamp-davy
+> Send Davy up to light the lamp. You'll search the sea cave for Ada. -> cave
+
+## lamp-davy
+[art: gallery | The beam swings out over the fog.]
+Davy's ankle slows you down, so you take the stairs with him leaning on your shoulder, counting out loud to keep his spirits up. By ninety he's laughing at your counting. By one hundred and seventeen, you're both out of breath.
+
+He's been in the lamp room before, it turns out. "Miss Marrow let me help clean the lens once," he says. "You've got to pump it. No, *that* one. And warm the tube first, or it'll just spit at you."
+
+Between the two of you, the lamp catches on the second try. The mantle flares white and the room fills with light. You wind the clockwork that turns the lens, and the beams begin their slow swing out through the fog.
+
+Davy presses his nose to the glass, then darts out onto the gallery. "There!" he shouts. "There, see?"
+
+On the beam's southern sweep, the Teeth leap out of the murk: a long, broken jaw of black rock with white water foaming between. And there among them is a pole, a hurricane lantern swinging from its top. To any ship coming in blind, it would look exactly like the harbour light at Ferris. Safe water. Come this way.
+
+"That's theirs," Davy says. "That's the Pruitts'."
+
+Further out, a ship. You see her for only a moment on the sweep: a long dark hull, a lit bridge, a smudge of smoke. The *Halloran*, steaming slowly through the fog, on a heading that will take her straight toward the lantern.
+
+"Is there a radio?" you ask. "A telephone? Anything?"
+
+Davy points to a cabinet on the far side of the room. Inside it there's an old radio telephone, all dials and a heavy black handset. "Miss Marrow said the coastguard never listens to her," he says. "But maybe they'd listen to someone new."
+
+You look from the radio to the window. Down at the slip, Davy's little skiff is still tied up where he left it. Somewhere out on the Teeth is Ada Marrow, and whatever happened to her happened hours ago.
+
+"We could go out there," Davy says quietly. "I know the way through the rocks. Uncle Tobias showed me."
+
+> Try the radio. Make the coastguard listen this time. -> radio
+> Take the skiff out to the Teeth. Ada can't wait. -> skiff
+
+## signal
+[art: signal-lamp | Dot, dash, dot.]
+The signal lamp is heavier than it looks. You brace it on the gallery rail, aim it south toward where you last saw the ship, and open the Morse booklet on the iron floor where your beam's sweep can light it every few seconds.
+
+You know SOS. Everybody knows SOS. But SOS would only tell the *Halloran* that *you* are in trouble. You need to tell her that *she* is.
+
+You work it out letter by letter, lips moving. *Danger. Reef. Turn east.* It's slow. Every time the main beam swings round, you look up and try to find the ship, and every time she's a little closer to the lantern on the Teeth.
+
+You start sending. Your thumb works the trigger shutter: short, long, short. The light from the signal lamp is thin and blue-white beside the great sweep of the lighthouse beam, but it's aimed, and it's moving, and it's saying something.
+
+D-A-N-G-E-R. R-E-E-F. T-U-R-N E-A-S-T.
+
+Nothing. You send it again. And again. Your arms ache from holding the lamp steady.
+
+Then, out in the fog, a light winks back at you. Somebody on the *Halloran*'s bridge has a lamp too. The flashes are fast, much faster than yours, and you have to scramble through the booklet to read them.
+
+W-H-O.
+
+You hesitate, then send: G-U-L-L R-O-C-K L-I-G-H-T. F-A-L-S-E L-I-G-H-T O-N R-E-E-F.
+
+A long pause. Then: U-N-D-E-R-S-T-O-O-D. T-U-R-N-I-N-G.
+
+On the next sweep of your beam, you see her: the great shadow of the ship, swinging slowly, ponderously away from the lantern on the Teeth and out toward open sea. You let out a breath you didn't know you were holding, and you laugh, a little wildly, alone on top of a tower in the fog.
+
+Then you see the other light.
+
+It's not on the Teeth. It's close in, almost under the island, at the western end where the sea runs into a cave. A small light, flashing too, but not at the ship. At the Teeth. Somebody on Gull Rock is signalling to whoever is out there on the reef.
+
+Somebody else is on this island with you.
+
+> Use the radio to call the coastguard. You have proof now. -> radio
+> Get down to the shore and find out who's signalling. -> shore
+
+## shore
+[art: boathouse | The empty slip.]
+The torch's beam is a feeble yellow thing in the fog, and it shows you only a circle of wet rock at a time. You go carefully down past the cottage, where Biscuit watches you from the windowsill with deep disapproval, and on to the boathouse.
+
+It's empty. There's a winch and a coil of rope and a rack of oars with one pair missing, and a long scrape down the slipway where a heavy boat has been dragged to the water. Ada's boat. Ada's gone out in it, then, and she's not come back.
+
+You follow the shoreline west, the sea booming somewhere to your left. Then your torch catches something: a second boat, much smaller, a little skiff pulled up into a crack in the rocks. It's wet. It hasn't been here long.
+
+A voice behind you says, "Don't."
+
+You turn. A boy is standing on the rock above you, maybe twelve years old, thin, soaked, a wool hat pulled down over his ears. He's holding a boathook in both hands like a spear. He looks terrified.
+
+"I'm the new keeper," you say slowly. "I'm not going to hurt you. Is this your boat?"
+
+The boathook wavers. "You're not with the Pruitts?"
+
+"I don't know who the Pruitts are."
+
+He lowers it, and his face crumples a bit. His name is Davy Wick, he tells you, and Tobias who runs the mail boat is his uncle. And his uncle owes money to two brothers called Ezra and Saul Pruitt, who run the salvage business at Ferris Cove. And the Pruitts have been putting false lights on the Teeth on foggy nights so ships run aground, and then they come and take the cargo.
+
+"Miss Marrow found out," Davy says. "She rowed out this afternoon to pull their lantern down. And the Pruitts' launch went out after her, and she hasn't come back, and Uncle Tobias wouldn't do anything, so I came." He wipes his nose on his sleeve. "There's a cave under the island. The Pruitts keep things in it. I saw a light in there just now."
+
+You look at the little skiff. You look west, toward the black mouth of the cave, where the sea is sucking and booming. Somewhere out in the fog, Ada Marrow is either on the Teeth or she isn't.
+
+"I know the way through the rocks," Davy says. "If we went out there. I know the way."
+
+> Take the skiff out to the Teeth to find Ada. -> skiff
+> Go into the cave. Whatever the Pruitts are hiding, it's there. -> cave
+
+## radio
+[art: radio | The old radio telephone.]
+The radio telephone lives in a wooden cabinet with brass hinges. You flick the switch and the valves inside begin to glow orange, slowly, while a hiss rises out of the speaker like a kettle coming to the boil.
+
+There's a card taped inside the cabinet door in Ada's square handwriting. *Ferris Coastguard: Channel 16. Call sign: Gull Rock.*
+
+You pick up the heavy handset and press the button. "Ferris Coastguard, Ferris Coastguard, this is Gull Rock. Over."
+
+Hiss. Crackle. Then a bored voice. "Gull Rock, Ferris. Go ahead, Ada."
+
+"This isn't Ada. I'm the new assistant keeper. Miss Marrow is missing. There's a false light on the Teeth, a lantern on a pole, and the *Halloran* is heading for it. Over."
+
+A long pause. When the voice comes back, it's not bored anymore, but it's not exactly convinced either. "Say again, Gull Rock. A *false* light?"
+
+You tell it again. Slower. You tell them about the lantern and the pole, the empty slip, the missing boat, the log and its five weeks of entries. You tell them the name *Pruitt*, and there's another, longer pause.
+
+"Gull Rock, Ferris. We've had... other reports about the Pruitt firm." A different voice now, older, sharper. "This is Sergeant Hale. Listen carefully. We're sending the lifeboat and a police launch, but in this fog it'll be two hours, maybe more. We'll raise the *Halloran* on the radio and warn her off. You keep your light burning. Do you understand me? Whatever else happens, keep that light burning. Over."
+
+"Understood. And Miss Marrow? Over."
+
+"If she went out to the Teeth in a rowing boat this afternoon," says Sergeant Hale, "then two hours may be too long. Over."
+
+The line drops back into hiss.
+
+You hang up the handset. Two hours. Through the window you watch the beam sweep south across the fog, and there, out on the reef, the false lantern still burns, steady and patient.
+
+Below, on the water near the western end of the island, there's a flicker of torchlight and the knock of oars. Someone else is moving around Gull Rock in the dark, and they aren't coming to the front door.
+
+You can stay here and keep the light as the sergeant asked, and trust that help is coming. Or you can go and see what's moving out there before it's too late.
+
+> Take the station's spare dinghy out to the Teeth. Two hours is too long for Ada. -> skiff
+> Find out who's moving around the island. Start at the cave. -> cave
+
+## skiff
+[art: rowing-fog | The Teeth, somewhere ahead.]
+The boat is small and low and leaks a little around the stern. There's room for one rower and one passenger, and the passenger seat is for Ada, so you go alone. When you push off from Gull Rock the island disappears behind you in about four strokes. After that there's only fog, and the dark water, and the sweep of the lighthouse beam passing overhead every twelve seconds like a slow white wing.
+
+You row facing backwards, the way you have to, so you can't see where you're going. You navigate by the beam: keep the light behind you and a little to the right, and the Teeth should be straight ahead. Should be. Every now and then a rock slides past close enough to touch, black and shining, and the water around it boils white.
+
+There's a rhythm to it after a while. Pull, lift, swing, dip, pull. Your palms burn. Your shoulders ache. The fog beads on your eyelashes and runs down inside your collar.
+
+And then the sound changes. The sea that's been a steady wash all around you starts to roar, a deep, sucking, hissing roar that comes from everywhere at once. You ship the oars and twist round on the seat.
+
+The Teeth.
+
+They rise out of the water in front of you like the spine of something enormous and drowned: ridge after ridge of black rock, the sea pouring between them in white sheets. In the middle of it all, perched on the highest ridge, the false lantern burns on its pole.
+
+It's much closer than you thought. And much bigger. Not a little hurricane lamp at all, but a ship's lantern with a polished reflector behind it, so that from out at sea it would look exactly like a harbour light. Someone went to a great deal of trouble.
+
+You bring the skiff in behind a ridge where the water is calmer. Your torch picks out something wedged between two rocks further along: a rowing boat, upside down, its planks stove in. Painted on the stern, in neat white letters: GULL ROCK.
+
+"Miss Marrow!" you shout. "Ada!"
+
+The sea roars. The beam passes overhead. And then, from somewhere among the rocks, very faint: "Here. I'm here. Mind the green weed, it's slick as soap."
+
+You scramble out of the skiff onto the rock, haul the boat up as far as you can, and follow the voice.
+
+> Climb toward her voice. -> teeth
+
+## teeth
+[art: ada-hollow | The false light on the Teeth.]
+You find Ada Marrow wedged into a hollow in the rock just above the waterline, out of the worst of the spray. She's a small, wiry woman of about sixty, with cropped grey hair plastered to her skull and a face so pale it's almost blue. One of her legs is stuck out at an angle you don't like.
+
+"You'll be the new assistant," she says. Her teeth are chattering. "You're early. I told them to send you next week."
+
+"The letter said today."
+
+"Did it? Well. Can't trust anyone these days." She tries to grin and doesn't quite make it. "Did you light the lamp?"
+
+"It's lit."
+
+"Good." She shuts her eyes for a moment. "Good. Then you're already better at this than the last three."
+
+She tells you in short, breathless pieces. She rowed out this afternoon meaning to pull the lantern down. She'd just reached it when the Pruitts' motor launch came out of the fog and rammed her boat. She went into the water, scrambled up onto the rocks, and twisted her knee badly on the way. The launch circled a while, then went off, but they'll be back. They'll come back to check the lantern, and to see whether they've got a wreck to strip tonight. And to see whether Ada is still alive, which she thinks would be a disappointment to them.
+
+As if she's called it up, a sound comes across the water: the low burble of a motor, idling somewhere out in the fog. Then a searchlight, sweeping slowly across the rocks.
+
+"That's them," Ada says. "Ezra and Saul. They'll be wanting to know why the *Halloran*'s not on the rocks yet." She grips your arm. Her hand is like ice. "Listen. That lantern is the whole game. Douse it, and no ship will take the Teeth for a harbour, not tonight or any night. But they'll see it go out, and they'll know someone's here."
+
+"Or?"
+
+"Or we keep our heads down. Get me into your boat, slip away behind the rocks, and let them think the sea's had me. Then we tell the world what we know and let the world deal with them." She coughs. "I'm sixty-one and I've got a bad knee and I don't fancy a punch-up. But I don't fancy letting that light burn either."
+
+The searchlight sweeps closer. The motor grows louder.
+
+> Douse the lantern. End it now, whatever happens next. -> douse
+> Get Ada into the skiff and hide. Survive first. -> hide
+
+## douse
+[art: reef-lantern | The lantern swings.]
+The pole is jammed into a crack in the highest ridge, about thirty feet from Ada's hollow. You go across the rocks on your hands and knees, because standing is impossible. The weed is as slick as Ada promised. Twice your foot goes out from under you and you grab at limpets to stop yourself sliding into the boiling water.
+
+Then you're at the pole. Up close, the lantern is hot and humming and so bright it leaves purple ghosts on your eyes. You can't reach it. So you put both hands around the pole and heave.
+
+It doesn't move. Someone has wedged it with stones and driven iron spikes alongside it. You heave again, and again, and on the fourth try something gives with a crack and the pole tilts, slowly, and then all at once. The lantern swings out over the water, hangs there for a heartbeat like a falling star, and then plunges into the sea. There's a hiss and a puff of steam, and the Teeth go dark.
+
+For a moment there's nothing but the roar of the water and the sweep of your own lighthouse beam passing overhead. Gull Rock Light, steady and true, the only light left on this stretch of coast.
+
+Then the searchlight swings round and finds you.
+
+You're pinned in it like a moth, squinting into the glare. The motor roars, and the launch comes out of the fog: long and low and grey, with two figures in the stern. One of them is at the wheel. The other one is standing up and pointing at you.
+
+"Well, look at that," shouts a man's voice across the water. "Ada's found herself a friend."
+
+The launch noses in toward the rocks, as close as its driver dares. The man standing in the stern is big and bearded and wearing a yellow oilskin, and he's holding a boathook with a long iron spike on the end. Behind him, the one at the wheel is thinner and younger and looks a good deal less sure of all this.
+
+"Ezra Pruitt," Ada calls from her hollow, her voice cracking. "You're a disgrace to the coast."
+
+"And you're a nosy old woman with a broken leg on a rock in the middle of the sea," Ezra calls back cheerfully. "So I suppose we'll see which of us the coast remembers." He looks at you. "You. New keeper. You've cost us a lot of money tonight. Let's talk about how you're going to pay it back."
+
+You look down. In your coat pocket, your hand finds something you'd shoved there without thinking when you climbed out of the boat: a heavy brass flare pistol from its emergency locker, the kind every keeper's boat is supposed to carry.
+
+> Fire the flare straight up. Let the whole coast see. -> flare
+> Keep him talking. Help may be closer than he thinks. -> stall
+
+## hide
+[art: launch-searchlight | Hiding in the lee of the rocks.]
+Getting Ada into the skiff is the hardest thing you've ever done. She can't put any weight on her leg, and the rock is slick, and the skiff keeps trying to bob away. In the end you more or less lower her into it like a sack of potatoes while she swears at you inventively and at length.
+
+"Sorry," you gasp.
+
+"Don't be. You're doing fine. Push off. Left, behind that big rock. Quietly."
+
+You row with the oars barely dipping, sliding the skiff into a narrow channel between two ridges where the rock rises higher than your heads. It's like hiding in an alleyway. You hold on to a knob of stone to keep from drifting and wait.
+
+The motor launch comes out of the fog a minute later. It's long and grey and low in the water, with a searchlight mounted on the bow and two men aboard. The searchlight plays across the rocks, across Ada's empty hollow, across the wreck of her boat.
+
+"Gone," says a man's voice, deep and satisfied. "Sea's had her."
+
+"Ezra, I don't like this," says another voice, younger. "We never said anyone would get hurt. We said cargo. That was all."
+
+"And it *is* all, Saul. She's the one who came out here. Not our fault if the sea did what the sea does." The searchlight swings across to the lantern on its pole, still burning. "Now where's that steamer got to? Should be on the rocks by now."
+
+You hold your breath. The beam from Gull Rock sweeps overhead. In its passing light you can see the two men clearly: the big one standing in the bow with his hands on his hips, the thin one hunched over the wheel.
+
+Then, from out in the fog to the south, comes a long, low sound. A ship's horn. Close. Very close. And moving the wrong way, coming in toward the lantern.
+
+"There she is," says Ezra Pruitt, almost fondly.
+
+Ada's hand closes on your wrist. "They're going to put her on the rocks," she whispers. "Forty souls on that ship, if there's one. We can't sit here and listen."
+
+But you can't see a way to stop it, either. Not from a leaking skiff with an injured woman in the bottom of it.
+
+And then, on the far side of the Teeth, out in the fog where there should be nothing at all, a second light appears.
+
+It isn't the Pruitts' lantern. It isn't your lighthouse. It's an old-fashioned yellow glow, small and swaying, the kind a lamp gives off when it hangs from the rigging of a ship. And it's moving.
+
+> Watch the strange light. -> wren
+> Don't wait. Row out toward the steamer and wave her off. -> waveoff
+
+## cave
+[art: sea-cave | Inside the cave, someone has been busy.]
+The cave mouth is a black gash in the rock at the western end of the island, and the sea goes in and out of it with a noise like a giant breathing. At low tide, which it nearly is now, there's a ledge you can follow along the left-hand wall.
+
+You go in with your torch held low. The roar of the water bounces off the walls and fills your head. Ten steps in, the ledge widens into a kind of shelf, and your torchlight catches something that doesn't belong in a sea cave at all: wooden crates, stacked neatly, covered with a tarpaulin and roped down.
+
+You pull back a corner of the tarpaulin. Stencilled on the nearest crate: CORRIE BELLE. MACHINE PARTS. FRAGILE. Beside it, a smaller crate, its lid already prised off, full of straw and bottles of whisky.
+
+The cargo from the wreck last month. Hidden here, right under the lighthouse, where nobody would ever think to look.
+
+Further in, the cave narrows and turns, and there's light coming from around the bend. A hurricane lamp, hanging from a nail. And voices.
+
+You switch off your torch and creep forward until you can see.
+
+There are three men in the back of the cave, where the rock floor rises above the tideline and someone has built a rough platform of planks. Two of them you don't know: a big bearded man in a yellow oilskin and a thinner, younger one with a nervous way of rubbing his hands. The third is Tobias Wick, who brought you here this afternoon. He's standing with his back to the wall and his arms folded, and he looks like a man who would rather be anywhere else.
+
+"Where is she, Ezra?" Tobias is saying. "You said you'd only frighten her off."
+
+"And I did," says the big man, Ezra. "Frightened her right off the edge of her boat. Last I saw, she was crawling up onto the Teeth like a wet cat. She'll keep." He laughs. "Or she won't. Either way, she won't be talking to the papers tonight."
+
+"That's not what we agreed."
+
+"We agreed you'd do as you were told, Tobias, and your debts would go away. They're nearly gone. Don't spoil it now." Ezra turns to the younger man. "Saul, go and signal the lantern. I want to know the moment that steamer's close."
+
+The younger one, Saul, picks up a torch and starts toward the cave mouth. Toward you.
+
+You press yourself flat against the rock behind a crate. Your heart is going so hard you're sure they'll hear it over the sea.
+
+> Stay hidden and keep listening. -> cave-listen
+> Slip back out before Saul reaches you and go for the Pruitts' boat. -> sabotage
+
+## cave-listen
+[art: crates | Voices in the dark.]
+Saul passes so close to you that you could reach out and touch his boot. He doesn't look down. He goes out toward the cave mouth, and a moment later you see his torch flashing out across the water toward the Teeth: long, short, long.
+
+Back on the platform, Ezra and Tobias are still talking.
+
+"I'm out, Ezra," Tobias says. "After tonight. I've done my last for you."
+
+"You're out when I say you're out." Ezra's voice is lazy, almost friendly, which somehow makes it worse. "You've been very useful. You run the mail boat, so you know every ship's schedule and nobody looks at you twice. That's worth a lot to a business like ours."
+
+"It's not a business. It's murder, near enough. Ada's out there."
+
+"Ada's a busybody who should have taken her pension." Ezra stretches. "Here's what happens. Saul tells me when the steamer's close. We go out in the launch and wait. When she hits the Teeth, we're first on the scene: brave salvage men, here to help. Lifeboat takes the crew off; we take the cargo off. Same as always."
+
+"And Ada?"
+
+"If we see her, we'll pick her up. Poor thing, out in the fog, banged her head, confused." A pause. "Couldn't say for certain what she thought she saw. Very sad."
+
+Tobias doesn't answer. You can see his face in the lamplight, and it's grey.
+
+Then Saul comes running back in. "Ezra! The lighthouse. It's lit. And the steamer's turning, I think. I can't see properly, the fog's..."
+
+"What?" Ezra's on his feet. "Who lit it?"
+
+"The new keeper," says Tobias slowly. "I brought them out this afternoon."
+
+Ezra rounds on him. For a moment you think he's going to hit him. Instead he grabs the lamp off its nail. "Then we'll go and have a word with the new keeper. Saul, get the launch. Tobias, you're coming with us."
+
+They're heading for the cave mouth. You're crouched behind a crate directly in their way.
+
+Tobias is last. He's walking slowly, deliberately slowly, letting the other two get ahead. As he passes your hiding place, he stops. Looks down. Looks straight at you.
+
+You stare back.
+
+For a long moment, neither of you moves. Then Tobias Wick reaches into his coat, pulls out a heavy brass flare pistol, and holds it out to you, low down where the others can't see.
+
+"Hold that," he says quietly. "And don't do anything stupid till I've gone."
+
+> Take the flare pistol. -> tobias
+
+## sabotage
+[art: moored-launch | The Pruitts' launch, tied up in the dark.]
+You don't wait to see whether Saul finds you. As soon as his torch swings away for a second, you slide back along the ledge, out of the cave mouth, into the fog.
+
+They came here by boat. They must have. So where is it?
+
+You find it a minute later, tied up in a sheltered inlet just round the corner from the cave: a long, grey motor launch, low in the water, with a searchlight mounted on her bow. There's nobody aboard. The engine's still warm under your hand. In the stern there's a coil of new rope, a crowbar, a stack of empty sacks, and a long pole with a hook on the end: everything a person might need for getting cargo out of a wrecked ship in a hurry. On the seat lies a chart of the coast with the Teeth circled in red pencil and a date written beside them. Today's date.
+
+You don't know much about engines, but you know enough. Fuel goes in, fire comes out, boat moves. Take away any part of that and it doesn't.
+
+You crouch in the stern and feel around in the dark. There's the engine cover. There's the fuel tank, and a fuel line running from it, and where the line meets the engine there's a little brass tap. You turn it off. Then, for good measure, you unscrew the cap on the fuel line itself and throw it as far out into the sea as you can.
+
+Then you find the ignition key, still in its slot on the dashboard, and you put it in your pocket. In a locker under the seat there's a brass flare pistol and a box of cartridges. You take those too.
+
+You're just climbing back onto the rocks when voices come out of the cave mouth. Torchlight. Three men. You flatten yourself into a crevice above the inlet and watch as they clamber down to the launch: Ezra, big and bearded; Saul, thin and nervous; and Tobias, walking slowly behind them, like a man going to his own hanging.
+
+"Get her started," Ezra snaps. "The light's lit, the steamer's turning, and I want to know who's responsible."
+
+Saul jumps into the boat and reaches for the dashboard. His hand stops. He feels around. "Ezra. The key's gone."
+
+"What do you mean, gone?"
+
+"I mean it's *gone*."
+
+There's a silence. Then Ezra Pruitt turns slowly and looks up at the rocks, his torch sweeping across them. Across them, and across you.
+
+"Well," he says. "Hello."
+
+You stand up. There's no point hiding now. Below you, Ezra is smiling a very unpleasant smile. Saul looks frightened. And Tobias Wick is staring up at you with an expression you can't read at all.
+
+"Give me the key," says Ezra, "and nobody needs to get their feet wet."
+
+> Throw the key into the sea. -> tobias
+
+## tobias
+[art: flare | Tobias makes his choice.]
+For a moment nobody moves. The sea sucks and booms in the cave mouth behind you. The fog drifts between the four of you in long grey rags, and every twelve seconds the beam from the tower above sweeps across the rocks and paints everything white, and then lets the dark come back.
+
+You think, very clearly, that nobody on the mainland knows you're here except the man who brought you. That Ada Marrow is somewhere out on the Teeth, or somewhere worse. That Ezra Pruitt is a big man, and the rocks are slippery, and the sea is very close and very cold. You think about the instructors at the depot saying *nothing ever happens on Gull Rock*, and you very nearly laugh.
+
+Ezra must see something in your face, because his smile goes away.
+
+What happens next happens very fast.
+
+Ezra comes for you, lumbering up the rocks with surprising speed for such a big man. You back away, slip, catch yourself. Below, Saul is shouting something. The fog swirls and the lighthouse beam passes overhead, flooding everything white for an instant and then dropping it back into darkness.
+
+And in that darkness, Tobias Wick moves.
+
+He doesn't say anything. He just steps forward, takes hold of the back of Ezra Pruitt's oilskin with one huge fist, and pulls. Ezra, who has never in his life expected Tobias Wick to do anything but what he's told, goes over backwards like a felled tree and lands in the shallow water of the inlet with an almighty splash.
+
+"Tobias!" he roars, floundering. "You *idiot*! You know what I'll do to you?"
+
+"I know what you'll do to *me*," Tobias says. His voice is very calm. "I've known that for months. What I didn't know until tonight was what you'd do to Ada Marrow." He looks up at you. "Fire it. Straight up. Every boat on this coast will see it, and every one of them knows what a flare from Gull Rock means."
+
+Your hands are shaking. The flare pistol is heavy and cold. You point it at the sky, close your eyes, and pull the trigger.
+
+There's a crack and a hiss, and a ball of red fire climbs into the fog, higher and higher, until it bursts into a blazing star that hangs over the island and turns the whole world pink. The rocks, the sea, the launch, the three men, all of it stained red as if by sunset.
+
+Out in the fog, almost at once, a ship's horn answers. Then another, further off. Then, faintly, from the direction of Ferris Cove, the bell of the lifeboat going out.
+
+Saul Pruitt sits down in the bottom of the launch and puts his head in his hands. Ezra is still in the water, still shouting, but nobody is listening to him anymore.
+
+Tobias turns to you. "Ada," he says. "She's on the Teeth. She was alive at sunset. I can row you there faster than anyone alive. Will you trust me?"
+
+You look at him: this man who brought you here and said nothing, who's been helping wreckers for months, who just pulled the biggest of them into the sea.
+
+> Go with Tobias to the Teeth. -> rescue
+> Stay and guard the Pruitts. Tell Tobias to go alone. -> guard
+
+## flare
+[art: reef-flare | A red star over the Teeth.]
+You pull the flare pistol out and point it at the sky.
+
+Ezra Pruitt sees what it is, and for the first time tonight, he looks worried. "Now don't..."
+
+You pull the trigger.
+
+There's a crack and a hiss, and a ball of red fire climbs out of your hand and up into the fog, higher and higher, until it bursts into a blazing star that hangs over the Teeth. The rocks, the sea, the launch, Ezra's upturned face: everything goes red, as if the whole world has blushed.
+
+"That's done it," says Ada from her hollow, sounding almost cheerful.
+
+And it has. Out in the fog, almost at once, a ship's horn sounds, long and deep. Then another, from a different direction. Then, faintly, from somewhere over toward the mainland, the clang of a bell.
+
+"That's the Ferris lifeboat," Ada says. "Every keeper on this coast and every boat with a radio will have seen that. They'll be on their way."
+
+Ezra Pruitt says a word you've never heard before. Then he turns to the younger man at the wheel. "Saul. Get us out of here."
+
+But Saul doesn't move. He's staring up at the flare as it drifts slowly down through the fog, burning.
+
+"Saul!"
+
+"No," says Saul Pruitt. His voice is shaking, but it's clear. "No, Ezra. I'm done. You said nobody would get hurt. You said *cargo*. And then you rammed an old woman's boat and left her on a rock." He takes his hands off the wheel and holds them up. "I'm done."
+
+Ezra stares at his brother. Then he lunges for the wheel himself, but Saul reaches down and turns the key and pulls it out and throws it, in one smooth movement, over the side and into the sea.
+
+The launch's engine dies. In the silence, the roar of the water over the Teeth seems very loud.
+
+The red flare goes out. The lighthouse beam sweeps across the scene: two brothers in a drifting boat, one with his head in his hands, the other with nothing at all left to say.
+
+Ada laughs. It turns into a cough, and then a groan, because laughing hurts her leg. "Well," she says. "I wasn't expecting that."
+
+"Neither was I," you admit.
+
+"Come and sit with me, then. It'll be a while before the lifeboat gets here, and I'd like to know your name before they cart me off to hospital."
+
+> Sit with Ada and wait. -> ending-light
+
+## stall
+[art: lifeboat | The searchlight holds you.]
+"All right," you call out across the water. "Let's talk."
+
+Ezra Pruitt grins. "Sensible. I like that in a keeper."
+
+"How much was the *Corrie Belle*'s cargo worth?" you ask. "The whisky and the machine parts. What does something like that fetch?"
+
+The grin falters for a fraction of a second. "Don't know what you mean."
+
+"The coastguard does," you say. It's a bluff. You have no idea what the coastguard knows. "Miss Marrow's been writing to them for weeks. Every light, every date. It's all in the log. They know the name Pruitt."
+
+"Shut up," says the younger man at the wheel. He sounds frightened. "Ezra, tell them to shut up."
+
+"Quiet, Saul." Ezra looks at you more carefully now. "Logs can burn. Lighthouse keepers can fall down stairs. Lots of things can happen on a lonely rock."
+
+Behind you, from her hollow, Ada makes a noise like a kettle about to boil. "Ezra Pruitt, I've known you since you were a snot-nosed boy stealing apples, and you were a coward then and you're a coward now."
+
+Ezra laughs, but he doesn't move the launch any closer. The searchlight wavers. You keep talking: about the false lantern, about the *Halloran*, about how the ship turned away, about how it's all over now whatever he does to you, about anything you can think of. Every word you say is another few seconds. Every few seconds is another few yards of sea crossed by whoever might be coming.
+
+And then, behind the launch, out in the fog, a light. Then two lights. Then a sound: engines, more than one, and the clang of a bell.
+
+Ezra hears it too. He swings round. The searchlight swings with him, and in its beam a shape comes out of the fog: the orange hull of the Ferris lifeboat, and beside it a smaller, faster boat with POLICE painted on its bow.
+
+"Ezra Pruitt!" bellows a voice through a loudhailer. "Stay where you are!"
+
+Ezra does not stay where he is. He shoves Saul off the wheel and guns the engine, and the launch roars away into the fog, swerving between the rocks. The police boat goes after it, and for a few minutes you hear engines whining and men shouting somewhere out in the murk.
+
+Then a crunch. A long, horrible grinding noise. And silence.
+
+"Ah," says Ada, sounding not at all sorry. "He's found the outer Teeth. I always said he didn't know these waters as well as he thought."
+
+> Wave to the lifeboat. -> ending-light
+
+## wren
+[art: ghost-ship | A light where no light should be.]
+You watch it come.
+
+The yellow light moves slowly through the fog, swaying as it comes, and as it gets closer you see that it isn't alone. There are other lights around it, dimmer, smaller, set in a row, like the portholes of a ship. Or no: like lanterns hung along the rail of a sailing ship, the old-fashioned kind, with tall masts and square sails and rigging like a spider's web.
+
+You can't see the ship herself. Only the lights, moving across the water where the Teeth are, where no ship could possibly be without tearing her bottom out.
+
+The Pruitts see it too. You hear Saul make a sound like a frightened animal. The searchlight swings, wobbles, swings again. "What is that?" Ezra is shouting. "Saul, what is *that*?"
+
+Beside you, in the bottom of the skiff, Ada has gone very still.
+
+"The *Wren*," she whispers.
+
+You remember the photograph on her dresser. *The Wren, 1911. Lost with all hands.* The young man circled in pencil.
+
+The yellow light passes between the rocks without slowing. It moves toward the false lantern on its pole, and as it does, something extraordinary happens. The steamer, the *Halloran*, whose horn you can still hear in the fog to the south, begins to sound her horn in a different pattern. Short, short, long. And then you see her lights swing. She's turning. She's turning *away* from the lantern and toward the yellow light, which is moving out toward open sea, leading her past the reef the way a dog leads a lost walker home.
+
+The Pruitts' launch is turning too. Ezra has gunned the engine and is fleeing in the opposite direction, back toward the mainland, fast and reckless. You hear him hit something, a scrape and a shout, but the engine doesn't stop.
+
+The yellow light grows smaller and fainter, out beyond the Teeth. The *Halloran*'s horn sounds once more, far out now, safe in deep water.
+
+And then the yellow light simply isn't there anymore.
+
+You sit in the skiff for a long time without saying anything. So does Ada. The sea has calmed a little, and the fog is beginning to lift.
+
+"My father," Ada says at last. "He was third mate on the *Wren*. I was four when she went down. Right here, on the Teeth, on a night like this. I've kept this light for thirty years." She wipes her face with a hand that isn't quite steady. "I always thought, if I kept it well enough..."
+
+She doesn't finish the sentence. She doesn't have to.
+
+"What was that?" you ask. "Really?"
+
+"Fog plays tricks," Ada says. "Everyone knows that."
+
+But she's smiling.
+
+> Row Ada home. -> ending-wren
+
+## waveoff
+[art: steamer | Straight for the steamer.]
+"Hold on," you tell Ada.
+
+"To what?"
+
+"Anything."
+
+You shove off from the rock and pull hard on the oars, out of your hiding place and straight past the Pruitts' launch. You hear Ezra shout as you go by, but you don't stop to listen. You row out through a gap in the Teeth, into open water, toward the sound of the ship's horn.
+
+It's madness. You know it's madness while you're doing it. A tiny skiff with a leaking stern and an injured woman lying in the bottom, rowing into the path of a steamship in thick fog. But the *Halloran* is coming in toward the lantern, and she's close now, so close you can hear the throb of her engines through the water, and nobody else is going to stop her.
+
+"Torch!" Ada shouts. "In my coat! Use the torch!"
+
+You drop an oar, grab the torch out of her pocket, and wave it over your head, back and forth, back and forth.
+
+The *Halloran* comes out of the fog like a cliff. A wall of black steel, rising up and up, her bow wave curling white at the base. For a terrible second you think she's going to run you down. You keep waving. You're shouting, though you've no idea what.
+
+Then her horn blasts, so loud it rattles your teeth, and the great bow begins to swing. Slowly. So slowly. You see the white line of her wake curving, and her side sliding past you, a dozen yards away, then twenty, then forty. Faces at the rail, staring down at you. A man in a peaked cap on the bridge wing, shouting through a megaphone.
+
+"*What in God's name are you doing?*"
+
+"*Reef!*" you scream back. "*False light! Reef!*"
+
+You see him look past you at the Teeth, at the lantern, and you see him understand.
+
+The *Halloran* steams on, out to open sea, safe. Her wash catches the skiff and nearly turns it over, and you're bailing frantically with your hands while Ada swears at the ship, the fog, the Pruitts, and you, in roughly that order.
+
+When you look back toward the Teeth, the Pruitts' launch is gone. They've run, back toward Ferris Cove, now that their plan has steamed off into the night.
+
+"They'll be on the quay by morning," Ada says, "telling everyone what a rough night it was. Butter wouldn't melt." She shuts her eyes. "But that's tomorrow. Get me home. I want a cup of tea and I want to lie down, and I want to do both of those things before I start shouting at anyone."
+
+You pick up the oars. The beam of Gull Rock swings overhead, steady as a heartbeat, showing you the way.
+
+> Row for the light. -> ending-witnesses
+
+## rescue
+[art: rowing-fog | Tobias rows for the Teeth.]
+Tobias rows like a machine. You sit in the stern of the Pruitts' launch, which you are now apparently stealing, holding a torch while he hauls on the long sweeps because the key is somewhere at the bottom of the sea. The launch is too heavy to row easily, but Tobias doesn't seem to notice. Pull, lift, swing, dip, pull. The fog streams past.
+
+"I'm sorry," he says, between strokes. "For not telling you. This afternoon."
+
+"Why didn't you?"
+
+"Because I'm a coward." Pull. "Because I owed them two hundred pounds." Pull. "Because I thought, if I kept my head down long enough, it'd all blow over." Pull. "It doesn't blow over. Things like that. They just get bigger."
+
+The beam of Gull Rock sweeps overhead. Behind you, on the island, you know the Pruitt brothers are sitting on the rocks under the watchful eye of Biscuit the cat, because Tobias tied them to the boathouse winch with their own mooring line and they're not going anywhere.
+
+Then the roar of the Teeth rises out of the fog, and Tobias ships the oars and stands up in the bow, peering ahead.
+
+"Ada!" he bellows. His voice is enormous. "*Ada Marrow!*"
+
+A long pause. Then, faintly, from somewhere on the rocks: "Tobias Wick, if that's you, you've got some explaining to do."
+
+Tobias sits down very suddenly, as if his legs have gone. You see his shoulders shake, once.
+
+You find her in a hollow just above the waterline: a small, fierce, grey-haired woman, soaked to the skin, with a twisted knee and a face so pale it's almost blue. Tobias lifts her into the launch as gently as a man lifting a baby bird. She looks at him for a long time.
+
+"Two hundred pounds," she says.
+
+"Yes."
+
+"You great fool. You could have asked me. I'd have lent it you."
+
+"I know," says Tobias. "That's why I didn't."
+
+Ada looks past him, at you. "And you'll be the new assistant."
+
+"Yes."
+
+"You lit my lamp?"
+
+"Yes."
+
+"And you fired a flare, and caught the Pruitt brothers, and made Tobias Wick grow a backbone?"
+
+"Mostly it was Tobias."
+
+"Hm." Ada settles back against the side of the boat and closes her eyes. "We'll see about that. You're hired. Not that you weren't already."
+
+Out to sea, the *Halloran*'s horn sounds once, far off and safe. Somewhere toward the mainland, the bell of the Ferris lifeboat is drawing nearer. And above it all, steady and true, the light of Gull Rock swings round and round.
+
+> Head for home. -> ending-light
+
+## guard
+[art: cat | A long night on the rocks.]
+"Go," you tell Tobias. "Take any boat that floats. Find her. I'll keep an eye on these two."
+
+Tobias looks at you for a moment as if he wants to argue. Then he nods once and goes, half running across the rocks toward the slip. You hear oars splash, and then nothing but the sea.
+
+Which leaves you alone on a rock in the fog with the Pruitt brothers.
+
+Saul isn't any trouble. He sits on a boulder with his arms wrapped around his knees and doesn't say a word. But Ezra has hauled himself out of the inlet, dripping, and is standing a few yards away, looking at you the way a dog looks at a sausage.
+
+"You know," he says conversationally, "there's two of us and one of you."
+
+"There's one of you," you say. "Your brother's finished."
+
+Saul doesn't look up. Ezra's face does something complicated.
+
+"And," you add, holding up the flare pistol, which you've reloaded with a fresh cartridge, "I have this."
+
+"A flare gun," Ezra scoffs. "What are you going to do, set fire to my beard?"
+
+"If I have to."
+
+He takes a step toward you. You raise the pistol. He stops.
+
+It goes on like that for what feels like hours. Ezra talks. He tries threats, then bribes, then reason, then threats again. He tells you the coastguard is in his pocket. He tells you nobody will believe a word you say. He tells you lighthouse keepers have accidents all the time. You don't answer. You keep the flare pistol pointed at his middle and your back against the rock, and every time the lighthouse beam sweeps over, you count. One. Two. Three. Hundreds of them.
+
+At some point, Biscuit the cat appears from nowhere, sits down beside you, and begins to wash himself. It's the most comforting thing that has ever happened.
+
+At last, out in the fog, there are lights: two boats, one orange, one grey, the bell of the Ferris lifeboat clanging and a police loudhailer squawking something unintelligible. They come into the inlet and men in oilskins and helmets pour onto the rocks, and Ezra Pruitt, for the first time tonight, sits down and stops talking.
+
+A tall woman in a police sergeant's uniform comes over to you. "You're the one who fired the flare?"
+
+You nod. You find you can't quite speak.
+
+"Ada Marrow?"
+
+You point south, toward the Teeth. "Tobias went for her."
+
+The sergeant looks at you, and at the flare pistol still in your hand, and at the cat. "Right," she says. "Sit down before you fall down. We'll take it from here."
+
+> Wait for news of Ada. -> ending-keeper
+
+## ending-light
+[art: dawn-tower | Morning on Gull Rock.]
+[end: The Light Holds]
+The lifeboat takes Ada to hospital in Ferris, and the police take the Pruitt brothers somewhere less comfortable.
+
+It turns out that Ada was right about everything, and that the coastguard had been receiving the same complaints from three other keepers along the coast, and had been quietly hoping someone else would deal with it. When Sergeant Hale reads Ada's log, every entry for five weeks, she goes very quiet and then makes a lot of telephone calls.
+
+Ezra Pruitt goes to prison for a long time. Saul, who tells the police everything, goes for a shorter one. The cargo from the *Corrie Belle*, whisky and all, is found in the cave under Gull Rock and returned to its owners, minus three bottles that Ada claims were "lost in the confusion." Tobias Wick gives evidence at the trial, pays his debts the slow and honest way, and keeps running the mail boat. He brings Ada a bag of humbugs every Thursday, and she lets him stay for tea.
+
+You spend the first week alone on Gull Rock while Ada's knee mends, keeping the light. You learn how to trim the wick, polish the lens, read the barometer, and talk to Biscuit, who turns out to be an excellent listener with strong opinions about mealtimes. Every evening at dusk you climb the hundred and seventeen steps and light the lamp, and every evening you stand on the gallery and watch the beams go out over the sea.
+
+The Teeth are dark now. They stay dark.
+
+When Ada comes home, on crutches and in a foul temper, she inspects the lamp room with a magnifying glass. Then she looks at the log, where you've written every entry in your best handwriting, and nods once.
+
+"You'll do," she says.
+
+That night you sit on the gallery together, with a flask of tea and a blanket and the cat, and watch the lights of ships passing safely far out to sea. Ada tells you about the *Wren*, and about her father, and about thirty years of nights like this one. You tell her about yourself. It takes a while.
+
+Below you, the light swings round and round, the way it always has and always will: steady, patient, telling every ship on the dark water exactly where the danger lies, and exactly how to get home.
+
+## ending-witnesses
+[art: dawn-tower | The fog lifts.]
+[end: Fog and Witnesses]
+By the time the sun comes up, the fog has burned away to nothing, and from the gallery of Gull Rock you can see the whole coast laid out under a pale blue sky: the mainland hills, the white houses of Ferris Cove, and to the south the long black line of the Teeth, harmless and bare in daylight.
+
+The false lantern is gone. You don't know whether the Pruitts took it or the sea did.
+
+Ada is asleep in the cottage with her leg propped on three pillows and Biscuit curled on her stomach. A doctor came out with the lifeboat and said the knee was badly sprained, not broken, and that she was to stay off it for a month. Ada said several things to him that you hope he didn't take personally.
+
+The Pruitts are a harder business. When the police went to their yard in Ferris Cove at dawn, the brothers were there, cool as anything, saying they'd been in all night and didn't know anything about any lantern. Their launch had a fresh scrape along its hull, which they said came from a mooring accident. Somebody had already cleared out the cave under Gull Rock.
+
+But it doesn't stop there. The captain of the *Halloran*, it turns out, is a stubborn man who doesn't like nearly losing his ship, and he's told everyone who'll listen exactly what he saw: the lantern on the Teeth, rigged up to look like a harbour light. Ada has her log. You have what you saw and heard. And Saul Pruitt, the younger brother, has been seen walking up and down outside the police station in Ferris three times since breakfast, as if he's working himself up to something.
+
+"He'll crack," Ada says, when she wakes up and you tell her. "Saul was always the soft one. Give him a week." She sips her tea. "And Tobias. I'll have a word with Tobias."
+
+It takes eleven days, in the end. Then Saul Pruitt walks into the police station and asks to speak to a sergeant, and after that things move very quickly indeed.
+
+You aren't there for the arrests. You're up the tower, polishing the lens, because that's the job. But you hear about it from Tobias when he brings the mail, and you go down to the cottage and tell Ada, who laughs so hard she has to hold her knee.
+
+That night, as you light the lamp, you look out at the Teeth, dark and quiet under the stars, and you think that some nights a lighthouse has to do more than shine. And some nights, it's enough just to keep shining, and let everyone see what's out there in the dark.
+
+## ending-wren
+[art: wreck | The Wren, as Ada remembers her.]
+[end: The Wren's Lantern]
+You never tell anyone what you saw out on the Teeth that night. Neither does Ada.
+
+The official version is simple enough. The new assistant keeper at Gull Rock lit the lamp in good time, and the *Halloran* saw it and steered clear of the reef. Some fishermen reported seeing an unusual light, but fog plays tricks. The Pruitt brothers' launch was found the next morning holed and abandoned on a sandbank near Ferris, and the brothers themselves turned up three days later, wet and frightened, in a village forty miles up the coast. They had a great deal to say to the police, most of it about lights in the fog, and very little of it made sense. In the end, Saul confessed to everything: the false lantern, the *Corrie Belle*, all of it. Ezra wouldn't speak at all.
+
+Ada's knee mends. It takes most of the winter. You keep the light while she rests, and she sits in the kitchen with Biscuit on her lap and tells you what to do through the open door, which is very nearly as tiring as doing it yourself.
+
+In the spring, the two of you take the dinghy out to the Teeth on a calm, clear morning. Ada directs you to a place on the outer ridge where, at very low tide, you can see something under the water: the curved ribs of an old wooden hull, furred with weed, half buried in sand.
+
+Ada sits for a while looking down at it. Then she takes something out of her coat pocket and drops it over the side: a small brass lantern, the old-fashioned kind, the kind that might hang from a ship's rigging. It sinks slowly, glinting, into the green.
+
+"He'd want his light back," she says.
+
+You row home. That night, and every night after, you light the lamp of Gull Rock and watch the beams sweep out across the sea. And sometimes, on very foggy nights, you look south toward the Teeth and think you see a small yellow glow, swaying, far out on the water. Keeping watch.
+
+You never mention it. But you always wave.
+
+## ending-keeper
+[art: gallery-night | Gull Rock, years later.]
+[end: The Keeper's Keeper]
+Tobias finds Ada on the Teeth an hour before dawn. She's cold and battered and her knee is the size of a grapefruit, but she's alive, and she's furious, which the lifeboat doctor says is a very good sign.
+
+They bring her back to Gull Rock instead of the mainland, because she refuses point blank to go anywhere else. You meet the lifeboat at the slip. Ada looks up at you from her stretcher, grey and wet and fierce.
+
+"You'll be the new assistant," she says.
+
+"Yes."
+
+"Kept the light burning?"
+
+"All night."
+
+"Guarded two wreckers with a flare gun and a cat?"
+
+"The cat did most of it."
+
+Ada laughs, and then winces, and then laughs again. "You'll do," she says. "You'll do very well."
+
+The trial is in the spring. Ezra Pruitt goes to prison for a long time, and Saul for a shorter one. Tobias Wick gives evidence against them both and is let off with a fine, which Ada pays without telling him until it's done. He's so angry about it that he doesn't speak to her for a fortnight, and then he turns up on a Thursday with a bag of humbugs and a new pair of oars for her boat, and they don't mention it again.
+
+You stay on Gull Rock. At first it's because Ada's knee needs time, and someone has to keep the light. Then it's because you've got used to the place: the hundred and seventeen steps, the smell of paraffin and polish, the sea in all its moods, Biscuit's opinions. Then, one day, you realise you can't imagine being anywhere else.
+
+Ada retires eight years later. On her last night, the two of you climb the tower together, slowly, because her knee has never been quite right. You light the lamp. She watches you do it, every step, and doesn't correct you once.
+
+"Principal Keeper," she says, when the beam is swinging out over the dark sea. "Suits you."
+
+She goes to live in a cottage on the mainland, in Ferris Cove, where she can see the light from her kitchen window. Every evening at dusk, she says, she looks out and checks that it's lit. It always is.
+
+Sometimes you flash it twice, just for her.

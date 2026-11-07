@@ -1,0 +1,21 @@
+<svg class="lineart" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The map shop's front with a bell over the door and a crow perched on the hanging sign">
+<rect x="150.0" y="80.0" width="300.0" height="220.0" rx="0"/>
+<path d="M140 80 L300 30 L460 80"/>
+<rect x="270.0" y="190.0" width="60.0" height="110.0" rx="0"/>
+<circle class="fill" cx="318.0" cy="246.0" r="3.0"/>
+<rect x="170.0" y="180.0" width="80.0" height="70.0" rx="0"/>
+<rect x="350.0" y="180.0" width="80.0" height="70.0" rx="0"/>
+<path class="thin" d="M210.0 180.0 L210.0 250.0"/>
+<path class="thin" d="M390.0 180.0 L390.0 250.0"/>
+<path d="M296 176 Q300 166 304 176 Z"/>
+<path class="thin" d="M300.0 166.0 L300.0 160.0"/>
+<path d="M450.0 110.0 L520.0 110.0"/>
+<path class="thin" d="M470.0 110.0 L470.0 126.0"/>
+<path class="thin" d="M510.0 110.0 L510.0 126.0"/>
+<rect x="456.0" y="126.0" width="70.0" height="40.0" rx="0"/>
+<path class="accent" d="M466 150 L480 136 L494 148 L514 134"/>
+<path class="fill" d="M488.8 110.0 L490.4 102.0 Q477.6 98.8 468.0 105.2 L455.2 111.6 L469.6 108.4 Q480.8 106.8 488.8 100.4 Q495.2 89.2 500.0 86.0 Q506.4 82.8 509.6 87.6 L517.6 89.2 L509.6 92.4 Q506.4 100.4 496.8 103.6 Z"/>
+<path class="thin" d="M490.4 110.0 L487.2 114.0"/>
+<path class="thin" d="M493.6 109.0 L494.4 114.0"/>
+<path d="M0.0 300.0 L600.0 300.0"/>
+</svg>

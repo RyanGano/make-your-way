@@ -1,0 +1,24 @@
+<svg class="lineart" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hands working the shutter of a signal lamp, dots and dashes of light going out into the fog">
+<rect x="150.0" y="140.0" width="120.0" height="80.0" rx="10"/>
+<circle cx="270.0" cy="180.0" r="30.0"/>
+<circle class="thin" cx="270.0" cy="180.0" r="22.0"/>
+<path d="M170.0 220.0 L170.0 250.0"/>
+<path d="M230.0 220.0 L230.0 250.0"/>
+<path d="M150.0 250.0 L250.0 250.0"/>
+<path d="M190 140 Q200 110 220 120 L226 140"/>
+<circle class="fill-accent" cx="330.0" cy="180.0" r="4.0"/>
+<circle class="fill-accent" cx="350.0" cy="180.0" r="4.0"/>
+<path class="accent" d="M380.0 180.0 L420.0 180.0"/>
+<circle class="fill-accent" cx="450.0" cy="180.0" r="4.0"/>
+<path class="accent" d="M480.0 180.0 L520.0 180.0"/>
+<circle class="fill-accent" cx="550.0" cy="180.0" r="4.0"/>
+<path class="thin" d="M451.2 225.2 L556.7 225.2"/>
+<path class="thin" d="M334.9 299.6 L508.9 299.6"/>
+<path class="thin" d="M436.4 63.9 L537.6 63.9"/>
+<path class="thin" d="M430.4 223.7 L600.0 223.7"/>
+<path class="thin" d="M455.8 154.8 L600.0 154.8"/>
+<path class="thin" d="M393.0 70.1 L600.0 70.1"/>
+<path class="thin" d="M380.0 232.2 L502.6 232.2"/>
+<path class="thin" d="M315.3 287.8 L501.8 287.8"/>
+<path class="thin" d="M120 300 L130 200 Q150 196 160 220"/>
+</svg>

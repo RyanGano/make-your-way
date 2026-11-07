@@ -1,0 +1,44 @@
+<svg class="lineart" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A feast table in a ring of trees, golden lights floating above it">
+<path d="M40.0 230.0 L40.0 195.0"/>
+<path d="M5.0 202.0 Q40.0 190.8 40.0 160.0 Q40.0 190.8 75.0 202.0"/>
+<path d="M12.0 174.0 Q40.0 162.8 40.0 132.0 Q40.0 162.8 68.0 174.0"/>
+<path d="M19.0 146.0 Q40.0 134.8 40.0 104.0 Q40.0 134.8 61.0 146.0"/>
+<path d="M26.0 118.0 Q40.0 106.8 40.0 76.0 Q40.0 106.8 54.0 118.0"/>
+<path d="M120.0 230.0 L120.0 195.0"/>
+<path d="M85.0 202.0 Q120.0 190.8 120.0 160.0 Q120.0 190.8 155.0 202.0"/>
+<path d="M92.0 174.0 Q120.0 162.8 120.0 132.0 Q120.0 162.8 148.0 174.0"/>
+<path d="M99.0 146.0 Q120.0 134.8 120.0 104.0 Q120.0 134.8 141.0 146.0"/>
+<path d="M106.0 118.0 Q120.0 106.8 120.0 76.0 Q120.0 106.8 134.0 118.0"/>
+<path d="M480.0 230.0 L480.0 195.0"/>
+<path d="M445.0 202.0 Q480.0 190.8 480.0 160.0 Q480.0 190.8 515.0 202.0"/>
+<path d="M452.0 174.0 Q480.0 162.8 480.0 132.0 Q480.0 162.8 508.0 174.0"/>
+<path d="M459.0 146.0 Q480.0 134.8 480.0 104.0 Q480.0 134.8 501.0 146.0"/>
+<path d="M466.0 118.0 Q480.0 106.8 480.0 76.0 Q480.0 106.8 494.0 118.0"/>
+<path d="M560.0 230.0 L560.0 195.0"/>
+<path d="M525.0 202.0 Q560.0 190.8 560.0 160.0 Q560.0 190.8 595.0 202.0"/>
+<path d="M532.0 174.0 Q560.0 162.8 560.0 132.0 Q560.0 162.8 588.0 174.0"/>
+<path d="M539.0 146.0 Q560.0 134.8 560.0 104.0 Q560.0 134.8 581.0 146.0"/>
+<path d="M546.0 118.0 Q560.0 106.8 560.0 76.0 Q560.0 106.8 574.0 118.0"/>
+<ellipse class="thin" cx="300.0" cy="260.0" rx="250.0" ry="40.0"/>
+<rect x="170.0" y="206.0" width="260.0" height="10.0" rx="0"/>
+<path d="M190.0 216.0 L190.0 256.0"/>
+<path d="M410.0 216.0 L410.0 256.0"/>
+<path class="thin" d="M220.0 206.0 L220.0 176.0"/>
+<path class="thin" d="M300.0 206.0 L300.0 170.0"/>
+<path class="thin" d="M380.0 206.0 L380.0 176.0"/>
+<circle class="fill-accent" cx="220.0" cy="172.0" r="3.0"/>
+<circle class="fill-accent" cx="300.0" cy="166.0" r="3.0"/>
+<circle class="fill-accent" cx="380.0" cy="172.0" r="3.0"/>
+<path d="M240 206 Q260 186 280 206 Z"/>
+<path d="M320 206 Q330 190 350 192 Q362 196 360 206 Z"/>
+<circle class="accent" cx="200.0" cy="90.0" r="9.0"/><circle class="fill-accent" cx="200.0" cy="90.0" r="2.0"/>
+<circle class="accent" cx="260.0" cy="60.0" r="8.0"/><circle class="fill-accent" cx="260.0" cy="60.0" r="2.0"/>
+<circle class="accent" cx="330.0" cy="80.0" r="10.0"/><circle class="fill-accent" cx="330.0" cy="80.0" r="2.0"/>
+<circle class="accent" cx="400.0" cy="56.0" r="8.0"/><circle class="fill-accent" cx="400.0" cy="56.0" r="2.0"/>
+<circle class="accent" cx="440.0" cy="110.0" r="9.0"/><circle class="fill-accent" cx="440.0" cy="110.0" r="2.0"/>
+<circle class="accent" cx="160.0" cy="130.0" r="7.0"/><circle class="fill-accent" cx="160.0" cy="130.0" r="2.0"/>
+<circle class="accent" cx="300.0" cy="120.0" r="7.0"/><circle class="fill-accent" cx="300.0" cy="120.0" r="2.0"/>
+<circle cx="300.0" cy="176.0" r="0.1"/>
+<path class="thin" d="M140 256 Q150 220 150 196 M150 196 Q144 180 152 172"/>
+<path class="thin" d="M130 256 Q138 270 120 286 M150 256 Q156 276 146 292"/>
+</svg>

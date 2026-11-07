@@ -1,0 +1,38 @@
+<svg class="lineart" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The signal drawn as pulses: two, three, five, seven, eleven">
+<path class="thin" d="M40.0 160.0 L560.0 160.0"/>
+<path class="accent" d="M60.0 160.0 L60.0 110.0"/>
+<path class="accent" d="M67.0 160.0 L67.0 110.0"/>
+<path class="accent" d="M96.0 160.0 L96.0 110.0"/>
+<path class="accent" d="M103.0 160.0 L103.0 110.0"/>
+<path class="accent" d="M110.0 160.0 L110.0 110.0"/>
+<path class="accent" d="M139.0 160.0 L139.0 110.0"/>
+<path class="accent" d="M146.0 160.0 L146.0 110.0"/>
+<path class="accent" d="M153.0 160.0 L153.0 110.0"/>
+<path class="accent" d="M160.0 160.0 L160.0 110.0"/>
+<path class="accent" d="M167.0 160.0 L167.0 110.0"/>
+<path class="accent" d="M196.0 160.0 L196.0 110.0"/>
+<path class="accent" d="M203.0 160.0 L203.0 110.0"/>
+<path class="accent" d="M210.0 160.0 L210.0 110.0"/>
+<path class="accent" d="M217.0 160.0 L217.0 110.0"/>
+<path class="accent" d="M224.0 160.0 L224.0 110.0"/>
+<path class="accent" d="M231.0 160.0 L231.0 110.0"/>
+<path class="accent" d="M238.0 160.0 L238.0 110.0"/>
+<path class="accent" d="M267.0 160.0 L267.0 110.0"/>
+<path class="accent" d="M274.0 160.0 L274.0 110.0"/>
+<path class="accent" d="M281.0 160.0 L281.0 110.0"/>
+<path class="accent" d="M288.0 160.0 L288.0 110.0"/>
+<path class="accent" d="M295.0 160.0 L295.0 110.0"/>
+<path class="accent" d="M302.0 160.0 L302.0 110.0"/>
+<path class="accent" d="M309.0 160.0 L309.0 110.0"/>
+<path class="accent" d="M316.0 160.0 L316.0 110.0"/>
+<path class="accent" d="M323.0 160.0 L323.0 110.0"/>
+<path class="accent" d="M330.0 160.0 L330.0 110.0"/>
+<path class="accent" d="M337.0 160.0 L337.0 110.0"/>
+<text x="64" y="200" text-anchor="middle" class="fill" style="font: 14px Literata, Georgia, serif; stroke: none">2</text>
+<text x="101" y="200" text-anchor="middle" class="fill" style="font: 14px Literata, Georgia, serif; stroke: none">3</text>
+<text x="151" y="200" text-anchor="middle" class="fill" style="font: 14px Literata, Georgia, serif; stroke: none">5</text>
+<text x="215" y="200" text-anchor="middle" class="fill" style="font: 14px Literata, Georgia, serif; stroke: none">7</text>
+<text x="306" y="200" text-anchor="middle" class="fill" style="font: 14px Literata, Georgia, serif; stroke: none">11</text>
+<path class="thin" d="M420 260 Q450 120 480 220 Q510 300 540 160 Q560 90 580 140"/>
+<path class="thin" d="M40 260 Q100 230 160 250 Q220 270 280 240 Q340 210 400 250"/>
+</svg>

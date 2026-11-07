@@ -1,0 +1,76 @@
+<svg class="lineart" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A narrow capsule rising up a shaft through the ice">
+<path d="M240 0 L240 320 M360 0 L360 320"/>
+<path class="thin" d="M0.0 16.0 L16.0 0.0"/>
+<path class="thin" d="M0.0 32.0 L32.0 0.0"/>
+<path class="thin" d="M0.0 48.0 L48.0 0.0"/>
+<path class="thin" d="M0.0 64.0 L64.0 0.0"/>
+<path class="thin" d="M0.0 80.0 L80.0 0.0"/>
+<path class="thin" d="M0.0 96.0 L96.0 0.0"/>
+<path class="thin" d="M0.0 112.0 L112.0 0.0"/>
+<path class="thin" d="M0.0 128.0 L128.0 0.0"/>
+<path class="thin" d="M0.0 144.0 L144.0 0.0"/>
+<path class="thin" d="M0.0 160.0 L160.0 0.0"/>
+<path class="thin" d="M0.0 176.0 L176.0 0.0"/>
+<path class="thin" d="M0.0 192.0 L192.0 0.0"/>
+<path class="thin" d="M0.0 208.0 L208.0 0.0"/>
+<path class="thin" d="M0.0 224.0 L224.0 0.0"/>
+<path class="thin" d="M0.0 240.0 L238.0 2.0"/>
+<path class="thin" d="M0.0 256.0 L238.0 18.0"/>
+<path class="thin" d="M0.0 272.0 L238.0 34.0"/>
+<path class="thin" d="M0.0 288.0 L238.0 50.0"/>
+<path class="thin" d="M0.0 304.0 L238.0 66.0"/>
+<path class="thin" d="M0.0 320.0 L238.0 82.0"/>
+<path class="thin" d="M16.0 320.0 L238.0 98.0"/>
+<path class="thin" d="M32.0 320.0 L238.0 114.0"/>
+<path class="thin" d="M48.0 320.0 L238.0 130.0"/>
+<path class="thin" d="M64.0 320.0 L238.0 146.0"/>
+<path class="thin" d="M80.0 320.0 L238.0 162.0"/>
+<path class="thin" d="M96.0 320.0 L238.0 178.0"/>
+<path class="thin" d="M112.0 320.0 L238.0 194.0"/>
+<path class="thin" d="M128.0 320.0 L238.0 210.0"/>
+<path class="thin" d="M144.0 320.0 L238.0 226.0"/>
+<path class="thin" d="M160.0 320.0 L238.0 242.0"/>
+<path class="thin" d="M176.0 320.0 L238.0 258.0"/>
+<path class="thin" d="M192.0 320.0 L238.0 274.0"/>
+<path class="thin" d="M208.0 320.0 L238.0 290.0"/>
+<path class="thin" d="M224.0 320.0 L238.0 306.0"/>
+<path class="thin" d="M362.0 16.0 L378.0 0.0"/>
+<path class="thin" d="M362.0 32.0 L394.0 0.0"/>
+<path class="thin" d="M362.0 48.0 L410.0 0.0"/>
+<path class="thin" d="M362.0 64.0 L426.0 0.0"/>
+<path class="thin" d="M362.0 80.0 L442.0 0.0"/>
+<path class="thin" d="M362.0 96.0 L458.0 0.0"/>
+<path class="thin" d="M362.0 112.0 L474.0 0.0"/>
+<path class="thin" d="M362.0 128.0 L490.0 0.0"/>
+<path class="thin" d="M362.0 144.0 L506.0 0.0"/>
+<path class="thin" d="M362.0 160.0 L522.0 0.0"/>
+<path class="thin" d="M362.0 176.0 L538.0 0.0"/>
+<path class="thin" d="M362.0 192.0 L554.0 0.0"/>
+<path class="thin" d="M362.0 208.0 L570.0 0.0"/>
+<path class="thin" d="M362.0 224.0 L586.0 0.0"/>
+<path class="thin" d="M362.0 240.0 L600.0 2.0"/>
+<path class="thin" d="M362.0 256.0 L600.0 18.0"/>
+<path class="thin" d="M362.0 272.0 L600.0 34.0"/>
+<path class="thin" d="M362.0 288.0 L600.0 50.0"/>
+<path class="thin" d="M362.0 304.0 L600.0 66.0"/>
+<path class="thin" d="M362.0 320.0 L600.0 82.0"/>
+<path class="thin" d="M378.0 320.0 L600.0 98.0"/>
+<path class="thin" d="M394.0 320.0 L600.0 114.0"/>
+<path class="thin" d="M410.0 320.0 L600.0 130.0"/>
+<path class="thin" d="M426.0 320.0 L600.0 146.0"/>
+<path class="thin" d="M442.0 320.0 L600.0 162.0"/>
+<path class="thin" d="M458.0 320.0 L600.0 178.0"/>
+<path class="thin" d="M474.0 320.0 L600.0 194.0"/>
+<path class="thin" d="M490.0 320.0 L600.0 210.0"/>
+<path class="thin" d="M506.0 320.0 L600.0 226.0"/>
+<path class="thin" d="M522.0 320.0 L600.0 242.0"/>
+<path class="thin" d="M538.0 320.0 L600.0 258.0"/>
+<path class="thin" d="M554.0 320.0 L600.0 274.0"/>
+<path class="thin" d="M570.0 320.0 L600.0 290.0"/>
+<path class="thin" d="M586.0 320.0 L600.0 306.0"/>
+<path d="M270 120 Q270 60 300 40 Q330 60 330 120 L330 220 L270 220 Z"/>
+<circle class="thin" cx="300.0" cy="100.0" r="10.0"/>
+<path class="thin" d="M270.0 180.0 L330.0 180.0"/>
+<path class="accent" d="M280 220 L276 250 M300 220 L300 260 M320 220 L324 250"/>
+<path class="thin" d="M120 60 L160 100 L130 150 M470 40 L440 110 L480 170"/>
+</svg>

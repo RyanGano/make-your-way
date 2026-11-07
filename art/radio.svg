@@ -1,0 +1,17 @@
+<svg class="lineart" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="An old radio telephone in its cabinet, valves glowing, a heavy handset off the hook">
+<rect x="150.0" y="40.0" width="300.0" height="240.0" rx="0"/>
+<path d="M150.0 80.0 L450.0 80.0"/>
+<rect x="180.0" y="100.0" width="140.0" height="70.0" rx="4"/>
+<path class="thin" d="M190 160 L210 120 L230 150 L250 110 L270 140 L290 125 L310 135"/>
+<circle cx="370.0" cy="130.0" r="26.0"/>
+<path class="accent" d="M370.0 130.0 L386.0 112.0"/>
+<circle cx="200.0" cy="210.0" r="12.0"/>
+<circle cx="250.0" cy="210.0" r="12.0"/>
+<circle cx="300.0" cy="210.0" r="12.0"/>
+<circle class="fill-accent" cx="190.0" cy="60.0" r="6.0"/>
+<circle class="fill-accent" cx="220.0" cy="60.0" r="6.0"/>
+<circle class="fill-accent" cx="250.0" cy="60.0" r="6.0"/>
+<rect class="thin" x="330.0" y="190.0" width="100.0" height="70.0" rx="0"/>
+<path d="M470 200 Q520 180 540 220 Q550 250 520 270 L500 250 Q520 230 500 214 Z"/>
+<path class="thin" d="M430 220 Q460 260 500 250"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg class="lineart" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A curved console of screens, the main screen showing the signal's waveform">
+<rect x="130.0" y="50.0" width="340.0" height="120.0" rx="6"/>
+<path class="accent" d="M150 110 L150.0 110.0 L157.5 118.8 L165.0 128.1 L172.5 133.3 L180.0 131.2 L187.5 120.9 L195.0 105.2 L202.5 89.1 L210.0 78.4 L217.5 77.1 L225.0 86.0 L232.5 102.2 L240.0 120.2 L247.5 134.0 L255.0 139.3 L262.5 135.4 L270.0 124.6 L277.5 111.6 L285.0 101.5 L292.5 97.1 L300.0 98.6 L307.5 103.6 L315.0 108.4 L322.5 109.9 L330.0 107.2 L337.5 102.0 L345.0 97.6 L352.5 97.7 L360.0 104.0 L367.5 115.5 L375.0 128.3 L382.5 137.5 L390.0 138.7 L397.5 130.5 L405.0 114.9 L412.5 96.8 L420.0 82.3 L427.5 76.4 L435.0 80.8 L442.5 93.7"/>
+<path class="thin" d="M140.0 110.0 L460.0 110.0"/>
+<rect class="thin" x="30.0" y="80.0" width="86.0" height="70.0" rx="4"/>
+<rect class="thin" x="484.0" y="80.0" width="86.0" height="70.0" rx="4"/>
+<path class="thin" d="M40 130 L60 110 L80 120 L104 96"/>
+<path class="thin" d="M494 120 Q520 90 560 120"/>
+<path d="M20 230 Q300 170 580 230 L580 250 Q300 192 20 250 Z"/>
+<rect class="thin" x="90.0" y="212.1" width="18.0" height="8.0" rx="2"/>
+<rect class="thin" x="136.0" y="208.6" width="18.0" height="8.0" rx="2"/>
+<rect class="thin" x="182.0" y="205.5" width="18.0" height="8.0" rx="2"/>
+<rect class="thin" x="228.0" y="203.3" width="18.0" height="8.0" rx="2"/>
+<rect class="thin" x="274.0" y="202.1" width="18.0" height="8.0" rx="2"/>
+<rect class="thin" x="320.0" y="202.1" width="18.0" height="8.0" rx="2"/>
+<rect class="thin" x="366.0" y="203.3" width="18.0" height="8.0" rx="2"/>
+<rect class="thin" x="412.0" y="205.5" width="18.0" height="8.0" rx="2"/>
+<rect class="thin" x="458.0" y="208.6" width="18.0" height="8.0" rx="2"/>
+<rect class="thin" x="504.0" y="212.1" width="18.0" height="8.0" rx="2"/>
+<path d="M140 300 L150 266 L200 266 L206 300 M150 266 L144 236 L194 236 L200 266"/>
+<path d="M400 300 L404 266 L454 266 L464 300 M404 266 L410 236 L460 236 L454 266"/>
+</svg>

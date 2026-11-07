@@ -1,0 +1,26 @@
+<svg class="lineart" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The keeper's log open on the table, entries crowding toward the last page">
+<path d="M80 280 L100 60 Q200 50 300 64 Q400 50 500 60 L520 280 Q410 268 300 284 Q190 268 80 280 Z"/>
+<path class="thin" d="M300.0 60.0 L300.0 280.0"/>
+<path class="thin" d="M110.0 90.0 L280.0 92.0"/>
+<path class="thin" d="M320.0 92.0 L460.0 90.0"/>
+<path class="thin" d="M110.0 110.0 L260.0 112.0"/>
+<path class="thin" d="M320.0 112.0 L430.0 110.0"/>
+<path class="thin" d="M110.0 130.0 L240.0 132.0"/>
+<path class="thin" d="M320.0 132.0 L490.0 130.0"/>
+<path class="thin" d="M110.0 150.0 L280.0 152.0"/>
+<path class="thin" d="M320.0 152.0 L460.0 150.0"/>
+<path class="thin" d="M110.0 170.0 L260.0 172.0"/>
+<path class="thin" d="M320.0 172.0 L430.0 170.0"/>
+<path class="thin" d="M110.0 190.0 L240.0 192.0"/>
+<path class="thin" d="M320.0 192.0 L490.0 190.0"/>
+<path class="thin" d="M110.0 210.0 L280.0 212.0"/>
+<path class="thin" d="M320.0 212.0 L460.0 210.0"/>
+<path class="thin" d="M110.0 230.0 L260.0 232.0"/>
+<path class="thin" d="M320.0 232.0 L430.0 230.0"/>
+<path class="thin" d="M110.0 250.0 L240.0 252.0"/>
+<path class="thin" d="M320.0 252.0 L490.0 250.0"/>
+<path class="accent" d="M340 250 L350 236 L400 240 L420 252"/>
+<path d="M470.0 120.0 L560.0 40.0"/>
+<path class="fill" d="M470 120 L462 130 L466 116 Z"/>
+<circle cx="140.0" cy="300.0" r="0.1"/>
+</svg>

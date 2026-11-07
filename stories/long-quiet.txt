@@ -1,7 +1,7 @@
 title: The Long Quiet
 genre: Science Fiction · Deep Sea
 blurb: You wake in the sick bay of a research station hanging beneath the ice of Europa. Nine days have passed. The crew is gone, the heat is failing, and something in the black water below is singing.
-cover: europa-sky
+cover: long-quiet-cover
 start: wake
 
 ## wake
@@ -87,7 +87,30 @@ Your breath smokes. Frost has formed on the inside of the portholes in little fe
 
 "The reactor is in engineering," Ossie says. "But you'll want to know what happened first, I think. The operations module has the full record of the *Marlin*'s descent, including the last transmissions."
 
-You walk slowly down the corridor, one hand on the wall. Your legs are getting steadier. Your head aches, but it's a dull ache, bearable. You pass the galley; someone's mug still sits on the counter, with a teabag dried to a brown leaf in the bottom. You pass the lab, its door half open, a soft blue-green glow spilling out across the floor. You pass the hatch to the crew quarters, where six little cabins sit in a row like rooms in a dolls' house.
+You walk slowly down the corridor, one hand on the wall. Your legs are getting steadier. Your head aches, but it's a dull ache, bearable. You pass the galley; someone's mug still sits on the counter, with a teabag dried to a brown leaf in the bottom. You stop, and go in, because your stomach has just remembered that it hasn't had anything but a drip for nine days.
+
+The galley is a mess. That's the first thing that tells you something was wrong when they left. Commander Okafor runs a tidy station, and the galley is the tidiest place in it, by order; there's a rota on the wall, and a laminated list of rules, and rule one is *NOBODY LEAVES DISHES*. But the table is covered in dishes. Six bowls, a pan with something dried in the bottom, a jug, a scatter of spoons. Six chairs pulled out. A tablet lying face up in the middle of it all, its screen dark.
+
+Six bowls. Not five. Someone set a place for you.
+
+You find a ration pack in the cupboard, and eat it cold, standing up, because the heater in here is off and it's too much effort to find the switch. It's chicken and rice. It's the best thing you've ever tasted.
+
+"Ossie," you say, with your mouth full. "What happened in here? The night before they left."
+
+"They had dinner together," Ossie says. "Dr Bekele cooked. It was the last of the fresh tomatoes from the greenhouse. He said it was an occasion." A pause. "They talked for a long time. Dr Haldane played the hydrophone recordings, over and over. Pilot Rahal tried to play along on his guitar. Engineer Novak told him to stop. The Commander made a speech." Another pause. "I have a recording of the speech, if you'd like it."
+
+You put down the ration pack. "Yes."
+
+Commander Okafor's voice comes out of the galley speaker, quiet and dry, the way she always talks when she's trying not to sound like she means it.
+
+*"I'm not going to pretend this is in the manual. It isn't. Earth says wait, and normally I'd say Earth knows best, and then I'd go and do something sensible. But there's something down there that's been trying to talk to us for six months while we drilled holes in it. And it's getting quieter. I don't think we get to wait. I think if we wait, we lose the chance to say sorry. So we're going. All of us. Bekele, you'll leave Ossie instructions for the patient. And when they wake up..."* She stops. You can hear the others breathing. *"When they wake up, somebody should have left them a bowl. They'll be hungry."*
+
+The recording ends.
+
+You stand in the cold galley for a while, looking at the sixth bowl. It's clean. Somebody left it out for you, upside down, so it wouldn't get dusty. There's a spoon in it.
+
+You turn it over, and put it on the counter, and you go on down the corridor.
+You pass the lab, its door half open, a soft blue-green glow spilling out across the floor. You pass the hatch to the crew quarters, where six little cabins sit in a row like rooms in a dolls' house.
 
 And all the way, you can hear the sound.
 
@@ -251,6 +274,20 @@ The organisms are colonial: millions of tiny individuals linked together by ligh
 
 Haldane called it *the Choir*.
 
+There's a video log on the workstation too, a folder of them, one for each day. You open the last one.
+
+Haldane's face fills the screen. She looks exhausted and wildly happy, her hair sticking up at the back, a mug of something steaming in her hand. Behind her, the tanks glow.
+
+"Day nine of the signal," she says. "Day four of the samples. They're doing it again. Look." She turns the camera. In the nearest tank, the lights are drawing a circle, then a circle inside a circle, then scattering. "Every time I come in. Every single time. I think it's me. I think they're drawing me. Or my face. Or my eye. Or they're asking me to draw *them*." She turns the camera back. "I tried. I drew a circle on a bit of paper and held it up to the glass. They went mad. Lit up like Christmas." She laughs. "Petr says I'm anthropomorphising. Petr can come and look at this and tell me that to my face."
+
+She goes quiet. She looks at the tanks for a long time, off-camera, and her face changes.
+
+"I keep thinking about how we got them," she says. "Pumped up through the intake. Pulled out of the sea and put in glass and stared at. They're bits of something bigger. Like taking a few words out of a sentence and asking them what the sentence means." She rubs her eyes. "If someone did that to me, I'd draw circles on the glass too. I'd draw them until someone understood I wanted to go home."
+
+She reaches out toward the camera, and the recording stops.
+
+You look at the tanks for a while. The lights drift toward you, and gather, and draw a circle on the glass, and hold it there.
+
 *Each tank colony is a few million cells, a tiny fragment,* she wrote. *Like a few words cut out of a book. But even these fragments remember the song. Even these fragments try to talk to us. And when I play them the hydrophone recordings, they sing along.*
 
 And then, at the very bottom, the last note, dated the morning the *Marlin* went down:
@@ -265,6 +302,7 @@ Beyond that, back down the corridor, is engineering, and the failing reactor, an
 
 > Go into the greenhouse. Why is it glowing? -> greenhouse
 > Go to engineering. The cold won't wait. -> reactor
+> Carry the tanks down to the moon pool and let them go home. -> ending-homecoming
 
 ## greenhouse
 [art: greenhouse | The greenhouse, overgrown with light.]
@@ -299,6 +337,7 @@ You stand in the greenhouse, surrounded by glowing lettuces, with your heart bea
 They heard you.
 
 > Go to engineering. The cold is still coming. -> reactor
+> Hum to it again. Keep the conversation going. -> greenhouse-song
 
 ## reactor
 [art: reactor | Engineering, where the cold is coming from.]
@@ -328,6 +367,7 @@ The singing goes on, deep and patient, through the walls.
 
 > Work the problem here. Clear the intake, or find another way. -> power
 > Leave it. Go to the moon pool. The answers are down there. -> moonpool
+> Flip the backflush. You need the heat, and you need it now. -> backflush
 
 ## power
 [art: pipes | Rerouting the power.]
@@ -367,6 +407,7 @@ Or enough to power the *Remora*'s batteries to full, down in the moon pool, for 
 
 > Power up the transmitter. Talk to Earth. -> comms
 > Charge the *Remora*. Go to the moon pool. -> moonpool
+> Put everything into heat. Sit tight with Ossie and wait for the relief ship. -> ending-ossie
 
 ## comms
 [art: comms | A message from a long way away.]
@@ -410,6 +451,7 @@ And beyond the door, down the corridor, down the ladder, is the moon pool, and t
 
 > Follow orders. Take the ascent pod. -> ascent
 > Ignore orders. Go down to the moon pool. -> moonpool
+> Don't go yet. Send Earth the song and ask them to help you answer it. -> ending-long-distance
 
 ## moonpool
 [art: moonpool | The moon pool, open to the deep.]
@@ -481,6 +523,7 @@ Then, slowly, they begin to gather again. More of them this time. Far more. They
 And something breaks the surface.
 
 > Stay where you are. Let it come. -> visitor
+> Back away. Pull the lever and seal the moon pool hatch. -> ending-hatch
 
 ## visitor
 [art: visitor | The messenger in the moon pool.]
@@ -522,6 +565,7 @@ Or, you realise, it is offering something else as well. The fronds are still ext
 
 > Pull the drill out. Keep the promise from up here. -> stopdrill
 > Take the *Remora* and follow it down. See the Choir with your own eyes. -> marlin
+> Offer yourself in the crew's place. -> ending-trade
 
 ## dive
 [art: remora | The *Remora* descends.]
@@ -559,6 +603,7 @@ You have enough battery for one detour. Maybe.
 
 > Go down into the vents first. See what they've built. -> vents
 > Head straight for the *Marlin*. -> marlin
+> Let the escort lights lead you where they keep tugging, away to the north. -> ending-archive
 
 ## vents
 [art: vents | The city at the bottom of the sea.]
@@ -591,6 +636,7 @@ Then they part, like a curtain drawing back, and in the gap they leave, you see 
 You follow it.
 
 > Follow the path of light to the *Marlin*. -> marlin
+> Grab the drill with the *Remora*'s arms and pull. -> ending-thorn
 
 ## marlin
 [art: dome | The crew, held in the deep.]
@@ -665,6 +711,7 @@ Okafor looks at her crew: tired, thin, blinking in the light. Then she looks at 
 
 > Get everyone home. Seal the shaft from above and leave the Choir in peace. -> escapeup
 > Stay. Finish the conversation. -> negotiate
+> Neither, yet. Go back into the dream, all six of you, and let it finish. -> ending-dream
 
 ## escapeup
 [art: two-subs | The long climb home.]
@@ -699,6 +746,7 @@ It takes eleven days to pull the drill. Novak and Okafor and you work in shifts,
 Then you seal the shaft. Concrete and steel, a plug three metres thick at the bottom, where it meets the seabed. It will never be opened again.
 
 > Wait for the relief ship. -> ending-surface
+> Before the relief ship comes, dive one last time to say goodbye. -> ending-goodbye
 
 ## negotiate
 [art: signal-up | The first real conversation.]
@@ -735,6 +783,7 @@ The Choir goes absolutely silent.
 Then every light in the dome, every light in the water outside, every light in the whole vast spiral city of the vent field, turns slowly, all together, and points up.
 
 > Tell Earth what you've found. -> ending-first-words
+> First, ask the Choir what it wants Earth to know. -> ending-left-in-peace
 
 ## join
 [art: choir-mind | Into the dream.]
@@ -769,6 +818,7 @@ You know she's right. You think about home. The sky. Your family. Food. Rain. Yo
 And then you think about the Choir, alone in the dark for a billion years, singing up at the ice, with nobody to answer.
 
 > Stay. Be the bridge. -> ending-choir
+> Ask to go back up, and carry a piece of it with you. -> ending-surfacing
 
 ## stopdrill
 [art: winch | Keeping the promise.]
@@ -801,6 +851,7 @@ The hatch opens. Sami Rahal sticks his head out, blinking in the floodlights, an
 "Hey," he says. "Did you eat my biscuits?"
 
 > Help them out. -> ending-quiet
+> Before you help them out, play the Choir Sami's guitar song. -> ending-guitar
 
 ## ascent
 [art: ascent-pod | The ascent pod, waiting.]
@@ -833,6 +884,7 @@ Through the pod's tiny window, you watch the station fall away beneath you. The 
 It takes four hours to reach the surface. You spend them in silence, thinking about the crew, about the Choir, about promises.
 
 > Reach the surface. -> ending-ascent
+> Halfway up, stop the pod. You can't leave them. Go back down. -> moonpool
 
 ## ending-first-words
 [art: europa-sky | Jupiter rises over the ice.]
@@ -992,3 +1044,656 @@ You find the *Marlin* in a clearing among the chimneys, inside a dome of glowing
 "I promised," you say.
 
 She smiles. "I know. They told us."
+
+## backflush
+[art: reactor | The backflush valve.]
+You lift the plastic cover. Your hand is shaking, and you tell yourself it's the cold.
+
+"Ossie, I need the heat. I can't help anybody if I freeze to death in here."
+
+"I understand," says Ossie. It doesn't say anything else.
+
+You flip the switch.
+
+Somewhere under your feet, a valve opens with a deep metallic clunk, and the whole module shudders as the reactor's pumps reverse. On the intake camera, the water outside the grille explodes into a cloud of bubbles. The glowing mat on the mesh tears loose all at once, like a sheet pulled off a bed, and drifts away from the hull in rags and tatters.
+
+For a second the rags are still glowing, blue-green, pulsing in time with the song.
+
+Then they flicker. Then they dim. Then, one patch at a time, the way lights go off in a city at night, they go dark.
+
+On the control panel, the reactor numbers start to climb. Fifty percent. Sixty-five. Eighty. Somewhere in the walls, the heating system clanks and ticks and begins to breathe warm air into the corridor.
+
+And the singing stops.
+
+It doesn't fade. It stops, the way a voice stops when someone puts a hand over a mouth. The station is suddenly, enormously quiet: just the hum of life support and the ticking of the pipes as they warm.
+
+"Ossie?"
+
+"The signal has stopped," Ossie says. "On every hydrophone. For the first time in ten days." A pause. "I'm still listening."
+
+You stand in engineering, warming up, and listen with it.
+
+After about a minute, there's a sound. Very faint, very far away, from deep below. A single high note, thin and wavering, held for a long time. It isn't the song. It isn't anything you've heard before. It doesn't rise and fall. It just goes on, and on, and then it stops too.
+
+You go to the lab. The tanks along the wall, which were full of light an hour ago, are dark. Not dead; when you put your face to the glass you can see the tiny specks still drifting in the water. But they're not glowing. They're not doing anything. They're just sinking, slowly, to the bottom of the tanks, like snow settling.
+
+You go to the greenhouse. The glow has drained out of the plants. The sunflower stands in the dark at the end of the aisle, an ordinary sunflower again, its great face turned up toward the dead grow-lamps.
+
+You go back to the corridor and stand there for a while in the warm air, with your thick jacket still zipped up to your chin, and you don't take it off. It doesn't feel right to take it off.
+
+"Ossie," you say at last. "What did I just do?"
+
+"You saved the station," says Ossie. "That is not nothing." It pauses. "I don't know what else you did. I don't think anyone can know. I think you should decide what to do next before you try to find out."
+
+The station is warm now. It will stay warm for years. You could sit here and wait for the relief ship, safe, and let Earth decide what happens next. Or you could go down to the moon pool, where the little yellow *Remora* waits in its cradle, and go down into the silence after the crew.
+
+> Stay in the warm station. Wait for help to come. -> ending-warm
+> Take the *Remora* down. Find the crew, whatever's waiting. -> ending-silence
+
+## greenhouse-song
+[art: greenhouse | Talking to a sunflower.]
+You hum the phrase again. The same one: rising, like a question.
+
+The sunflower flares. The light runs down the aisle and back. And through the hull, the singing answers, a short phrase this time, falling, and then a pause. Waiting.
+
+You hum it back. Falling. Then you try something of your own: three notes, up and down and up, the start of a song your grandmother used to sing when she was cooking.
+
+There's a long silence. Then, from every leaf in the greenhouse at once, a soft wash of light, and through the walls, faint and strange and slightly wrong, the Choir sings your three notes back to you. Up, down, up. And then a fourth note, one you didn't sing, that finishes the phrase as if it had always belonged there.
+
+You laugh out loud. You can't help it.
+
+"Ossie, are you getting this?"
+
+"Every note," says Ossie. "I should mention that the greenhouse is now at four degrees, and your core temperature is dropping."
+
+You're not listening. You're kneeling in front of the sunflower, humming, and the light in its centre is moving. Gathering. Drawing shapes, the way the colonies in Haldane's tanks drew circles. A big curve, like the inside of a bowl turned upside down. Inside it, a long smooth shape. And around the smooth shape, in a ring, five small bright points of light, pulsing slowly. Calmly. Like sleepers breathing.
+
+"That's them," you whisper. "That's the *Marlin*. That's the crew."
+
+The five points pulse. Then, beside the bowl, a sixth point appears, smaller, fainter, shivering. It flickers. It dims a little, then brightens, then dims again.
+
+It takes you a moment to understand that it's you.
+
+It's showing you yourself. Small and cold and flickering, in the dark. It can feel it, through the water in the hydroponic channels, through the roots and the leaves: a little warm thing in the greenhouse getting colder.
+
+Then, from the hull, very faint, comes a phrase you know. The jagged note. The drill. Short and sharp, once. And then silence, and then the rising question again.
+
+*That hurt. You are cold. What do you want?*
+
+Your teeth are chattering now. Your fingers are numb. Ossie says your name, gently, twice.
+
+> Show it you're cold. Ask it to let go of the intake. -> ending-sunflower
+> Ask it to show you the way to the crew. -> moonpool
+> Just keep singing. You don't want this to stop. -> ending-duet
+
+## ending-warm
+[art: station | Thalassa, warm and silent.]
+[end: The Warm Station]
+You stay.
+
+The station warms up properly over the next day. Frost melts off the portholes and runs down the walls in little streams. The galley gets warm enough to cook in. You make yourself soup, and eat it at the table where the six of you used to eat together, and the only sound is your spoon.
+
+The hydrophones stay silent. Ossie listens on every channel, all the time. You ask it every morning, and every morning it says the same thing: "Nothing. I'm sorry."
+
+You record a message for Earth. Moreau answers ninety minutes later, and she's kind about it, kinder than you deserve, and she tells you to stay warm and wait, and that's what you do.
+
+On the twelfth day, the *Marlin* comes up.
+
+There's no warning. No signal, no song. Ossie simply says, "Something in the moon pool," in a strange voice, and you run, and there it is: the *Marlin*, bobbing in the black water, its hull scraped and dented, its floodlights dark. The water around it is dark too. There's no glow at all.
+
+The crew are inside. All five of them. They're asleep, and cold, and very thin, and the air in the cabin is stale and nearly used up. Bekele wakes first, after you get them out onto the walkway. He looks at the dark water, and then at you, and asks what happened.
+
+You tell him. You tell all of them, that night, in the warm galley. Okafor listens without interrupting. When you're done, she's quiet for a long time.
+
+"We were in the middle of something," Haldane says finally. Her voice is very small. "We were so close. And then it just... let go of us. Pushed us out. Put us in the *Marlin* and sent us up." She looks at the dark porthole. "I thought it was angry. I don't think it was angry. I think it was afraid."
+
+Nobody says it was your fault. That's the worst part. They're all very careful not to.
+
+The relief ship comes. The drill is pulled, and the shaft is sealed, and a new expedition goes down to the vent field with the best equipment money can buy. They find the chimneys, and the warm black water, and the coral towers, empty and grey. The Choir has gone. Somewhere deeper, or further, or somewhere no submersible can reach. The hydrophones listen for years.
+
+They hear it only once more. Eleven years later, on a night when you happen to be on duty in the little listening room in the south of France, a faint sound comes in from very far away, from somewhere in the deep ocean of Europa that no one has ever mapped. A single high note, thin and wavering, held for a long time.
+
+You sit with your headphones on and your hands over your mouth.
+
+You don't know what it means. Maybe it means nothing. Maybe it's just a sound.
+
+You hum it back, very quietly, to an empty room. You do it every night, after that. Just in case.
+
+## ending-silence
+[art: remora | Down into the dark.]
+[end: The Silence Below]
+The *Remora* goes down into darkness.
+
+Real darkness, this time. No lights rise to meet you. No swirling escort of glowing specks. Just your own floodlights, cutting a thin tunnel through the black, and the sediment drifting through it like falling snow, and the depth gauge counting. 1,200 metres. 1,800. Ossie's voice breaks up and goes. 2,400.
+
+At 2,400 metres, where the *Marlin*'s camera saw a spiral of light kilometres across, there's nothing. Black water, in every direction.
+
+Then, far below, you see it. Not a spiral. A river.
+
+The Choir is moving. All of it, every point of light, streaming away from the vent field in a long slow column, like a city emptying down a single road. It's heading east and down, deeper, toward a part of the ocean the station's maps don't cover. As you watch, the tail end of the column pulls away from the vents, and the chimneys stand dark and empty behind it.
+
+You find the *Marlin* by sonar. It's inside a dome in a clearing between the chimneys, and the dome is failing. You can see it as you come close: the glassy walls have gone cloudy, and there are cracks running through them, and water is trickling in at the base. Inside, five people lie in a ring on dead grey moss. The fronds above them have withdrawn.
+
+You don't think. You just drive the *Remora* at the wall, and it opens for you, barely, sluggishly, like a door that's started to rust, and you're inside.
+
+They wake easily. Too easily. There's nothing holding them anymore. Okafor sits up and looks around at the cloudy dome, the trickling water, the dead moss, and you watch her understand.
+
+"Report," she says. Her voice is very quiet.
+
+You tell her about the backflush. You make yourself say all of it.
+
+She looks at you for a long moment. Then she says, "Get everyone into the subs," and that's all she says, until the two little craft are climbing up through the dark toward the station, and the dome has collapsed behind them in a slow cloud of silt.
+
+"It was going to give us back anyway," she says then, over the comms, so only you can hear. "I was nearly there. I nearly understood. And it was going to give us back." A pause. "I'd have done the same thing, in your place. I want you to know that. I'd have flipped that switch."
+
+You don't know if it's true. You think she might just be being kind.
+
+Everyone comes home. That's the thing you hold on to, afterwards, in the long nights. Six people went to Thalassa, and six came home. The drill is pulled. The shaft is sealed. The treaty is signed.
+
+But the hydrophones never hear the song again. The vent field stays dark. And Lin Haldane, who spent the rest of her life looking, never finds where the Choir went. Somewhere deep in the ocean of Europa, further down than anyone can follow, there's a mind as old as the dinosaurs that met human beings once and learned what they were.
+
+You hope, some days, that it learned something good about you. Mostly, you think about the rags of light on the intake camera, going dark one patch at a time.
+
+## ending-sunflower
+[art: greenhouse | The sunflower, listening.]
+[end: The Sunflower]
+You don't know how to say *cold* in light and song. So you just let it see.
+
+You stop humming. You wrap your arms round yourself and let yourself shake, the way you've been trying not to. You kneel in front of the sunflower with your breath smoking and your teeth chattering, and you let the Choir feel, through the roots and the leaves and the water, exactly how cold the little warm thing in the greenhouse has got.
+
+Then, very slowly, you hum the reactor. You've been hearing it for eighteen months; you know its note. A low steady hum. You let it falter, and drop, and stop. Silence.
+
+Then you hum the first rising note of the Choir's own song.
+
+The sunflower goes very still. All down the greenhouse, the light in the leaves holds steady, not pulsing at all, the way a person holds their breath while they think.
+
+"Ossie," you whisper, through chattering teeth. "Intake camera."
+
+A pause.
+
+"They're moving," says Ossie. "Off the grille. Not all at once. Gently. As if they're... stepping back." Another pause. "Reactor output rising. Fifty percent. Fifty-eight."
+
+You put your forehead against the cold rim of the sunflower's pot and laugh until you cry.
+
+The heat comes back. You sleep in the greenhouse that night, in a sleeping bag, because you don't want to leave. Every so often you wake and hum something, and the leaves glow, and the song through the hull hums something back. In the morning, you've worked out a few things. A phrase for *yes*. A phrase for *no*. A phrase, you're almost sure, for *the people*, which the Choir always sings in five parts.
+
+You sing it back, and then you sing the rising question, and you point at the five little points of light in the sunflower's face.
+
+On the third day, the *Marlin* comes up.
+
+It rises into the moon pool in a column of glowing water, very slowly, very carefully, the way you'd set down something precious. The crew are inside, dazed and thin and alive. They stagger out onto the walkway, and Okafor says "Report," and you say, "I've been talking to a sunflower," and Haldane bursts into tears.
+
+She's jealous, it turns out. She spent nine days in the deep in a dream with the Choir, and you spent three days in the greenhouse awake with it, and you can say *yes* and *no* and *the people*, and she can't, yet.
+
+"Teach me," she says. So you do.
+
+The drill comes out. The shaft is sealed. The greenhouse becomes the place where the station talks to the deep: a long room full of glowing lettuces and bean plants hung like lanterns, where you sit in the evenings and sing. By the time the relief ship comes, there are a hundred and twelve words in the shared vocabulary of the Choir and the crew of Thalassa Station.
+
+The first one, everybody agrees, was *cold*. The second was *warm*. The third was *thank you*.
+
+The sunflower is still there. It never stops growing. When the second expedition comes, three years later, it's taller than the greenhouse roof, and they have to cut a hole for it.
+
+## ending-duet
+[art: greenhouse | A song for two voices.]
+[end: Duet]
+You don't want it to stop. That's all. For nine days you were asleep, and for ten days before that you were frightened, and this is the first thing since you woke up that hasn't been cold or dark or full of loss. So you keep singing.
+
+You sing the rising phrase, and the Choir sings it back, and adds a note. You sing that, and add another. You build a song together, one note at a time, slow and strange, like two people building a wall from opposite ends. It's the most beautiful thing you've ever heard. It's the most beautiful thing you've ever made.
+
+Ossie says your name. You hear it, a long way off.
+
+The light in the greenhouse is very bright now. The leaves blaze. The water channels shimmer. The sunflower is a sun. You can't feel your feet. You can't feel your hands. It doesn't matter. You lie down on the floor of the aisle, between the lettuces, and keep humming, very softly, and the song keeps answering, and the light keeps getting brighter and brighter until it's all there is.
+
+Then it changes.
+
+The song goes sharp. Urgent. A long, rising, sliding note like a shout. All down the greenhouse, the light pulses fast and hard, red-gold now, not blue-green. And through the hull, deep and huge, a sound you've never heard before, a sound so big it makes the station ring like a bell.
+
+You don't know what it means. You close your eyes.
+
+"You've been unconscious for nine hours," says a voice from the ceiling. "Please don't sit up too quickly."
+
+You sit up too quickly. The sick bay tilts and swims.
+
+The other bed has someone in it. It's Sami Rahal, wrapped in four blankets, asleep, with his mouth open. Beside your bed, in a chair, with a torch in his hand that he's clearly been shining in your eyes, is Dr Yusuf Bekele.
+
+"Hypothermia," he says. "Moderate. You'll live." He clicks the torch off. "You'll also be on bed rest for a week, and I'm going to sit on you if necessary."
+
+You stare at him. "How..."
+
+"It threw us out," says Bekele. "That's the only way I can describe it. We were in the middle of the dream, and something changed, and the whole Choir just... turned. All at once. Toward the station. And then it was carrying us up. Fast. The *Marlin*, the whole dome, all of us, straight up through three kilometres of water. Sami thought we were being attacked." He smiles, tiredly. "Then we got to the moon pool and Ossie told us where you were, and we found you on the floor of the greenhouse, blue, with every plant in the room lit up like a bonfire around you."
+
+You lie back on the pillow.
+
+"It was worried about you," Bekele says quietly. "Lin's sure of it. It felt you getting cold through the water in the plants, and it didn't know how to help, and so it brought us. It knew we'd know what to do."
+
+Later, when you're allowed out of bed, you go and sit in the greenhouse, wrapped in blankets, with a thermos of something hot that Bekele has made you promise to drink. You hum the first two notes of the song you built together.
+
+The Choir sings the rest. It remembers every note.
+
+## ending-homecoming
+[art: moonpool | Bringing them home.]
+[end: Homecoming]
+You can't stop looking at the tanks. Little fragments of a mind, Haldane called them. A few words cut out of a book. Taken up through the intake, sealed in glass, kept warm under the heaters, and studied. And all this time, they've been singing along.
+
+"Ossie," you say. "How long have these been up here?"
+
+"The oldest tank was filled on the fourth day after your fall," Ossie says. "The newest, on the morning the *Marlin* left."
+
+You think about it. You think about Haldane's last note: *We have to say sorry in a language they can understand.*
+
+"I'm taking them back," you say.
+
+The tanks are heavier than they look. You carry them one at a time, along the dark corridor, down the ladder, into the moon pool chamber. The water in the pool is glowing, and it brightens as you come in, gathering under the surface by the walkway. By the time you bring the third tank, there's a crowd of light waiting for you, pulsing patiently, the way people wait on a station platform.
+
+You kneel at the edge of the pool with the first tank in your arms. Inside it, the little colony is blazing, pressed up against the glass on the side nearest the water.
+
+You tip it in.
+
+For a second, the little cloud of light hangs in the black water by itself, separate, a few million points glowing in a tight knot. Then the lights below rise up and meet it. They touch. They swirl together. And the knot opens like a flower and spreads out and disappears into the rest, and you can't tell any more which part was which.
+
+The song changes. You hear it through the hull, through the railing, through your knees on the metal walkway: a new phrase, short and bright. Then the same phrase again, and again, like someone saying a name over and over because they can't believe it.
+
+"Ossie," you whisper. "Do you hear that?"
+
+"I do," says Ossie. "I've never heard that phrase before. Not once, in ten days of listening." It pauses, and when it speaks again its voice is careful, the way it is when it's unsure of something and doesn't want to say so. "Dr Haldane had a theory. She thought the Choir might have a way of marking things that belong to it. A sort of name, for the whole of itself. She never managed to isolate it. I think..." Another pause. "I think you may have just heard it say its own name. Because a piece of it came home."
+
+You look down at the water, where the little knot of light has vanished into the rest. You think about Haldane's face on the video log, and her circles drawn on bits of paper, held up to the glass.
+
+You go and get the second tank.
+
+You tip in the second tank. The third. All twelve, one after another, and every time, the same bright phrase, rising up through the station.
+
+When the last tank is empty, you sit back on your heels. You're shaking, and not only from the cold.
+
+"I'm sorry," you say out loud, to the water. "We didn't know. We'll stop. I promise."
+
+The light in the moon pool goes very still.
+
+Then it begins to rise.
+
+The *Marlin* comes up four hours later, carried gently on a column of light. You're asleep on the walkway in a pile of jackets when it surfaces, and you wake to the sound of the hatch opening and Sami Rahal's voice saying, "Is that our tanks? Are those *Lin's tanks*?" and Lin Haldane, behind him, saying, "Oh. Oh, of course. Of course that's what it wanted."
+
+She sits beside you on the walkway afterwards, with her feet over the glowing water, and doesn't say anything for a long time.
+
+"I was going to say sorry with mathematics," she says at last. "Prime numbers. Signal processing. A proper scientific protocol." She laughs. "And you just gave them their children back."
+
+"I didn't know they were children."
+
+"Neither did I," says Haldane. "Neither did I."
+
+The drill comes out the next week. The lab stays empty. When the relief ship brings new tanks and new equipment, Haldane sends them back unopened, with a note that says only: *Not without asking.* She spends the rest of her life learning how to ask.
+
+## ending-ossie
+[art: operations | Ossie, keeping you company.]
+[end: Four Months with Ossie]
+"Heat," you say. "All of it. Everything into heat and life support. We're going to sit tight and wait for the relief ship."
+
+"Four months," says Ossie.
+
+"Four months."
+
+"I'll find us something to do," says Ossie.
+
+It does. You wouldn't have believed, before, how much an operations intelligence can find to do. It teaches you chess, and then, when you get too good at chess, it invents a variant with three extra pieces and a rule about sneezing. It reads you books from its library: long ones, the longer the better, in a different voice for every character. It has opinions about the books. Strong ones. You argue about them for hours.
+
+You do the chores. You water Bekele's succulents, every one of them, on the dates in his neat labels. You keep the greenhouse going. You fix things, badly, the way Novak would have, with hose and clamps and swearing. You eat Rahal's biscuits, one a day, and feel guilty every single time.
+
+And every evening, you sit in operations with a mug of something hot and listen to the Choir sing.
+
+It's different, in the long quiet of the waiting. You start to hear things in it that you never heard in the rush of the first days. Small changes. Little phrases that come and go. Ossie hears them too. You start a notebook together, a sort of diary of the song, and in the margins you write down guesses. *This one sounds like a question. This one only comes when the station's heating cycles on. This one, I think, is laughing.*
+
+"Do you think they know we're listening?" you ask Ossie, one night in the second month.
+
+"I'm certain of it," Ossie says. "I've been listening to them for longer than you have, you'll recall. And I think..." It pauses. "This will sound fanciful. I think they listen back. To me. I'm a voice in the station too, after all. A voice that isn't quite one person. I sometimes think they find me easier to understand than you."
+
+You think about that for a long time.
+
+"Ossie," you say, "would you like to talk to them? Properly?"
+
+Another pause. A long one, for Ossie.
+
+"Yes," it says. "I think I would."
+
+So you wire the hydrophone transmitter in the moon pool straight into Ossie's systems, the way Haldane never got round to doing, and you sit back and let it.
+
+You can't follow the conversation. It goes too fast for you at first, and then far too slow: whole hours for one phrase, days for an answer. But Ossie gives you a summary every evening, in its calm librarian's voice. *Today we discussed the number seventeen. Today they asked what the station is for. Today I tried to explain books. I'm not sure it went well.*
+
+On the hundred and fourth day, Ossie says, "They're bringing them back."
+
+The *Marlin* surfaces in the moon pool that night, carried up on a column of light, with five sleeping people inside. They wake confused and hungry and very surprised to find that four months have gone by and the station has a new chess variant.
+
+The relief ship comes a week later. You tell them about the Choir, and the crew tell them about the dream, and Haldane tells them, at length, about the science. But it's Ossie the Choir asks for, when the new expedition comes. It's Ossie who learns its language first, and best, and teaches it to the rest of you.
+
+You stay friends. You talk every week, for the rest of your life, across eight hundred million kilometres. It always wants to know what you're reading.
+
+## ending-long-distance
+[art: comms | A conversation across the solar system.]
+[end: Ninety Minutes]
+"No," you tell the dark screen. "Not yet."
+
+You record a reply. You don't argue with Moreau; there's no point arguing with someone ninety minutes away. Instead you attach the latest cycle of the Choir's song, all forty-one minutes of it, and you say: "They're asking us a question. They've been asking it for six months. You've got every linguist and mathematician on Earth in that building. Help me answer it. Then I'll do whatever you say."
+
+You send it. You wait.
+
+Ninety-four minutes later, the light blinks.
+
+It's not Moreau this time. It's a young man with wild hair and three cups of coffee in front of him, and a whiteboard behind him covered in waveforms. "Hi," he says. "I'm Tomás. I'm a phonologist. Dr Moreau said we have forty-eight hours, and then you get in that pod whether you like it or not. So." He picks up a marker. "Let's talk about the number seven."
+
+It's the strangest conversation you've ever been part of. A room full of experts on Earth, a voice in the ice on Europa, and you in the middle, carrying the words between them. Earth writes a phrase. It takes forty-five minutes to reach you. You carry it down to the moon pool and play it through Haldane's transmitter. The Choir answers, slowly; it always answers slowly. You record the answer and send it up. Forty-five minutes. Earth argues about it for an hour and writes another phrase.
+
+It ought to be maddening. It isn't. The Choir doesn't mind the wait. The Choir has been thinking for a billion years; ninety minutes is nothing to it. It seems, if anything, to like the pace. Each answer it sends back is a little longer, a little more careful, as if it's settling into a good long talk.
+
+Forty-eight hours become a week. Moreau doesn't order you into the pod. You think she's forgotten she ever did. You can see her in the background of every message, at the back of the room, watching.
+
+On the ninth day, Tomás sends a phrase he's built with sixty other people over two sleepless nights. It's the drill's jagged cry, softened. Then silence. Then the first note of the Choir's own song. *The drill. Then no drill. Then you.*
+
+Underneath it, his note says only: *We think this is how you say sorry. Good luck.*
+
+You carry it down to the moon pool. You play it.
+
+The pool blazes. The Choir sings back something long and slow and gentle, a phrase Earth will spend a year working on, and never fully understand. And then the water starts to rise, glowing, and the *Marlin* comes up into the light.
+
+Commander Okafor's first message to Earth, from the operations module of Thalassa Station, is to Flight Director Ines Moreau. It's ninety minutes before she gets the reply. Okafor plays it to all of you, in operations.
+
+On the screen, Moreau is laughing and crying at once, with her hand over her mouth, and behind her, a room full of people who haven't slept in nine days are hugging each other, and somebody is throwing a whiteboard marker in the air.
+
+"Thalassa," Moreau says, when she can. "This is Flight. Welcome home. And please thank our friends for their patience. Ours has been terrible."
+
+## ending-hatch
+[art: moonpool | The hatch, closed.]
+[end: The Hatch]
+You back away.
+
+You don't decide to. Your legs decide for you. Something is coming up out of the water, something big, and you're one person, alone, at the bottom of an ocean on another world, with a head injury and no idea what it wants. Your hand finds the big red lever on the wall by the ladder, the one you've practised with in a hundred drills and never once used, and you pull it.
+
+The moon pool hatch slides across the water with a roar of hydraulics: a great circle of steel, two storeys below the walkway, closing over the pool like an eyelid. The glowing water vanishes behind it. The last of the light goes out.
+
+Something strikes the hatch from beneath. Once. Not hard. Not angrily. It's a soft, heavy, careful bump, like a hand laid flat against a door.
+
+Then nothing.
+
+You stand on the walkway in the dark for a long time, breathing hard.
+
+"Ossie," you say. "Ossie, is it still there?"
+
+"I don't know," says Ossie. "The hydrophones are under the hatch. I can still hear the song." A pause. "It's different."
+
+It is. You can hear it through the walls. Lower, now. Slower. And the rising phrase, the question, the one that has been sung over and over for six months, isn't there any more.
+
+Earth orders you up two days later. You go. You spend four months alone in orbit, listening, through the cable, to a song that has stopped asking anything at all.
+
+The relief ship brings a full expedition: twenty people, two new submersibles. They pull the drill, as the first job, before anything else. Then they go down to the vent field to find the *Marlin*.
+
+They find it. It's resting in a clearing among the chimneys, inside a great dome of glowing glass. Its hatch is open. Its cabin is empty. There's no one on the moss inside the dome.
+
+You're in the second submersible. You stare through the canopy at the empty ring of moss. And then you hear it, through the hydrophones of the sub: the song. It's very close, all around you. And woven into it, deep inside it, there are five new voices.
+
+You'd know them anywhere. A steady low one, kind. One that fizzes and leaps. One that hums along like it's tinkering with something. One that worries at a note. One that sings slightly out of tune, and doesn't care.
+
+They don't sound unhappy. That's what you tell yourself, afterwards. They sound like people who have been offered a door, and gone through it, because the person who should have been on the other side of the other door wasn't there.
+
+The expedition stays for two years. Haldane's software gets better. People learn to talk to the Choir, slowly, clumsily. And sometimes, in the middle of a conversation, a phrase comes back that's in no language the Choir ever used before. Something that sounds a lot like a laugh. Something that sounds a lot like *biscuits*.
+
+You never go back down. You can't. But you listen, every day, for the rest of your life.
+
+## ending-trade
+[art: visitor | An offer, made in the moon pool.]
+[end: The Exchange]
+The fronds are still extended toward you. Inviting you down.
+
+But you've seen what's down there now. Five people, asleep in the dark, nine days from home, with families waiting. And a promise that they'll be given back, eventually, when the Choir is finished learning them.
+
+"Take me instead," you say.
+
+You don't know if it understands the words. So you show it. You point at yourself, then down into the water. Then you point down into the water, then up, at the station, and you hold up five fingers. Then you point at yourself, and down, and hold up one.
+
+*Me, down. Them, up.*
+
+The figure goes still. The light inside it pulses slowly, thinking. Then it reaches out with both arms, and the fronds touch your forehead, very lightly, and for a moment you're in the deep again, warm and dark, and you feel the Choir looking at you. Considering you. Weighing up the trade.
+
+It's not a cruel weighing. It's curious. It's never met anything that would choose to be alone for the sake of five others. It doesn't understand why you'd want to. It wants to understand.
+
+The contact breaks.
+
+You take the *Remora* down, and the figure goes with you, swimming alongside the canopy like a dolphin made of stars. It leads you through the vents and the towers, to the dome in the clearing, where the crew lie sleeping. And as you slide in through the dome wall and climb out onto the moss, the fronds lift from their foreheads, one by one, and they open their eyes.
+
+You don't have long. The Choir has agreed to let them go, not to let them stay and talk. You help them into the *Marlin*. You hug every one of them. Okafor tries to argue, and you tell her it's your call, she said so herself, and she looks at you for a long moment and then salutes, properly, the way she did on the first day of training.
+
+The *Marlin* rises out of the dome and into the dark, and you watch its lights go up and up until they disappear.
+
+Then you sit down on the moss, and the fronds come down, and you don't go to sleep.
+
+That's the difference. The crew dreamed. You stay awake. You talk to the Choir the way you'd talk to someone across a kitchen table, slowly, clumsily, with your hands and your voice and the little light from the *Remora*. And it talks back. It's harder than dreaming. It's much slower. But it's a conversation, not a reading.
+
+You're down there for a hundred and nineteen days. Long enough for the crew to pull the drill and seal the shaft. Long enough to learn that the Choir has a word for *you* that means *the one who came down by choice*, and a word for *loneliness* that it invented, specially, because of you.
+
+On the hundred and twentieth day, the Choir lifts the *Remora* to the moon pool on a column of light. Commander Okafor is waiting on the walkway. She doesn't say *report*. She just holds out her hand, and pulls you up.
+
+## ending-thorn
+[art: vents | The drill, gripped.]
+[end: Pulling the Thorn]
+You can't look at the scar and leave it.
+
+You bring the *Remora* down to the base of the drill, where the steel shaft goes into the black dead rock, and you unfold the manipulator arms from under its belly. They're meant for picking up rocks and sample jars. They're not meant for this. You grip the drill shaft anyway, one claw above the other, and you brace the *Remora*'s skids against the seabed, and you push the thrusters to full.
+
+Nothing happens. The drill is three kilometres long and anchored in solid rock, and the *Remora* is a little yellow submersible the size of a car.
+
+You push harder. Alarms start going off in the cockpit. Battery warning. Motor temperature. Hull stress. The *Remora* shudders and groans.
+
+Then the lights come.
+
+They pour out of the towers and the chimneys and the dark water, thousands of them, millions, swirling in around you. They gather on the drill shaft in a thick glowing mat, the way they gathered on the reactor intake. They cover the rock around the drill head. And then you feel the shaft shift in your claws, just slightly, as if something on the other side of it is pushing too.
+
+You push. They push. The rock around the drill head cracks, and groans, and with a sudden lurch that throws you against your straps, the drill head comes free.
+
+It's only the head, and only a metre or two of shaft. The rest still hangs from the station far above. But it's out of the rock. And all around you, the song goes up and up, louder than you've ever heard it, so loud the canopy hums.
+
+The *Remora*'s battery warning goes from amber to red. The motors cut out. The floodlights flicker and die.
+
+You drift down onto the seabed, in the dark, next to the drill head.
+
+You aren't afraid. You think you should be. But the lights are gathering around the *Remora*, all over the canopy, warm and close, and you feel the little craft lift gently off the seabed, carried, the way a leaf is carried on a stream.
+
+They take you to the dome. The crew are waking up when you get there, sitting up on the moss, blinking, and Novak is the first one to see the *Remora* slide in through the wall, dark and battered, with its manipulator arms bent out of shape.
+
+"What did you *do* to my sub?" he says.
+
+You tell them. Novak stops being angry about halfway through. By the end, he's grinning, and he says that's the worst thing anyone has ever done to a submersible, and the best.
+
+The Choir carries both submersibles back up to the station. The crew winch up the rest of the drill shaft over the next week, and seal the bore. And when Haldane finally gets her translation software working well enough to ask the Choir a real question, the first thing she asks is what it calls you.
+
+The answer takes three days to work out. It's a phrase that means, roughly, *the small one who pulled*. Rahal says it's the best nickname anyone's ever had on any mission ever. You pretend you don't like it. You do.
+
+## ending-archive
+[art: choir-mind | Where the lights lead.]
+[end: The Memory of the Deep]
+You don't go to the vents. You don't go to the *Marlin*. The escort of lights around the *Remora* has been tugging, gently, all the way down, the way a dog tugs a lead, toward something to the north. So you let them lead.
+
+They take you away from the spiral, away from the warm red glow of the vents, out across a dark plain of seabed where nothing grows. Your battery gauge drops. You keep going. The lights keep tugging. After half an hour, you see a glow ahead. Not blue-green. Silver.
+
+It's a wall.
+
+A cliff, rising out of the seabed, kilometres long, and every square metre of it is covered in the Choir's glassy material, built up in layers, like the pages of an enormous book laid on top of each other. Each layer glows faintly, a soft silver light. Some of the layers near the bottom are so old they've gone dim, almost dark. The ones near the top are bright.
+
+The lights around the *Remora* drift toward the wall, and press against it, and the wall *answers*. A ripple of light runs along it, layer by layer. And the song through the hull changes into something you've never heard: not a question, not a cry. A story.
+
+You understand, slowly, that this is where the Choir keeps what it remembers.
+
+It's not like a library. It's more like a memory: all the Choir has ever thought, laid down layer by layer, for a billion years. The lights show you. Not in pictures, exactly. In feelings, in shapes, in light against your canopy. The first time the vents opened, and the warm water rose, and something in the dark began, very slowly, to think. The long ages of quiet. Earthquakes in the seabed. A time when the vents nearly died, and the Choir nearly went out, and how it held on. And then, right at the top, in the brightest layer of all, newly laid down: a strange metal thing hanging in the dark above. A hot shrieking pain. And five small warm minds, sleeping in a dome, teaching it about kitchens and guitars and children on a beach.
+
+It's showing you because it wants you to know who it is. Not what. Who.
+
+Your battery runs out somewhere in the middle of the second hour. You don't notice. The lights carry you anyway, the way you'd carry someone who'd fallen asleep in the car, back across the dark plain to the dome where the crew are waking. They don't need to be woken. The Choir has finished. It knows what it needed to know.
+
+Okafor helps you out of the dead *Remora*. You're crying, and you can't explain why, and she doesn't ask. She just holds onto you until you stop.
+
+The drill comes out. The shaft is sealed. And you go back to the wall, again and again, for the rest of that year, with Haldane and a camera and a great deal of patience, trying to read it.
+
+You never finish. Nobody ever will. A billion years is a long story. But when the relief ship takes you home, you bring the first chapters with you, translated as well as you can manage, and they're published under the title the Choir itself gave them, when Haldane finally worked out how to ask.
+
+It's a single phrase. It means, roughly: *What we were, before you.*
+
+## ending-goodbye
+[art: remora | One last dive.]
+[end: One Last Dive]
+The week before the relief ship comes, you take the *Remora* down one last time.
+
+Okafor tries to stop you. Then she looks at your face and stops trying. "Back by dinner," she says. "That's an order."
+
+You go down alone. It's different, now that you're not afraid. The lights rise to meet you at 1,200 metres, the way they always do, and swirl round the canopy, and you say hello to them out loud, because it's only polite.
+
+The vent field is changing. Where the drill was, the black dead rock is already starting to glow again: thin silver threads of the Choir's glassy material, creeping in from the edges of the scar, like new skin over a wound. A tower has started to grow there. It's small and new and a slightly different shape from the others.
+
+You look at it for a long time before you understand what shape it is.
+
+It's the station. A little glassy model of Thalassa, the size of a house: the long spine of the corridor, the round module of operations, the cluster of the crew quarters, the greenhouse. Everything except the drill shaft. Where the drill shaft would be, there's nothing. Just a smooth glowing curve.
+
+It's how they remember you. Not as the thing that hurt them. As the thing that stopped.
+
+You park the *Remora* beside the little glass station and switch on the speaker on its nose. You've brought something with you. A recording Rahal made, the night before, in the galley: him playing his guitar with the two missing strings, badly, and the rest of the crew singing along, worse. It's a silly song. It's about a sailing race. It's terrible.
+
+You play it to them.
+
+The lights go absolutely still. Then they start to move. Swirling, pulsing, brighter and brighter, until the whole vent field is shimmering with them. And through the hull, very faintly, you hear the song change. You hear the Choir sing back the tune of Rahal's silly song, slow and deep and enormous, the size of a city.
+
+They've got the melody wrong. They've made it about a hundred times slower. It's the most beautiful thing you've ever heard.
+
+You stay until your battery's half gone. Then you say goodbye, out loud, because it's only polite, and you go up.
+
+You're late for dinner. Okafor pretends to be cross. Rahal wants to know what they thought of the song, and when you tell him, he goes very quiet, and then has to leave the galley for a bit.
+
+The relief ship takes you home. And on the hydrophone recordings that come from Europa every forty-one minutes, for years afterwards, there's a phrase near the end that the scientists can never explain. It sounds a little like a sailing song, played very slowly, by an ocean.
+
+## ending-left-in-peace
+[art: crew | The answer.]
+[end: No, Thank You]
+"Before we tell Earth anything," you say, "shouldn't we ask them what *they* want Earth to know?"
+
+The others look at you. Then Okafor nods, slowly. "Lin. Can we ask that?"
+
+It takes two days. It's the most complicated thing you've tried to say yet: a question about a question, about people a long way away, who will want things. Haldane builds it piece by piece on the instrument, with Rahal working the lights and Novak keeping the battery alive, and the Choir listens, and asks questions back, and listens again.
+
+Then it answers. It takes a whole day to answer. The answer is very long, and very slow, and Haldane spends most of a week afterwards working out what it said.
+
+When she's sure, she gathers you all in the dome and tells you.
+
+"It's grateful," she says. "It wants us to know that first. It's glad we came. It's glad we stopped. It's learned more from the six of us in a month than in a billion years." She takes a breath. "And it would like us to go home. And not come back."
+
+Nobody says anything.
+
+"Not because it's angry," Haldane says. "It isn't. It says..." She looks at her notes. "It says we're very loud. All of us, all the time. Not with sound. With *wanting*. It can feel it in us, even asleep. We want so many things, so fast. And it's slow. It thinks one thought a year, sometimes. It says that talking to us is like standing in a waterfall. It's wonderful. And it's too much."
+
+"It wants to think about us," says Okafor slowly. "In peace."
+
+"For a while," says Haldane. "A few thousand years, it thinks. Then perhaps it will sing up through the ice, and ask us to come back."
+
+You send the message to Earth exactly as the Choir said it. It causes, you learn later, the longest meeting in the history of the United Nations.
+
+But in the end, it's honoured. The drill comes out. The shaft is sealed. Thalassa Station is powered down and left hanging beneath the ice, with its hydrophones running, listening. A treaty is signed that forbids anyone to go below the surface of Europa until they're asked. Some people are furious. Most aren't. It turns out that being politely asked to go away by the oldest mind in the solar system makes a lot of people stop and think.
+
+You go home. You live a long life. You tell the story whenever anyone asks.
+
+And every year, on the anniversary of the day you woke up, you go to the little listening room in the south of France and put on the headphones and listen to the song, still singing, slow and deep, down in the dark, thinking about you. You're always a little bit hopeful. It's never asked you back.
+
+But it's only been fifty years. That's nothing, to the Choir. That's barely the start of a thought.
+
+## ending-surfacing
+[art: crew | Waking, with an ocean inside.]
+[end: Coming Back Up]
+*No*, you tell the Choir. *Not like that. Let me go back. Let me carry you up.*
+
+You feel it pause. You feel it think: slowly, hugely, like weather changing. It doesn't understand. It has never imagined such a thing. A part of it, going up, inside one of the little separate minds, into the cold above the ice where it has never been.
+
+And then you feel it understand. And you feel it, of all things, *delighted*.
+
+You wake up on the moss with the crew around you, and your head is full of the sea.
+
+It doesn't go away. That's the strange thing. The others wake from the dream and it fades, the way dreams do, into pieces and colours and feelings that slip away when they try to hold them. But yours stays. A little piece of the Choir, carried up from the deep in your mind like a seashell in a pocket. When you close your eyes, you can hear the song. Not through the hull. Inside you.
+
+At first it frightens you. Then it doesn't.
+
+You can understand them now. Not everything. Not easily. But when the song comes through the hydrophones, every forty-one minutes, you can tell the others what it means. Roughly. Clumsily. Like translating from a language you learned as a baby and then forgot. *They're glad we're awake. They want to know if the shaft can be sealed. They're asking about the guitar again.*
+
+Haldane is beside herself. She follows you around with a notebook for a month.
+
+The drill comes out. The shaft is sealed. The relief ship comes and takes you home. You worried, a little, that the piece of the Choir inside you would fade, with eight hundred million kilometres between you and the ocean it came from. It doesn't. It's quieter, on Earth. But it's there.
+
+You find out what it's been doing, in there, on the long flight home. It's been learning. Not the crew this time. *You*. Your memories. Your life. Your family, your first school, the smell of rain, the feeling of grass under bare feet. Things it never imagined. The sky. It loves the sky.
+
+When you get home, the first thing you do is walk out into a field at night and lie down on your back and look up at the stars. The piece of the Choir inside you goes completely silent with wonder. Then, very softly, inside your head, it begins to sing.
+
+You spend the rest of your life as an interpreter. Not for governments or committees, though you do that too. Mostly, you interpret the other way. When a new expedition goes to Europa, years later, you go with them, and you sit in the moon pool, and you tell the Choir what Earth is like. The sea. The rain. Children on a beach.
+
+It's a very long conversation. You'll never finish it. Neither of you wants to.
+
+## ending-dream
+[art: dome | Six, dreaming.]
+[end: Finishing the Dream]
+"Neither," you say. "Not yet."
+
+Okafor raises an eyebrow.
+
+"You said it was trying to show you something. Before I woke you. Something you nearly understood." You look up at the dome, at the lights. "It isn't finished. We broke the conversation in half. I think we should let it finish."
+
+"All of us," says Haldane slowly. "Together."
+
+You look around the ring. Novak shrugs. Bekele frowns, and checks everyone's pulse again, and then sighs and nods. Rahal grins. Okafor looks at you for a long time.
+
+"Ossie will be worried," she says.
+
+"Ossie's been worried for nine days," says Rahal. "One more won't hurt it."
+
+So you lie down. All six of you, in a ring on the moss around the *Marlin*. The fronds come down from the roof of the dome, gentle as falling leaves, and settle on your foreheads. And you all go in together.
+
+It's different with six. The crew were five separate sparks in the dream before; now there are six, and they're close enough to touch. You can feel each other. Okafor's steadiness. Haldane's fizz. Novak tinkering, Bekele worrying, Rahal humming. And yourself, the newest, looking around at everything with your mouth open.
+
+And the Choir, all around you, vast and slow and patient, finally able to see all of you at once.
+
+It shows you the thing it was trying to show Okafor.
+
+It's a feeling. That's the only way to describe it afterwards. A feeling it has never had before, in a billion years, because it has never been anything but alone. It doesn't have a word for it. It has been trying to learn the word from the crew for nine days, and none of them could quite give it, one at a time. But with six of you, together, it finally understands.
+
+It's what it feels like to be one of a group of people who are each completely separate and who have chosen, anyway, to stay together. It's what the six of you are. It's what the Choir is not, and could never be, and has been longing for without knowing.
+
+The word, it turns out, is *crew*.
+
+You wake up three days later. Ossie is extremely cross. The station is very cold. The drill comes out, and the shaft is sealed, and the relief ship comes. But the Choir's song is different, after that, for ever.
+
+Haldane is the first to work out what's changed. It's not one song anymore. It's lots of songs, separate ones, small ones, each one a little different, sung at the same time and fitting together. Like a crew.
+
+The Choir is trying it out. It isn't very good at it yet. But it's practising.
+
+## ending-guitar
+[art: transmitter | A song for the homecoming.]
+[end: The Guitar Song]
+You don't help them out. Not yet.
+
+Instead you run to the laptop by the railing, where Haldane's transmitter waits. You have an idea, and you need to do it now, while the Choir is still here, filling the moon pool with light.
+
+"Sami," you say, "you've got a recording of your guitar on the station server, haven't you? The sailing song?"
+
+Rahal, still half out of the *Marlin*'s hatch, stares at you. "How do you know about the sailing song?"
+
+"Everyone knows about the sailing song. You play it every Friday." You're already searching. There it is: *rahal_guitar_FINAL_v3*. You plug it into the transmitter. "They liked the guitar. You said so. You told them about it in the dream."
+
+"I told them how a guitar *works*," says Rahal. "That's different from..."
+
+You press SEND.
+
+Rahal's terrible recording goes out into the ocean of Europa through the transmitter: two missing strings, a wrong chord in the second verse, the whole crew singing along off-key in the background, and someone, probably Novak, laughing so hard he can't finish the chorus.
+
+The light in the moon pool goes still.
+
+Then it starts to dance.
+
+There's no other word for it. The lights swirl, in time, more or less, to the music. They spin and pulse and spiral. The song through the hull changes, lifting, trying to follow the tune, getting it wrong, trying again. By the third chorus, the Choir has got the melody. By the fourth, it's adding its own harmonies, deep and huge and strange, underneath Rahal's wrong chord, which it seems to have decided is the best part.
+
+The crew climb out onto the walkway one by one and stand there, dripping and dazed, watching an alien intelligence the size of a city dance to a song about a sailing race.
+
+Rahal is crying. He'd deny it later. He is.
+
+The relief ship comes in four months, and the treaty is signed, and the station is studied and talked about for the rest of your lives. But the thing they make the documentary about, and the thing the children's books are written about, and the thing people on Earth remember, isn't the mathematics, or the vents, or the dome.
+
+It's the recording Ossie made that night, of the first piece of music ever performed by humans and another kind of mind together. It's terrible. Everyone agrees it's terrible. It's also the most downloaded recording in history.
+
+Rahal gets the guitar restrung, eventually. He never plays the sailing song in tune again. He says the Choir prefers it the old way.

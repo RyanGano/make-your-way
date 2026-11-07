@@ -1,0 +1,12 @@
+{
+  "name": "make-your-way",
+  "private": true,
+  "description": "Tools for the Make Your Way site. The site itself has no build step.",
+  "scripts": {
+    "check": "node tools/check-stories.js",
+    "art": "node tools/gen-art.cjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}

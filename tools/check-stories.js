@@ -1,5 +1,5 @@
 // Checks every story for broken links, unreachable passages, loops, dead ends,
-// missing art, and reports the shortest and longest reading time.
+// scenes with no prompt in art/prompts.json, and reports the shortest and longest reading time.
 // Usage: node tools/check-stories.js
 const fs = require("fs");
 const path = require("path");
@@ -13,7 +13,10 @@ const library = JSON.parse(fs.readFileSync(path.join(root, "stories/index.json")
 let problems = 0;
 
 const fail = (story, msg) => { problems++; console.log(`  ✗ ${story}: ${msg}`); };
-const artExists = (name) => fs.existsSync(path.join(root, "art", name + ".svg"));
+// Every scene needs a prompt so tools/gen-art.cjs can draw it; the image itself may still be pending.
+const prompts = JSON.parse(fs.readFileSync(path.join(root, "art", "prompts.json"), "utf8")).scenes;
+const drawn = new Set(JSON.parse(fs.readFileSync(path.join(root, "art", "index.json"), "utf8")));
+const artExists = (name) => name in prompts;
 
 for (const { id } of library) {
   const story = parseStory(id, fs.readFileSync(path.join(root, "stories", id + ".txt"), "utf8"));
@@ -21,12 +24,12 @@ for (const { id } of library) {
   console.log(`\n${story.meta.title} (${id})`);
 
   if (!passages[story.start]) fail(id, `start passage "${story.start}" missing`);
-  if (!artExists(story.meta.cover)) fail(id, `cover art "${story.meta.cover}" missing`);
+  if (!artExists(story.meta.cover)) fail(id, `cover "${story.meta.cover}" has no prompt`);
 
   for (const p of Object.values(passages)) {
     if (!p.end && !p.choices.length) fail(id, `"${p.id}" has no choices and is not an ending`);
     if (p.end && p.choices.length) fail(id, `"${p.id}" is an ending but has choices`);
-    if (p.art && !artExists(p.art)) fail(id, `"${p.id}" uses missing art "${p.art}"`);
+    if (p.art && !artExists(p.art)) fail(id, `"${p.id}" uses art "${p.art}" with no prompt`);
     for (const c of p.choices) if (!passages[c.to]) fail(id, `"${p.id}" links to missing "${c.to}"`);
   }
 
@@ -45,7 +48,7 @@ for (const { id } of library) {
   const lo = story.range.minWords / WPM, hi = story.range.maxWords / WPM;
   const total = Object.values(passages).reduce((n, p) => n + p.words, 0);
   const arts = new Set(Object.values(passages).map((p) => p.art).filter(Boolean));
-  console.log(`  ${story.order.length} passages, ${story.endings.length} endings, ${arts.size} illustrations, ${total} words total`);
+  console.log(`  ${story.order.length} passages, ${story.endings.length} endings, ${arts.size + 1} illustrations (${[...arts, story.meta.cover].filter((a) => drawn.has(a)).length} drawn), ${total} words total`);
   console.log(`  shortest path ${story.range.minWords} words (${lo.toFixed(1)} min), longest ${story.range.maxWords} words (${hi.toFixed(1)} min)`);
   if (lo < MIN_MINUTES) fail(id, `shortest path is under ${MIN_MINUTES} minutes`);
   if (hi > MAX_MINUTES) fail(id, `longest path is over ${MAX_MINUTES} minutes`);

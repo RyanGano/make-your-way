@@ -1,12 +1,28 @@
 title: The Map That Drew Itself
 genre: Fantasy · Journey
 blurb: Your master, the old mapmaker, has vanished, and a map in his shop has started drawing a road that doesn't exist. Step through the paper into a land made of ink, where anything left unmapped begins to disappear.
-cover: crossroads
+cover: inkwold-cover
 start: shop
 
 ## shop
 [art: map-shop | Vell & Apprentice, Maps and Charts.]
 The bell over the door of Orrin Vell's map shop rings at eight o'clock every morning, when you unlock it, and at six o'clock every evening, when you lock it again. In between, it rings for sea captains wanting charts, and farmers wanting their boundaries settled, and once, memorably, for a duke who wanted a map of a country he intended to invent. Orrin drew it for him. It was very beautiful. The duke never paid.
+
+You have worked for Orrin Vell for eleven years, since you were small enough to sit on the counter, and in all that time you have never once known him to be late, or early, or anything but exactly where he said he would be. He is a creature of habit the way a river is a creature of habit. Up at six. Porridge with salt, never sugar. The shop at eight. A pipe at eleven, which he lets go out without lighting. Lunch at one, bread and cheese and an apple, eaten at the drawing table with a cloth over the work so he won't drop crumbs on it. Tea at four. Home at six, down the hill to the little house by the bridge, with his coat over his arm if the weather's fine.
+
+Yesterday, he broke every one of those habits.
+
+He didn't eat his lunch. You found the bread and cheese still in the paper at four o'clock, and the apple with one bite out of it. He didn't let you near the drawing table at all; every time you came close, he threw the cloth over it and sent you off to grind pigments, which you'd already ground, or sweep the floor, which you'd already swept. Twice you caught him standing at the big window, not looking at anything, just standing. Once, when he thought you weren't watching, he took the good pen out of its velvet case and held it up to the light and turned it, slowly, the way you'd look at something you were about to give away.
+
+And at six o'clock, when you'd put your coat on and were standing at the door with your hand on the latch, he said your name.
+
+He never says your name. He calls you *apprentice*, or *you*, or, when you've done something particularly stupid, *young person*. But he said your name, and when you turned round he was standing behind the counter with his hands flat on it, as if he needed it to hold him up.
+
+"You've a good hand," he said. "I've never told you that. I should have. You've a better hand than I had at your age. Don't let anyone tell you otherwise. Including me."
+
+You didn't know what to say. You said, "Thank you, Master Vell," and he nodded, and looked at the counter, and said, "Go on home, then. Mind the step."
+
+You thought about it all the way down the hill. You thought about it while you ate your supper, and while you lay in bed listening to the river. You told yourself he was getting old, that was all, that old men got soft in the evenings. You told yourself you'd ask him about it in the morning.
 
 This morning, the bell doesn't ring at all, because the door is already unlocked, and Orrin is not inside.
 
@@ -36,6 +52,7 @@ On the shelf behind the counter, in its velvet case, is the good pen: Orrin's si
 
 > Grab the good pen and touch the road. Now, before it fades. -> follow
 > Read Orrin's journal first. You need to know what this is. -> journal
+> Do as he'd want. Put the pen away, mind the shop, and wait for him. -> wait
 
 ## journal
 [art: journal | Orrin's journal, full of other people's maps.]
@@ -94,6 +111,30 @@ The signpost has no words on it. Its arms are blank.
 "Gone on ahead, to Ammerhold. He's slow, though. Bad knees. We'll catch him." The crow hops along the signpost. "Have you got the good pen?"
 
 You show him. Quill makes a satisfied sort of croak.
+
+"Walk with me," he says. "It's easier to explain on the move. And we haven't got all day. Nobody has, round here, these days."
+
+You walk. The road climbs the long green hillside, and the crow rides on your shoulder, light as a folded coat. Near the top, you stop and look back, and catch your breath, and not only from the climb.
+
+The whole of the Inkwold lies below you, and it looks exactly like a map. That's the strange thing. Not like a landscape that happens to resemble a map, the way the view from a high place always does a little. It looks like a map someone has laid out on a table and then stood up and walked into. The hills are shaded with careful hatching. The fields are tinted in soft washes, green and gold and brown, with neat dotted lines for hedges. A river winds across the middle of it all, blue and slow, with tiny engraved ripples. Away to the left there's a forest so dark and dense it looks like someone has spilled the ink pot. Far off, a city glitters. And beyond everything, rising out of the haze, a mountain with its head in the clouds.
+
+There are words, too. You didn't expect that. Faint and pale, hanging in the air above the places they belong to, the way names sit on a map: THE WHISPERWOOD, over the dark forest. RIVER LETHE-NOT. VELLUM. AMMER MOUNTAIN. They don't move when you move your head. They're just there, like weather.
+
+"Everyone who ever drew a place with love," says Quill, "drew a little bit of this. Every map of every country there is, the real ones and the made-up ones, if the mapmaker cared enough, a bit of it ends up here. The Wold's made of them. Stitched together. Some of the seams don't line up, so watch your step at the borders."
+
+"And the Library?"
+
+"Keeps them. All the maps, from every world, filed and tended. And the Archivist keeps the Library." He goes quiet for a moment. "Kept."
+
+You look further out, past the city, past the forest, to the very edges of what you can see. And there it is. Not on one side, but all the way round, like the frame on a picture. A thin bright line of white, where the land simply stops. It's further away than the white at the edge of the map on the drawing table, but it's the same white, and it's moving the same way. Inward. You can't see it move, any more than you can see the hand of a clock move. But you know it is.
+
+"How fast?" you ask.
+
+"Faster every day," says Quill. "A month ago you couldn't see it from here at all."
+
+You stand at the top of the hill for a long moment, with the wind tugging at your coat and the crow's claws gripping your shoulder, and you look at the whole of a world made of maps going white at the edges. You think about the maps in the shop, the coastlines and town plans and charts, going blank in their drawers. You think about Orrin, walking this same road yesterday, alone, without his spectacles, squinting at the white and seeing nothing but a blur.
+
+"Come on," you say, and you start down the far side of the hill. Quill makes a pleased noise in his throat and settles his feathers.
 
 "Right. Now pay attention, because I'll say this once. The road splits a mile on. One way goes through the Whisperwood, which is quicker, but trees in the Wold are drawn by whoever drew them, and some mapmakers were not nice people. The other way goes down to the River Lethe-Not, where the ferryman takes fares, but not in coins. Both get you to the crossroads at the bottom of Ammer Mountain." He fixes you with a look. "Which way, apprentice?"
 
@@ -166,6 +207,7 @@ The compass needle swings, wobbles, and settles. It points ahead, down the path,
 "Well," says Quill, "that was a stroke of luck. I'd have got us lost in about ten minutes."
 
 > Follow the needle out of the wood. -> crossroads
+> Run after Mabbet. The edge needs a pen more than the Library does. -> ending-tinker
 
 ## lights
 [art: lantern-hollow | The lights in the hollow.]
@@ -197,6 +239,7 @@ You have the good pen in your pocket. This whole country is made of ink. If this
 
 > Draw a door in the air and get out. -> escape-hollow
 > Redraw the trap. Free the people caught in it. -> redraw-hollow
+> Sit down. Just for a moment. You're so tired. -> feast
 
 ## escape-hollow
 [art: drawn-door | A door where there wasn't one.]
@@ -274,6 +317,22 @@ The river, when you reach it, is enormous. Far wider than it looked from the hil
 
 "The River Lethe-Not," says Quill, from your shoulder. "Flows with everything everyone's ever remembered. Don't drink it. Don't fall in. Very hard to get out."
 
+You walk along the bank toward the jetty, and you notice the people.
+
+They're sitting on the grass at the water's edge, a few yards apart from each other, all the way along the bank as far as you can see. A woman in a travelling cloak. Two old men side by side. A boy about your age with a pack still on his back. They're not talking. They're not moving. They're just sitting with their chins on their knees, looking down into the river, and their faces have the soft, faraway look of someone listening to music in another room.
+
+"Who are they?"
+
+"Travellers," says Quill. "People who came down to cross and stopped to have a look first." His claws tighten on your shoulder. "Don't catch their eye. Not that they'd notice."
+
+You walk past the boy with the pack. Up close, you can see that the grass has grown up round his boots, and there's a spider's web strung between his elbow and his knee, with dew on it. In the water below him, a picture flickers: a kitchen, a big table, a lot of people laughing. He's smiling at it.
+
+"How long has he been there?"
+
+"Since the spring, I think. Maybe last spring." Quill's voice is flat. "The river doesn't hurt anybody. That's what makes it so hard to walk past. It just shows you the best things you've got, and you sit down to look, and you never think to get up."
+
+You make yourself look away from the boy. You make yourself keep walking. Behind you, very faintly, you hear him laugh at something in the water.
+
 There's a jetty at the river's edge, and tied to it, a flat-bottomed ferry with a lantern on a pole. On the ferry sits a tall, thin figure in a long grey coat with a hood. It turns to look at you. Under the hood there's no face, exactly, just a smooth pale surface like the inside of a shell.
 
 "Passage across," says the ferryman. Its voice is soft and dry. "The fare is one memory. Any one you like. I'll know if it's worth the crossing."
@@ -294,6 +353,7 @@ The ferryman waits, patient as stone, its blank face turned toward you.
 
 > Pay the ferryman. One memory is a small price. -> pay
 > Take the old raft. Your memories are yours. -> raft
+> Ask the ferryman what it does with the memories. -> ferryman
 
 ## pay
 [art: memory-river | Crossing the river of memory.]
@@ -347,23 +407,8 @@ The raft is drifting. You've stopped poling. You're lying on your stomach on the
 
 You can't. You can't look away. Your hand is already trailing in the water, and the water is cold and soft and full of everything you ever loved, and it would be so easy...
 
-Pain. Sharp, sudden, at the back of your hand. Quill has bitten you, hard enough to draw blood.
-
-You jerk upright. The pictures shatter like a dropped mirror. The river is just a river again: dark, slow, ordinary.
-
-You grab the pole and push, and push, and push, not looking down. The far bank comes closer. Finally the raft runs aground on a shingle beach, and you stagger off it and fall onto the grass and lie there, breathing hard, with the back of your hand stinging and bleeding.
-
-"Sorry about that," Quill says, landing next to your head. He doesn't sound sorry. He sounds relieved.
-
-"Don't be." You sit up. Your hand hurts, but you remember everything. The kitten. Tam. The inkwell. Your mother's song. It's all still there. You didn't give any of it away.
-
-"Worth it?" asks Quill.
-
-You think about it honestly. "Yes."
-
-"Good. Me too." The crow flaps up onto your shoulder. "Now let's never do that again."
-
-> Climb the bank and go on. -> crossroads
+> Let go. Just for a moment. -> ending-river
+> Hold on. Shout for Quill. -> raft-shore
 
 ## crossroads
 [art: crossroads | The crossroads below Ammer Mountain.]
@@ -393,6 +438,7 @@ The white edge to the east is very quiet. Another fence post is gone.
 
 > Take the city road and the cable car, following Orrin's footprints. -> city
 > Climb the Ink Stair. Talk to the hermit on the way. -> stair
+> Walk east, to the edge of the white. You need to see it up close. -> edge
 
 ## city
 [art: glass-city | Vellum, the City of Glass.]
@@ -422,6 +468,7 @@ There's a sign on a little shop at the edge of the square, swinging in the breez
 
 > Go to the scrivener's shop. Earn your passage honestly. -> scrivener
 > Slip through the service door. There's no time for queues. -> stowaway
+> Stay here and help. These people have nothing, and Orrin has the Library. -> ending-vellum
 
 ## scrivener
 [art: word-shop | Old Bess's shop, full of words.]
@@ -458,6 +505,7 @@ Bess reads it. She reads it again. Then she takes off her thick glasses and wipe
 The gatekeeper reads your word too, when you get there. He reads it three times. Then he waves you straight through to the front of the queue, and nobody complains.
 
 > Ride the cable car up to Ammerhold. -> gate
+> Give your word to the crying family at the back of the queue. -> ending-scrivener
 
 ## stowaway
 [art: cable-car | Hanging over the valley.]
@@ -483,15 +531,10 @@ A child inside the car sees you through the window and screams. Then a face appe
 
 The man stares at you for a long moment. Then he reaches out a hand. "Get in, you idiot, before you fall."
 
-You climb in through the window and collapse onto the floor of the car, shaking. The passengers stare at you. The child stops screaming and starts giggling. The man with the birdcage gives you his handkerchief, and the elderly lady gives you a boiled sweet, and somebody's grandmother wraps a shawl round your shoulders.
+Your fingers are slipping on the wet glass. His hand is a foot away. Then two. The car sways, and the wind tears at your coat.
 
-"To the Library," says the man with the birdcage. "To stop the Blank." He shakes his head slowly. "If you see the Archivist, whoever's doing it now... tell them we're all counting on them."
-
-Everyone in the car nods.
-
-You think about Orrin, slow and half blind, climbing the Library steps alone. You nod back.
-
-> Ride on to the top. -> gate
+> Reach for his hand. -> car
+> Let go with one hand, and pull out the good pen. -> ending-wings
 
 ## stair
 [art: ink-stair | The Ink Stair.]
@@ -523,6 +566,7 @@ Fennick is quiet for a long time.
 
 > Ask Fennick if there's another way. -> hermit-advice
 > There's no time. Thank him and keep climbing. -> stair-top
+> Rest here tonight. You can't climb another step. -> ending-hermit
 
 ## hermit-advice
 [art: hermit | Fennick's map of the mountain.]
@@ -650,6 +694,7 @@ You have a choice to make, and very little time to make it.
 > Take the Archivist's pen yourself, so he can go home. -> archivist
 > Turn and face the Blank. Ask it what it wants. -> blank
 > Grab Orrin and run. Save who you can. -> flee
+> Put the silver pen in Orrin's hand. Tell him he isn't a coward. -> orrin-pen
 
 ## together
 [art: two-pens | Two pens, one map.]
@@ -686,6 +731,7 @@ Then Orrin stops, and looks up, and goes very still.
 "Two pens," he says slowly. "Two pens can hold it. And four could push it back." He turns to look at you, and his eyes behind his spectacles are bright. "And a hundred could push it all the way back to the edges of the world."
 
 > Help Orrin with his idea. -> ending-two-pens
+> Not a hundred. Just the two of you, both hands on the silver pen. -> ending-two-archivists
 
 ## archivist
 [art: silver-pen | The silver pen.]
@@ -720,6 +766,7 @@ You think about it. It's strange. You know you should be frightened. But with th
 Quill lands on your shoulder. He doesn't say anything clever. He just presses his head against your cheek, once.
 
 > Send Orrin home. -> ending-archivist
+> Ask him to stay with you. Just for a while. -> ending-assistant
 
 ## blank
 [art: the-blank | Facing the edge of the page.]
@@ -758,6 +805,7 @@ Then, very slowly, Orrin begins to laugh.
 You reach out with your pen, and you touch the white, and you draw the first line.
 
 > Draw. -> ending-blank
+> Don't draw yet. Step into the white and see what's there. -> ending-margin
 
 ## flee
 [art: slide | Running from the white.]
@@ -796,6 +844,8 @@ You hit the bottom of the slide and roll. Orrin rolls. Quill lands on the signpo
 The crow looks at you. Looks at the door. Looks back at the white, rolling across the valley toward the crossroads.
 
 > Hold out your hand to Quill. -> ending-home
+> Let Quill go. He belongs to the Library. -> ending-crow
+> Draw the Library onto the door before you go through. -> ending-tallow-library
 
 ## ending-two-pens
 [art: two-pens | The Library of Many Hands.]
@@ -904,3 +954,864 @@ Quill lives on the shop's sign, mostly, where he can watch the street and make r
 And sometimes, late at night, you take out the good pen and draw a road on a scrap of paper, just a short one, leading off the edge of the page. And you wait, holding your breath, to see if it starts drawing itself.
 
 It never does. But you keep trying. You suspect you always will.
+
+## wait
+[art: map-shop | Vell & Apprentice, open for business.]
+You put the good pen back in its velvet case. You throw the cloth back over the drawing table. And you turn the sign on the door from CLOSED to OPEN, because Orrin Vell has never once in eleven years let the shop open late, and you are not going to be the one who starts.
+
+He'll be back. He's old, not foolish. Whatever this is, he planned it, and he told you to mind the shop. So you mind it.
+
+The bell rings at a quarter past eight. It's Mrs Hobb from the bakery, with a twist of paper in her hand and a crease between her eyebrows.
+
+"I need a town plan," she says. "The old one, from before the new road. My sister's lane. I went round this morning with a loaf for her, and I couldn't find the turning." She gives a little laugh that isn't really a laugh. "Forty years I've walked to that house. I must be going soft."
+
+You get down the old plan of Tallow from its drawer and unroll it on the counter. You find the bakery. You find the tannery. You find the place behind the tannery where a lane should be.
+
+There's nothing there. Not a gap, not a smudge. The houses on either side sit politely next to each other, as if there had never been room for anything between them.
+
+"Well," says Mrs Hobb, after a while. She rolls the plan up for you, very neatly. "Never mind. I expect I'm muddled." She leaves the loaf on the counter, and goes out, and the bell rings behind her.
+
+At ten, a sea captain comes in for a chart of the Shoals, and you take it out of the drawer and it's white. Entirely white, edge to edge, as clean as the day it was made. The captain looks at it, and then at you, and then buys a chart of somewhere else.
+
+At one o'clock you lock up for lunch, the way Orrin always does, and instead of eating you walk down the hill to the tannery.
+
+You've been down the lane behind it a hundred times. Mrs Hobb's sister keeps hens, and sells eggs from a basket on her gate, and Orrin sends you down for half a dozen every Friday. You know the way the way you know your own front door. Past the tannery yard, with its smell. Left at the water trough. Then the lane, narrow and cobbled, with the little houses leaning together over it.
+
+You walk past the tannery yard. You turn left at the water trough.
+
+There's a wall. A plain brick wall, old and mossy, the bricks a little crooked, as if it's been there for a hundred years. On the other side of it, you can see the backs of the houses on Mill Street.
+
+You put your hand flat on the wall. It's warm from the sun, and solid, and real. You stand there for a long time, trying to remember what colour the door of the egg-woman's house was. Green, you think. Or was it blue? You know it was one of them. You *know* you knew.
+
+An old man is coming along with a barrow, and you stop him. "Excuse me. There used to be a lane here. A row of houses. A woman who sold eggs."
+
+He looks at the wall and then at you, kindly, the way you'd look at someone who's had too much sun. "Not in my time, love," he says. "That's always been a wall."
+
+You walk back up the hill to the shop. You don't run. But you walk very fast.
+
+At noon you lift the cloth off the drawing table and look at the map. The ink road has crawled a long way since the morning. It's past the forest now, past a wide dark river, and it has stopped at the foot of a great mountain with a library on top. The white at the edges has crept in further. It's taken a whole corner, hills and all.
+
+You put the cloth back.
+
+At three, the Duke's man comes. He's tall and thin and has never in his life been in a hurry. "His Grace wishes to know," he says, "whether the map of his country is ready to be collected. He is prepared, he says, to discuss payment."
+
+"Payment," you say. "After four years."
+
+"His Grace has had a difficult time," says the Duke's man, without a flicker.
+
+You go to the cabinet where the Duke's map is kept, the beautiful map of a country that doesn't exist, which Orrin drew in a fortnight and called his best work. You take it out. You unroll it.
+
+It's white. All of it. The Duke's invented country, with its rivers and its forests and its palace on a hill, has gone the way of every other place nobody lives in.
+
+The Duke's man looks at the blank sheet for a long moment. "I shall tell His Grace," he says, "that it was very beautiful," and he goes.
+
+After that, you can't stop yourself. You go along the cabinets and open the drawers, one after another, and look.
+
+Most of the maps are still there. The county survey. The river charts. The plans of Tallow, old and new. But here and there, in every cabinet, there's a white one. A chart of a coast that nobody sails to any more. A plan of a manor house that burned down before you were born. A map of a little island off Marrow that Orrin drew when he was young, with a lighthouse and a single cottage on it, and a note in the corner in his young, careful hand: *Visited July. Keeper's wife makes excellent scones.* All of it white, except the note, which hangs there on the blank paper in faded brown ink, as if it's the only thing anyone remembered.
+
+You take that one out and look at it for a long time.
+
+It isn't the important places that are going. It's the small ones. The ones nobody visits, the ones nobody thinks about, the ones only one person ever loved enough to draw. You think about the island with the lighthouse, and the keeper's wife, and her scones, and whether she's still there. Whether she ever was, now. Whether anyone will notice, if she isn't.
+
+Orrin would notice. Orrin noticed everything. That was the whole of his job, he always said: noticing, and then writing it down so other people could notice too.
+
+You put the white map back in the drawer, very gently, the way you'd put a sleeping child into bed. You close the drawer. You go back to the counter, and you wait.
+
+By six o'clock the shop is quiet, and the light through the big window has gone long and gold, and Orrin hasn't come back. You lock the door. The bell gives its evening ring. You stand in the middle of the shop with the key in your hand, the same as you did this morning, and you know that something has to be decided.
+
+> Take the good pen and go after him. You've minded the shop long enough. -> follow
+> Keep waiting. He said to mind the shop, and he'll come back through that map. -> night
+
+## night
+[art: journal | A lamp left burning.]
+You don't go home. You make a bed of coats on the floor behind the counter, and you light the green-shaded lamp on the drawing table, and you sit up on Orrin's stool with the cloth folded back so that you can see the map.
+
+The shop is very quiet at night. You've never been here this late. You can hear the clock in the back room and the river at the bottom of the street and, now and then, a soft dry sound from the cabinets, like a page being turned.
+
+You know what that sound is. You don't open the drawers to check.
+
+At nine o'clock, the ink road on the map stops moving. You watch it for a long time, but it doesn't crawl any further. It ends at the great domed building on the mountain, AMMERHOLD, THE LIBRARY, in a little blot of ink, as if whoever was walking it has sat down.
+
+At ten, you go out into the street for air, and the street sign on the corner, the one that has always said TANNERY ROW, says TANNERY. Just that. You stand under it for a while trying to remember what the second word was for, and then you go back inside, because it frightens you that you're having to try.
+
+At eleven you fall asleep on the stool with your head on your arms.
+
+You dream about the first map Orrin ever let you draw on your own.
+
+You were nine. It was a map of the shop: just the one room, the counter and the cabinets and the globe, nothing difficult. You spent a whole week on it. You measured everything with a bit of string, and drew it out in pencil, and inked it in, and coloured it, and when it was finished you put it on the drawing table for him to see, and stood back with your heart in your mouth.
+
+He looked at it for a long time. Then he said, "Where's the bell?"
+
+You'd forgotten the bell over the door. You'd drawn the door, and the step, and the little window at the top of it, but you'd forgotten the bell. You said it didn't matter, it was only a bell, and he took off his spectacles and cleaned them on his shirt, the way he did when he was going to say something important.
+
+"The bell is how people know they've come in," he said. "It's how *we* know. It's the difference between a room and a shop. You leave out the bell, you've drawn a room." He put his spectacles back on. "A map's not a list of what's there. It's a list of what matters. Put the bell in."
+
+You put the bell in. He kept that map. It's in the bottom drawer of the second cabinet, under the charts of the Shoals. Or it was.
+
+In the dream, you open the drawer to check, and the paper is white, and you wake up with your heart pounding.
+
+At midnight, you wake up, because something is writing.
+
+On the map, beside the Library, letters are forming in Orrin's crabbed hand. They're smaller than before, and shakier, and they keep stopping and starting, as if the hand making them keeps having to rest.
+
+*Still drawing. Hard going. The edges are too far away from here, apprentice. I can't reach them all.*
+
+A pause. Then:
+
+*Mind the shop.*
+
+You sit and look at the words until the ink dries. Then you look at the edges of the map, at the clean white creeping in from all four sides, eating hills and forests and a little village you can just make out by its tiny church spire.
+
+*The edges are too far away from here.*
+
+But they aren't far from you. They're right here, under your hands, on the drawing table in Tallow. You could reach any one of them with a pen.
+
+You think of the thing Orrin used to say a hundred times a year, when he was teaching you to draw: *What is drawn is real, and what is real can be redrawn.* He always meant it as a joke about customers who wanted their maps changed. You aren't sure, tonight, that it was ever a joke.
+
+The good pen is in its velvet case on the shelf. The lamp is lit. The map is waiting.
+
+> Draw the edges back from here, while he holds the middle. -> ending-tallow
+> Go through after all. He sounds as if he needs you. -> follow
+> Turn down the lamp and keep the shop, as he asked. -> ending-shop
+
+## feast
+[art: lantern-hollow | A place set at the table.]
+"Just for a moment," you say. "Just to sit."
+
+"*No*," says Quill, but you're already walking down into the hollow, and the dark-haired woman is already pulling out a chair for you, and you sit.
+
+The chair is soft. The table is warm. The food smells of everything you have ever been hungry for: the bread is your grandmother's bread, the pie is the pie from the fair at Marrow, and the cake is exactly the cake you had on your seventh birthday, with the icing that cracked when you cut it. You take one bite of the bread, and it's so good that tears come into your eyes.
+
+The woman sits down beside you and begins to sing.
+
+It's the boat song. The one about the moon. You knew the first verse, but you'd forgotten the rest, and she knows all of it, every word, and she sings it softly, close to your ear, the way someone did a very long time ago. All around the table the drawn people sway and smile and hum along.
+
+"There," the woman says. "There now. Isn't that better? You can rest. You've been carrying so much."
+
+You have. You know you have. Orrin and the shop and the map and the whole frightening business of the Blank, and you're so tired. You lean back in the soft chair. Your feet are heavy. They feel as if they're sinking into the floor of the hollow, sending out something long and pale and comfortable into the warm earth.
+
+Somewhere above you, Quill is shouting. He sounds a long way off. He's shouting your name, and then he's shouting "*The spectacles! What about his spectacles?*", which is a strange thing to shout, and you can't think why he'd say it.
+
+Then you feel them. In your coat pocket, pressing against your side: a pair of folded spectacles, small and wire-rimmed, with a bit of string tied round one arm where it broke last winter. Orrin's. He can't see his own hand without them. He's gone to fight something that isn't there, half blind, alone, and you have his spectacles in your pocket.
+
+The woman is still singing. Her hand is on your arm. It's very warm, and very heavy.
+
+"Stay," she says. "Just one more verse."
+
+> Stay. Just one more verse, and then you'll go. -> ending-feast
+> Pull out the good pen while you still can. -> escape-hollow
+
+## raft-shore
+[art: raft | The far bank.]
+Then, from a long way off, you hear yourself shout. It's your own voice, but you don't remember deciding to use it. "*Quill!*"
+
+Pain. Sharp, sudden, at the back of your hand. Quill has bitten you, hard enough to draw blood.
+
+You jerk upright. The pictures shatter like a dropped mirror. The river is just a river again: dark, slow, ordinary.
+
+You grab the pole and push, and push, and push, not looking down. The far bank comes closer. Finally the raft runs aground on a shingle beach, and you stagger off it and fall onto the grass and lie there, breathing hard, with the back of your hand stinging and bleeding.
+
+"Sorry about that," Quill says, landing next to your head. He doesn't sound sorry. He sounds relieved.
+
+"Don't be." You sit up. Your hand hurts, but you remember everything. The kitten. Tam. The inkwell. Your mother's song. It's all still there. You didn't give any of it away.
+
+"Worth it?" asks Quill.
+
+You think about it honestly. "Yes."
+
+"Good. Me too." The crow flaps up onto your shoulder. "Now let's never do that again."
+
+> Climb the bank and go on. -> crossroads
+
+## ferryman
+[art: ferry | The ferryman, up close.]
+"What do you do with them?" you ask. "The memories."
+
+The ferryman is quiet for so long that you think it isn't going to answer. Then its smooth blank face tilts, very slightly, the way a person's head tilts when they're listening to something far away.
+
+"I let them go," it says. "In the river. That is where they belong. Everything anyone has ever remembered flows here in the end, and goes down to the sea, and the sea keeps it. I only carry them a little way."
+
+"Then why charge for crossing?"
+
+"Because the crossing is heavy," the ferryman says, "and a memory is the only thing light enough to balance it." It lifts its long pale hand and looks at it, as if it hasn't looked at its own hand in a long time. "I was drawn for this. A mapmaker drew a river and needed a way across it, and so she drew a ferry, and a pole, and someone to hold the pole. She drew me carefully. I have been holding it for eleven hundred years."
+
+You look at its hand. Around the edges, very faintly, the fingers have gone pale. Not the pale of skin. The pale of paper.
+
+"You're fading," you say.
+
+"The far bank faded last week," the ferryman says. "A whole village of fishermen who used to cross every market day. I waited at the jetty for them. They did not come. Now there is the old man, who crossed yesterday, and you, and your bird." It turns its blank face back to the water. "I do not mind ending. I mind that there will be no one at the pole when I am gone. People will come down to this jetty wanting to cross, and the river will be wide, and there will be no one."
+
+Quill shifts on your shoulder. "Don't," he mutters. "I know that look. You get it in the shop when someone brings in a torn chart. Don't."
+
+You look at the long pole lying across the ferry. You look at the river, wide and dark and full of everything everyone has ever remembered. You think about the fishermen who didn't come.
+
+"If I held the pole," you say slowly, "would you last longer?"
+
+The ferryman goes very still.
+
+"If someone else held it," it says, "I could rest. I could sit in the bow and watch the water, as the passengers do. I have never done that." A pause. "But the one who holds the pole does not leave the river. That is how she drew it."
+
+> Pay the fare and cross. Orrin needs you more. -> pay
+> Offer to take the pole. -> ending-ferryman
+
+## edge
+[art: the-blank | The edge of the world.]
+You don't decide to walk toward it. You just find that you're doing it.
+
+"Apprentice," says Quill. "Apprentice, the Library is *that* way."
+
+The eastern road runs out from the crossroads between two low hills, packed earth with grass at the verges, drawn in the same careful engraver's lines as everything else in the Wold. You walk along it. The grass gets sparser. The lines get thinner, as if whoever drew this part was running out of ink. A stone wall beside the road is complete for ten yards, then drawn only in outline, then only as a dotted line, then not at all.
+
+And then you're there.
+
+The Blank, up close, is the quietest thing you have ever stood beside. Quieter than snow. Quieter than the shop at night. The road runs up to it and stops, clean as a cut, and beyond the cut there is nothing. Not white, exactly. White is a colour, and this isn't anything. It's just where the drawing stops.
+
+Half a tree stands at the edge. You walk round it. On one side it has bark and branches and leaves; on the other side, if you put your eye close, you can see the tree's insides, rings and all, like a page cut through the middle.
+
+You hold out your hand.
+
+"*Don't*," says Quill.
+
+The tips of your fingers go into the white. There's no feeling. Not cold, not warm, not wet. There's simply no feeling at all, as if your fingers belong to someone else now, someone you haven't met. And with the no-feeling comes something else. A soft, slow loosening, inside your head. You can't remember the name of the bakery in Tallow. You knew it this morning. It had a blue door. Did it have a blue door?
+
+You pull your hand back. Your fingers are all there. They tingle, the way they do when they've been asleep.
+
+"That," says Quill, and his voice is shaking, "is the stupidest thing I've ever seen you do, and I watched you try to clean the globe with turpentine."
+
+You don't answer. You're looking at the white. It doesn't look like an enemy. It doesn't look hungry, or cruel. It just looks *empty*, the way a page looks before the first line goes down, and you have the good pen in your pocket, and some foolish part of you wants very badly to know what's on the other side of nothing.
+
+Behind you, back at the crossroads, the signpost points up the mountain toward the Ink Stair. Somewhere up there, Orrin is waiting.
+
+> Step into the white. Find out what's there. -> ending-edge
+> Turn back and take the Ink Stair. Quickly. -> stair
+
+## car
+[art: cable-car | Hanging over the valley.]
+You take his hand.
+
+He hauls you in through the window and you collapse onto the floor of the car, shaking. The passengers stare at you. The child stops screaming and starts giggling. The man with the birdcage gives you his handkerchief, and the elderly lady gives you a boiled sweet, and somebody's grandmother wraps a shawl round your shoulders.
+
+"To the Library," says the man with the birdcage. "To stop the Blank." He shakes his head slowly. "If you see the Archivist, whoever's doing it now... tell them we're all counting on them."
+
+Everyone in the car nods.
+
+You think about Orrin, slow and half blind, climbing the Library steps alone. You nod back.
+
+> Ride on to the top. -> gate
+
+## orrin-pen
+[art: silver-pen | The pen, in the right hand.]
+You pick up the silver pen. It's warm, and it hums faintly against your fingers, like a bee in a jar, and for a moment you feel the whole Library lean toward you, the way a dog leans toward someone it hopes will feed it.
+
+You don't keep it. You turn round and put it into Orrin's hand.
+
+"You're not a coward," you say.
+
+He stares at the pen. His fingers have closed round it by reflex, the way they close round any pen you give him, and you can see them trembling.
+
+"You ran home once," you say. "When you were young. All right. But then you spent fifty years drawing maps so carefully that they're still on the shelves here. I've seen your hand in this Library since we walked in. That harbour chart. That river survey. That town plan with the little bell drawn over the shop door." You point. You can see them, bright and solid in the failing room, the last maps on their shelves still holding out against the white. "You never stopped drawing for the Library, Master Vell. You just did it from the shop."
+
+Orrin looks at the shelves. His mouth opens, and closes.
+
+"And then," you say, "you came back. At seventy-three. With bad knees and no spectacles, on your own, to do the thing you were most afraid of. That isn't what cowards do. I know. I've been one all morning."
+
+For a long moment, nothing happens. The white creeps across the floor. Quill stands on the desk with his feathers fluffed, not saying anything at all, which for Quill is a kind of shout.
+
+Then Orrin Vell takes a breath, and sets his spectacles straight on his nose, and puts the silver pen to the page.
+
+The Library *opens*. You see it happen to him. His face goes still, and then wide, as if he's suddenly standing on a hilltop looking at everything at once. And the pen moves. Not the shaky, frantic scratch of an old man fighting the dark, but long, sure lines that pour across the paper faster than you can follow. Shelves come back. Atlases leap back to their places. The pillar by the door steadies. Overhead, stone by stone, the hole in the dome closes, and the sky goes away.
+
+When he finally lifts the pen, the white has pulled back to the walls. Not gone. Held.
+
+He looks up at you. He looks, you think, about ten years younger, and also about a hundred years older, and you don't know how both can be true.
+
+"Well," he says. His voice is rough. "That's done, then." He clears his throat. "You'll go home now. Somebody has to mind the shop. And I want you to sell the Duke's map to someone who'll pay for it, if it's still there."
+
+> Go home, as he asks. -> ending-old-archivist
+> Stay. Tell him he'll need an apprentice here too. -> ending-ammerhold
+
+## ending-tallow
+[art: map-shop | Drawing by lamplight.]
+[end: Drawn from Tallow]
+You take down the good pen, and you dip it, and you lean over the map until your nose is nearly touching the paper, the way Orrin does, and you start on the nearest edge.
+
+You don't know what was there. That's the first problem. The white has taken it, and there's no copy. So you do what you've seen Orrin do a thousand times with a torn chart: you look at what's left, and you guess what ought to come next. A stream runs toward the edge, so you draw it on, down into a valley. A road runs toward the edge, so you draw it on, past a farm. The farm needs a gate. The gate needs a lane. You draw them.
+
+And the white stops.
+
+Not everywhere. Just where you've drawn. Along the bottom edge of the map, under your pen, the white sits still, like a cat that's been told off, and doesn't come any further.
+
+You keep going. All night. The lamp burns down, and you light another. Your hand cramps, and you shake it out, and you keep going. You draw hills and hedges and a mill with a wheel. You draw a village with a little church spire, the one you saw going white at midnight, as near as you can remember it. You don't know what it was called. You write PELLOW under it, because it seems like the sort of name a village like that would have, and in the morning you'll find out you were right.
+
+Around four o'clock, you notice that some of the lines near the middle of the map are moving on their own. A coastline lengthening. A forest filling in. They're drawn in a hand you know better than your own, shaky but sure, and they're coming toward you from the Library, while yours go toward them from the edges.
+
+Just before dawn, they meet. Your road and his road join in the middle of a meadow, and there's a tiny, deliberate blot of ink where they touch, which you're fairly sure means *well done*.
+
+Orrin comes home a week later, through a door that appears in the wall of the back room where there's never been a door. He's thinner, and very tired, and he has a crow on his shoulder who says, "So *this* is the apprentice," in a tone of deep disappointment, and then refuses to say anything else for a fortnight.
+
+Orrin doesn't say anything at first, either. He walks to the drawing table and looks at the map for a long time: your clumsy edges, your too-wide rivers, your hopeful little village with its guessed-at name.
+
+"They put the old Archivist's pen back in its groove," he says at last. "The Library doesn't need one person drawing from the middle, it turns out. It needs people drawing from everywhere. I worked that out at about four in the morning, when somebody started holding up the edges." He takes off his spectacles and cleans them on his shirt. "That was you, I suppose."
+
+"You said to mind the shop."
+
+"I did." He puts his spectacles back on. "This is not what I meant."
+
+But he takes down a second stool, and sets it at the drawing table beside his own, and from then on there are two of you at it every night. People come to the shop from all over Tallow, and then from further, to learn to draw the edges. The lane behind the tannery comes back. So does Mrs Hobb's sister, who wants to know why everyone keeps hugging her.
+
+## ending-shop
+[art: shop-sign | The shop, minded.]
+[end: Minding the Shop]
+You turn down the lamp. You put the cloth back over the drawing table. You lie down on the coats behind the counter and you don't sleep, but you lie there anyway, because it's what he asked you to do.
+
+In the morning you unlock the door at eight o'clock, and the bell rings.
+
+You mind the shop. You do it every day. You sell charts and settle boundaries and grind pigments, and every evening at six you lock up, and before you go home you lift the cloth and look at the map. The ink road doesn't move again. The white at the edges creeps in a little further each day, and then, one morning in the second week, it stops.
+
+Not slowly. All at once. As if someone, somewhere, has picked up a pen.
+
+After that, the edges begin to come back. A hill at a time. A river at a time. You can see the lines being drawn, faint at first and then firm, in a hand that isn't Orrin's. It's finer than his, and quicker, and it doesn't wobble. Whoever has taken up the pen at Ammerhold, it isn't him.
+
+The lane behind the tannery comes back on a Tuesday. Mrs Hobb runs the whole way to the shop to tell you, in her apron, with flour on her hands.
+
+Orrin doesn't come back.
+
+You wait. You mind the shop. You keep his stool where it is and his pipe dish clean. You make his porridge with salt, the way he likes it, on the mornings you think he might come, and eat it yourself at noon when he doesn't. Customers ask after him. You tell them he's travelling. It isn't a lie. You just don't say where, or how far, or that the road he's travelling on is drawn in ink. In the autumn, a letter arrives, with no stamp, pushed under the door one night. It's in Orrin's handwriting.
+
+*Apprentice. The Library has a new Archivist. A young woman from the city of glass, who draws like water running downhill. She found me half dead at the desk and took the pen out of my hand before I could argue, which is the only way anyone has ever won an argument with me. I'm helping her. I'm teaching her the coasts. I find I am happier than I have been in fifty years, and I'm sorry for it, because it means I'm not coming home.*
+
+*You did as I asked. You minded the shop. I knew you would. It's yours now. The deeds are in the second drawer of the globe cabinet, under the Duke's map.*
+
+*Sell the Duke's map to someone who'll pay.*
+
+You read the letter twice. Then you go to the globe cabinet and open the second drawer, and the deeds are there, and so is the Duke's map, white as snow.
+
+You paint a new sign that winter. VELL & APPRENTICE has always been the name on the door, and you don't change it. You just take down the old board and put up a fresh one, painted in your best lettering, so it'll last.
+
+Sometimes, when the shop is quiet, you lift the cloth on the drawing table and look at the map. The Library on its mountain is whole and bright. And sometimes, right beside it, very small, someone has drawn an old man on a bench in the sun, with his spectacles on.
+
+## ending-feast
+[art: lantern-hollow | The long supper.]
+[end: The Long Supper]
+"Just one more verse," you say.
+
+She sings it. It's beautiful. And then there's another, and you don't remember there being so many verses, but you don't mind, because the bread is warm and the chair is soft and your feet are so comfortable down there in the dark earth.
+
+Quill stays for a long time. Longer than you'd have thought a crow could bear. He sits on the back of your chair and talks to you: about Orrin, about the shop, about the Library, about anything at all. Sometimes you answer. Then you answer less. Then, one evening, when the lights are gold and the song is on its hundredth verse, you notice that he's gone, and you can't remember when he went, and you can't quite remember who he was.
+
+Time doesn't work properly in the hollow. It doesn't need to. The feast is always warm. The song never ends. You feel the bark grow up over your ankles, and then your knees, and it doesn't hurt. Leaves sprout in your hair. You're very happy. That's the trap of it. You're happy right up to the end.
+
+And then one morning, which is not a morning, because there are no mornings in the hollow, somebody draws a gate.
+
+You hear the pen first: a sure, scratching sound, like a mouse in a wall. Then you see the lines, appearing in the air at the edge of the dell, in a hand you half know. A gate. A path. A signpost. Feet, appearing under the table, one pair after another. Good feet, in good boots. And the bark is cracking off your arms, and the leaves are falling out of your hair, and the song stops in the middle of a word.
+
+You stand up. Your legs don't work properly. You stumble out through the gate into the Whisperwood, and the trees are bigger than you remember, and a crow is sitting on the gatepost, much greyer about the beak than he used to be.
+
+"Thirty-one years," Quill says. "Thirty-one years, apprentice, I've been nagging him to come and do that. He kept saying he had to be sure he'd get the boots right."
+
+"Who?"
+
+"The Archivist," says Quill. "Who do you think? The old fool took the pen in the end. Got there the day after you sat down, half blind, and picked it up with his own two hands, and he's been drawing ever since. Never aged a day. Can't, while he holds it." He clicks his beak. "He wants to see you. He says you've a lot of catching up to do, and he's going to teach you to draw properly this time, and that he isn't angry."
+
+"Is he angry?"
+
+"Furious," says Quill happily. "Come on. It's a long walk."
+
+You walk out of the Whisperwood together, into a Wold you don't recognise: bigger, brighter, full of roads. You're thirty-one years late. But the Library is on its mountain, and the lamp in the dome is lit, and somebody up there has been keeping a place for you.
+
+## ending-river
+[art: memory-river | Under the surface.]
+[end: What the River Keeps]
+You let go.
+
+The water closes over you, and it isn't cold any more. It's warm, and it's full of light. Pictures drift past you like slow fish: a birthday cake, a dog barking at the sea, a hand holding yours. Some are yours. Most aren't. They belong to everyone who ever lived in the Wold, and everyone who ever drew a map of it, and they all came here in the end, and they're all still here.
+
+Your mother is here. She's singing. You find the memory and slip into it the way you'd slip into a warm bath, and you're very small, and you're falling asleep, and she sings the boat song, all of it, every verse. You stay there for what might be a minute or a year.
+
+Then you drift on.
+
+You find Tam. You find the kitten. You find a thousand things you'd forgotten you'd lost. And then, deeper down, where the current is slow and green, you find something that isn't yours at all: a summer on a mountain, a long time ago, and a young man with ink on his fingers sitting at a great round desk beside an old woman who is teaching him to draw. She leans over and taps his page. *The map isn't a copy of the world,* she says. *It's a promise to it.*
+
+You know that young man. His hair is black instead of white, and he can see without spectacles, but you'd know that frown anywhere.
+
+You stay with that memory for a long time. It's the most beautiful thing in the river. You watch him learn, line by line, how to draw something true. You watch him go home at the end of the summer, frightened of what he's been offered, and you watch the old woman watch him go. She isn't angry. She looks as if she knows he'll be back.
+
+Up above you, on the surface, Quill circles the river for three days, calling your name. Then he flies on to the Library alone.
+
+He tells Orrin what happened. You don't hear it, but you know it happens, because a week later the Blank stops coming. Someone has taken up the silver pen.
+
+Orrin is the Archivist of Ammerhold for a hundred and sixty years. He's a good one. Better than he ever thought he'd be. And every evening, when the drawing's done, he takes the map of the River Lethe-Not down from its shelf and spreads it on the desk under the green lamp, and looks into the water.
+
+Sometimes he sees a picture drifting under the surface. It's a shop with a bell over the door. It's a young apprentice knocking over an inkwell, and an old man laughing until he has to hold onto the counter.
+
+He always waits for that one. It always comes.
+
+## ending-ferryman
+[art: ferry | The new ferryman.]
+[end: The Ferry at Lethe-Not]
+You take the pole.
+
+It's heavier than it looks, and lighter than you expected, and it fits your hands as if it had been waiting for them. The ferryman steps off the stern, very slowly, the way a person moves after sitting in one position for a very long time, and goes and sits in the bow.
+
+"Push off," it says. "Lean on the pole. The river does the rest."
+
+You push off.
+
+The crossing is long and quiet. Quill sits on the lantern pole above your head and doesn't say anything at all, which is how you know he's upset. The ferryman sits in the bow and watches the water, the memories flickering past, and every so often it makes a small soft sound, like a person seeing something lovely for the first time.
+
+At the far bank, you tie up. Quill hops down onto your arm.
+
+"You can't come," you tell him. "I don't think I can leave the river. You'll have to go on to the Library alone."
+
+"I know," says Quill. "I worked that out about halfway across. I'm not stupid. I'm just annoyed." He looks at you with one bright eye. "What shall I tell the old man?"
+
+You think about it. "Tell him I brought his spectacles." You dig them out of your pocket and give them to him, and he takes them in his beak, very carefully. "And tell him I'm minding the ferry."
+
+Quill flies away up the valley toward the mountain with Orrin's spectacles in his beak, and you turn the ferry round and go back across the river, because there's someone waiting on the jetty.
+
+The ferryman doesn't last long, after that. A few weeks. It spends them sitting in the bow, watching the water, and on the last day it turns its blank face toward you and says, "Thank you. It was very beautiful, from the front." Then it's simply not there any more, the way a word is not there when you've finished saying it.
+
+You keep the ferry. You don't take memories as the fare; you never could bring yourself to. You take stories instead. Every passenger tells you one as you cross, and you let it go into the river when they've gone, and it seems to work just as well.
+
+The Blank stops coming a month after you take the pole. You hear that the old mapmaker took up the silver pen in the end, with his spectacles on and a crow on his shoulder. He comes down the mountain to the jetty once a year, though Archivists aren't supposed to leave. He says he's only borrowing the time.
+
+He brings biscuits. You cross the river together, slowly, there and back, and he tells you a story every time. They're always about the shop.
+
+## ending-tinker
+[art: tinker | The tinker's road.]
+[end: The Tinker's Road]
+"Mabbet!" you shout, and you run after her down the path, with Quill complaining on your shoulder all the way.
+
+She's stopped by the time you catch up, and she's looking at you with her head on one side, like a hen. "Forgot something?"
+
+"You're going toward the edge."
+
+"That's where the people are," says Mabbet. "Folk who couldn't get out in time. Folk who won't leave their houses. Somebody's got to bring them pots and news and the odd bit of sense." She looks at the good pen sticking out of your pocket. "That's a mapmaker's pen."
+
+"It's my master's."
+
+"He's gone up the mountain with his own, I expect." She looks at you for a long moment. "And you're thinking, there's a whole Library up there and one old man to draw it, and there's a whole edge down here and nobody. Is that what you're thinking?"
+
+It is. You hadn't known it until she said it.
+
+So you go with Mabbet. Quill tells you that you're a fool, and you agree, and he comes anyway.
+
+The edge of the Wold is a terrible place and a beautiful one. Farms stand half white, their fields cut off clean. People stand at their garden gates and stare at the place where their neighbours used to live. And you go along the edge with Mabbet and her cart, and wherever you go, you draw. You're not good at it. You draw fences and walls and the backs of houses, plain things, simple things, whatever's needed to stop the white getting further. Mabbet tells you what was there, because Mabbet has been everywhere. "Barn, there. Red roof. Big oak by the pond, the boys used to swing off it."
+
+It's slow. It's very slow. But the white stops where you draw, and it doesn't come back.
+
+You sleep in barns, and under Mabbet's cart, and once in a church with no roof, because the white took the roof and left the rest. You eat what people give you, which is mostly soup. You get blisters on your drawing hand and then calluses where the blisters were. Mabbet mends every pot along the edge of the Wold, and sharpens every knife, and talks to every frightened person she meets in her kettle voice until they stop being quite so frightened, and you begin to understand that that's a kind of mapmaking too.
+
+In the third week, you hear that someone has taken up the silver pen at Ammerhold: an old man with bad knees, who sat down at the desk on the second day and hasn't got up since. The white everywhere slows, and then stops. But it doesn't go back. Not by itself. One pen can hold it. It takes a lot of pens to undo it.
+
+So you keep going. You and Mabbet and the cart, along the whole edge of the Wold, year after year. You teach anyone who'll learn how to draw a fence. Then a barn. Then a house.
+
+At the end of the second year, you come to the place where Pellow used to be, and Mabbet stands in front of the white and tells you about it, every house, every garden, the green with the well in the middle, and the bakery on the corner with the blue door, and the plum cake. Especially the plum cake.
+
+It takes you three days to draw. It's the best thing you've ever made. And when it's done, there's a smell of baking on the wind, and a woman comes out of a house with a blue door, wiping her hands on her apron, and stares at you both, and says, "Mabbet? You're late. You said Tuesday."
+
+Mabbet cries for an hour. Then she eats four slices of plum cake. Then she says it's time to get on.
+
+## ending-vellum
+[art: glass-city | Vellum, holding.]
+[end: The Glass City]
+You stand in the square and look at the queue that winds round three times, and the families sleeping in doorways, and the children holding their parents' hands too tight. You look up at the cable car swinging against the clouds.
+
+"He'll manage," you say to Quill, and you don't know if you believe it. "He's got the Library. These people haven't got anything."
+
+Quill doesn't argue. That's how you know he's frightened too.
+
+You find a fountain and you sit on its rim and you take out the good pen, and you start drawing what's needed. Not maps. Just things. A roof over the doorway where a family is sleeping. A bench by the fountain. A long table in the square with bread on it, though the bread comes out lumpy and some of it is the wrong colour. People come and look over your shoulder. Then they come and ask.
+
+"Can you draw a blanket?"
+
+"Can you draw my grandad's spectacles? He lost them on the road."
+
+"Can you draw a way home?"
+
+That last one you can't. But you can draw a lot of other things, and by nightfall half the square is fed, and you have a crowd of children around you who want to learn how. You show them. You use the back of the city's glass walls for paper, and the drawings stay there, shining, silver lines on rainbow glass.
+
+On the third night, everybody in the square stops talking at once and looks up.
+
+Far above, at the top of the mountain, the Library has lit up. You can see it even through the clouds: a great warm glow like a lamp in a window. And then, as you all watch, the white at the edge of the valley stops. Just stops. And very slowly, over the next hour, it draws back.
+
+"He did it," you say. Your voice cracks in the middle.
+
+"He did," says Quill. "The stubborn old goat." He presses his head against your cheek, just for a second. "So did you, a bit."
+
+You stay in Vellum. You don't mean to; it just happens. The refugees go home, as the edges of the Wold come back, but some of them stay, and some of them keep drawing, and the city of glass becomes a city of glass covered in pictures, bright and wobbly and everywhere. They call the square after you, in the end, though you ask them not to.
+
+Once a year you take the cable car up the mountain and have tea with the Archivist of Ammerhold, who scolds you for not visiting more. He keeps the drawings you send him on a shelf all by themselves. He says they're the only maps in the Library that make him laugh.
+
+## ending-scrivener
+[art: word-shop | Old Bess, with an apprentice.]
+[end: The Word Shop]
+The car is about to leave. The gatekeeper is holding the door. And at the very back of the queue, by the corner of the square, there's a family you noticed when you came in: a man and a woman with a baby and a little boy, and the woman has been crying, quietly, the whole time, the way people cry when they've stopped expecting it to help.
+
+You look at your word. *Kepthereness.* The feeling of a place still being there because someone cared about it.
+
+"Oh, don't," says Quill. "Don't. I can see you thinking it."
+
+You walk back across the square and give it to them. The woman reads it, and reads it again, and holds the paper against her chest. The gatekeeper waves them through. The car swings out of the station, up toward the cloud, with the little boy's face pressed against the window, staring back at you.
+
+Then you go back to Old Bess's shop, because that's the only thing you can think of to do.
+
+Bess looks at you over her thick glasses for a long moment. "That was your passage," she says.
+
+"I know."
+
+"You'll need another."
+
+"I know."
+
+She pushes the pad of blank slips across the counter. "Then you'd better get good at this," she says. "And while you're at it, I could use the help. Price of a word's gone through the roof."
+
+So you stay. You learn to make words. It's harder than drawing maps, and stranger. Bess teaches you to listen for the shapes that haven't got names yet: the feeling of hearing your own name called in a crowd, the colour of the sky just after a storm, the sound a house makes when everyone in it is asleep. You write them on slips of paper and they go on the shelves, and some of them glow, and one of yours, in the second week, rattles so hard you have to put it in a cage.
+
+Every word you make buys somebody a seat on the cable car. And every person who goes up the mountain carries a word in their pocket, and when they get to the Library they find an old man at the desk, half blind and nearly done in, drawing as fast as his hand can move. And they sit down beside him. Because somebody has given them a pen and a reason.
+
+By the end of the month there are a hundred people drawing at Ammerhold. The Blank has gone back to the edges and stayed there.
+
+Orrin writes to you, by cable car. *Who on earth taught all these people to draw?* he asks. *And why does every one of them have a word in their pocket that makes me cry?*
+
+You write back. One word. You made it that morning, and it's the best you've ever done.
+
+He keeps it on the desk, for the rest of his life.
+
+## ending-wings
+[art: cable-car | Falling, then not.]
+[end: Ink Wings]
+Your fingers are slipping. The man is reaching. You aren't going to make it, and you know it, and so instead of reaching back you let go of the ledge with one hand and pull out the good pen.
+
+You fall.
+
+The car swings away above you. The man's face is a white O at the window. Quill is screaming, actual screaming, which you didn't know crows could do. The valley rushes up, fields and roads and the glittering roofs of Vellum, and you're drawing, upside down, at a speed you didn't know your hand could manage, on the only thing you've got: your own coat sleeve.
+
+A feather. Then another. Then a whole row of them, long and black, down the length of your arm. You switch hands and do the other sleeve. They're not good feathers. Quill would have a great deal to say about them. But they catch the air.
+
+You don't fly, exactly. It's more like falling very slowly in a direction you've chosen. You swoop across the valley, way off course, with Quill flapping furiously beside you and shouting instructions, and you come down in a meadow far out toward the edge of the Wold, tumbling over and over in the long grass.
+
+When you sit up, there are people staring at you. A whole village of them. They're standing at the edge of their fields, where the white has eaten everything beyond the hedge, and they've stopped looking at the white to look at you.
+
+"You came down out of the *sky*," says a girl.
+
+"I drew wings," you say, still dizzy. "On my coat."
+
+There's a long silence.
+
+"Can you show us how?" says the girl.
+
+You can't get back to the cable car. It's miles away, and the cloud is closing in around the mountain. So you stay, and you show them. Not wings. Fences, first, to hold the white back from the fields. Then walls. Then a whole new hedge, thick and green, and the white stops at it.
+
+Then you go to the next village. And the next. Quill flies ahead and tells people you're coming. You draw wings on your coat again, better ones, and you fly from place to place along the whole edge of the Wold, teaching anyone who'll learn.
+
+It takes a summer. By the end of it, there are pens moving all along the edge, thousands of them, and the white is going back, foot by foot. When you finally fly up to Ammerhold, landing on the Library steps in a cloud of ink feathers, Orrin is waiting at the top.
+
+"I've been holding the middle," he says. "Somebody's been pushing in from the edges. I wondered who." He squints at your coat. "Those," he says, "are terrible feathers."
+
+"They work."
+
+"They do," he says, and hugs you so hard your spectacles, his spectacles, fall out of your pocket.
+
+## ending-hermit
+[art: hermit | Three pens at dawn.]
+[end: The Hermit Comes Home]
+"Just until morning," you say. "I can't climb another step."
+
+Fennick makes you a bed of goat-hair blankets by the fire, and you're asleep before he's finished telling you to take your boots off.
+
+You wake in the grey before dawn because the goat is screaming.
+
+Fennick is standing in the doorway of the hut. Behind him, past the ledge, the Ink Stair goes down the mountain into the valley, the way you came. Or it did. Now it goes down about thirty steps, and then it stops. Below that, there's only white.
+
+"It came up in the night," Fennick says. His voice is very quiet. "I watched it. The whole bottom half of the mountain."
+
+You grab your boots. Fennick unties the goat. Nobody suggests going down. The three of you, and Quill, climb up instead, as fast as you can, with the white following behind, eating the stair one step at a time.
+
+You come out of the top of the cloud into early sunlight, and there's the Library: ivy on its walls, a hole in its dome, its edges going soft. You go up the steps and through the great carved doors, and Orrin is at the desk under the dome.
+
+He's still drawing. He's been drawing all night. His face is grey, and his hand is shaking so badly that the lines are barely lines. He looks up and squints at you, and he doesn't recognise you until you put his spectacles on his face.
+
+Then he looks past you, at Fennick. And Fennick looks at him. And neither of them says anything for a long moment.
+
+"You're the apprentice who ran away," Orrin says at last.
+
+"And you're the other one," says Fennick.
+
+You look from one to the other, two old men who once sat at this same desk and both went home. Then Fennick walks across the room to the groove at the top of the desk, where the silver pen lies.
+
+"I was meant to take this," he says. "Sefa trained me for forty years. I ran away up a mountain because I was afraid of never leaving. And I've spent the next forty years drawing one mountain, and do you know what I found out? I never left that, either." He picks up the pen. "Might as well not leave somewhere useful."
+
+The Library opens around him. You see it. And the old hermit draws, and the white stops, and then goes back, all the way down the mountain and across the valley, stair by stair.
+
+Afterwards, Orrin sits on the floor by the desk with his head in his hands, laughing, or crying, you can't tell. Fennick keeps drawing. The goat eats an atlas.
+
+You and Orrin go home a month later, when he's rested. Fennick stays. He draws the hut on the mountain into the Library's own walls, so he can keep it, and he keeps the goat, and when you visit him, every spring, he's always in the middle of telling you something important, and he never quite finishes.
+
+## ending-edge
+[art: the-blank | A light at the edge.]
+[end: Off the Edge of the Map]
+You step into the white.
+
+There's no sound. There's no feeling. There's no up and no down and no ground under your feet, though you're standing on something. Quill's voice cuts off behind you as if someone has closed a door.
+
+And the forgetting starts.
+
+It's gentle. It isn't frightening. It's like the moment of falling asleep, when the day starts to come apart in your hands. The bakery's blue door goes. The name of your street. The way to the shop. Things you didn't know you knew slip away like water through your fingers, and you don't even feel them go, only the space where they were.
+
+You hold onto one thing. You don't know why that one. A pair of spectacles in your pocket, wire-rimmed, with string tied round one arm. Somebody needs these. You don't remember who. But somebody needs them, and you've got them, and you can't put them down.
+
+You also have a pen.
+
+You take it out. You don't remember where it came from either. But your hand knows what to do with it, the way your feet know how to walk. And in the white, in the nothing, you draw a lamp. A tall iron lamp post, the kind that stands on the corner of a street, with a lantern on top. It's the first thing that comes into your head.
+
+It lights.
+
+You stand under it for a long time. The light makes a small circle round your feet, and inside the circle there's ground, and grass, and a short stretch of cobbled road. Outside it, the white. Inside it, you can remember things again. Slowly. A shop. A bell. An old man's face, squinting at you, smiling.
+
+You never find your way back. You never really try. Something happens to you in the white that you can't explain afterwards, and anyway there's no one to explain it to.
+
+But years later, when the Blank has been pushed back to the edges of the Wold by a whole Library full of people drawing, travellers who walk east from the crossroads find a lamp post right at the edge of the white. It's always lit. Under it, there's a little circle of cobbles and grass and a bench, and a pair of wire-rimmed spectacles, folded neatly, with string tied round one arm.
+
+And in the white beyond the lamp, if you look very carefully, there's a road. A thin one, drawn in a careful, patient hand. It goes out into the nothing a little further each year.
+
+The old Archivist comes down from the mountain to see it, once, leaning hard on a stick. He sits on the bench under the lamp for a whole afternoon, holding the spectacles, looking out at the road.
+
+"Still drawing," he says, to no one, at the end. "Good."
+
+He leaves a tin of biscuits on the bench. In the morning it's gone.
+
+## ending-assistant
+[art: library-dome | Tea under the dome.]
+[end: The Archivist's Tea]
+"Don't go," you say.
+
+Orrin looks up at you from the floor.
+
+"You keep saying I'll never see the shop again," you say. "But I can. It's right there on a shelf. And you keep saying I'll be alone here, and maybe I will be. But I don't have to be. Not straight away." You hold out the hand that isn't holding the silver pen. "Stay a while. Teach me. You never let me near the hard parts. Coastlines. Mountain passes. I don't know how to draw the sea."
+
+"I'm seventy-three," Orrin says. "My knees are gone. My eyes are gone. I'd be no use to you at all."
+
+"You'd make the tea."
+
+He laughs, despite himself. It comes out wet. Then he takes your hand and lets you pull him up.
+
+He stays.
+
+He means it to be a month. Then a year. The Library gives him a little room off the north wing, with a window that looks out over the clouds, and a bed that's too soft, which he complains about every morning. He makes the tea. He sits beside you at the desk with his spectacles on the end of his nose, and he teaches you the sea. How it's never one line but a hundred, all of them moving. How a harbour should look like it's holding something. How every coast is a conversation between the land and the water, and you have to draw both sides of it.
+
+You get good. Really good. Some days, he says, you're better than he ever was.
+
+He doesn't go home. You both know he's not going to, by the end of the first winter, and neither of you says so. He's not an Archivist; he's not bound to the place. He could leave any day. He just doesn't.
+
+He gets older, the way you don't any more. Slowly, and then not so slowly. His hand gets shakier and his eyes get worse, and in the end he can't draw at all, only sit beside you and watch. You draw him things while he watches. The shop. The sea at Marrow. A village called Pellow, with plum cakes. You put them on the shelves where he can see them.
+
+On the last evening, he asks you to draw the summer he gave away to the ferryman. You don't know what it looked like. But you've heard enough, over the years, to guess. A young man at this same desk. An old woman beside him, leaning over to tap his page.
+
+You draw it. He looks at it for a long time.
+
+"That's right," he says. "That's exactly right. How did you know?"
+
+You don't, really. But you're the Archivist of Ammerhold, and the Library holds everything ever drawn with care, and some things, it seems, come back if you draw them carefully enough.
+
+Quill sits on the end of his bed all night. In the morning, you make the tea yourself. You make two cups, out of habit, and you drink them both.
+
+## ending-margin
+[art: new-road | Unfolding the white.]
+[end: The Folded Places]
+You don't draw the first line. Instead, you put the good pen in your pocket, and you step forward into the white.
+
+"*No!*" Orrin shouts, behind you, and then his voice is gone.
+
+Inside, it's quiet. Not empty. You'd expected empty, but it isn't. The white isn't nothing, once you're in it. It's more like a page that has been folded over and over on itself, so many times that you can't see what's printed on it. You can feel the folds, though. They're everywhere. Thin and soft and layered, like a great book with all its pages stuck together.
+
+You reach out, very carefully, and pick at the corner of one.
+
+It comes up. It unfolds in your hands, crackling, and there's a lane behind a tannery, with a row of little houses on it, and a woman in one of the doorways looking up at the sky with a puzzled expression. She's just standing there. She doesn't see you. She's been standing there, you think, since the moment the lane was folded away.
+
+You smooth it flat. It stays.
+
+They're not gone. That's the thing. None of it was ever gone. The Blank doesn't eat the places nobody's paying attention to. It folds them up and puts them away, like a tidy person putting away clothes nobody wears. It's not cruel. It's housekeeping.
+
+You unfold another. A village with a church spire and a bakery with a blue door, smelling of plums. Another: a whole fishing town on the bank of a wide dark river, where the boats are just setting out. Another: a beautiful palace on a hill, in a country with silver rivers, that somebody once drew for a duke who never paid.
+
+You keep going. You lose track of time. You unfold forests and hamlets and lanes and coves, one after another, and smooth each one flat, and they stay. When you finally come out of the white again, blinking, into the Library, you've been gone for nine days, and you have a whole country spread out behind you like washing on a line.
+
+Orrin is sitting at the desk. He hasn't slept. He has, however, taken up the silver pen at last, somewhere around the second day, out of sheer worry, and he's been drawing ever since, holding the middle while you were away.
+
+He looks up at you. You look at him. He opens his mouth, and you know he's going to shout.
+
+"I found Pellow," you say, before he can. "And the Duke's country. And the lane. They were folded up."
+
+Orrin closes his mouth. Then, very slowly, he puts down the silver pen and holds out both arms, and you go into them.
+
+After that, it's simple. Orrin holds the middle, at the desk, and you go into the white, once a week, to see what's been put away that oughtn't to be. Most of it you bring back. Some of it you leave, because some things are folded away for good reasons. The Library is the only place in any world that has its own unfolder, and you have business cards printed, which annoys Quill enormously.
+
+## ending-crow
+[art: crow | Quill stays.]
+[end: The Crow Archivist]
+You start to hold out your hand. Then you stop.
+
+Quill has turned his head. He's not looking at you. He's looking at the mountain behind the crossroads, at the cloud wrapped round its peak, at the Library somewhere up there going white.
+
+"I belong to the Library," he says quietly. "I told you that. The first thing I ever told you."
+
+"Quill..."
+
+"Go on." He fluffs his feathers. "Take the old man home. Somebody has to mind the shop."
+
+You want to argue. You don't have time. The white is rolling down the valley, and Orrin is pulling at your sleeve, and so you pull open the door, and you and Orrin fall through it into the shop, and the door slams behind you and turns back into a map on a drawing table.
+
+Then you sit on the floor and you cry, because you think he's gone.
+
+For a week, the map on the drawing table stays white. The world shrinks a little, the way it does when nobody's looking after the edges. The lane behind the tannery doesn't come back. Orrin sits at the table every day staring at the blank sheet, and doesn't draw.
+
+On the eighth day, there's a mark on the map.
+
+It's in the very middle. It's tiny. It's very bad. It looks like somebody has dipped a twig in ink and dragged it across the paper. It's a line, sort of. It might be a wall.
+
+The next day, there's another one. And another. A shape like a dome, very lopsided. A thing that might be a door, or might be a sheep. And then, on the tenth day, letters. Big, scratchy, sprawling letters, the kind of letters a crow might make if a crow held a silver pen in his beak and had been watching an apprentice draw for a whole day and a half, and had a great deal of determination and very little else.
+
+*NOT DEAD. LIBRARY NOT DEAD EITHER. DRAWING IS HARD. HOW DO YOU DO TREES.*
+
+Orrin makes a sound you've never heard him make. Then he grabs the good pen, and a sheet of paper, and he begins to draw, very carefully, very slowly, the way he'd draw for a child: *a tree*. A trunk. Branches. Leaves, one at a time. He writes LIKE THIS underneath it. And he pins it to the map, right in the corner, where a crow at a desk on a mountain might be able to see it.
+
+The next morning there's a tree on the map, beside the Library. It's terrible. But it's a tree.
+
+It takes years. The Inkwold comes back slowly, in the strangest, scratchiest, most crow-like lines anyone has ever seen, and you and Orrin send drawings through the map every day to show him how. The lane behind the tannery comes back a little crooked. Pellow comes back with its church spire on upside down for the first six months. Nobody minds.
+
+Quill is a terrible artist. He's also, everybody agrees, an excellent Archivist. He's bossy, and he's thorough, and he's never once complained that the job lasts forever.
+
+## ending-tallow-library
+[art: library-door | The Library, on a door.]
+[end: The Library on Tallow Street]
+"Wait," you say.
+
+Quill is on your arm. Orrin is in the doorway. The white is close enough now that you can feel its quiet on the back of your neck. And you're looking at the door. Orrin's door. A plain wooden door in a frame, with nothing on either side.
+
+The Library's going. All of it. Every map in every world, all those shelves, and nobody to keep them. But a door is a thing you can draw on. And it's going through with you.
+
+You pull out the good pen and you draw. Fast. Not well. You draw the Library on the door: a dome, a ring of shelves, the great round desk, as much of it as you can get onto one panel of wood. You draw the silver pen lying in its groove. You draw the carved doors with their compass-rose handles. You draw a crow on the dome, because it seems right.
+
+"Apprentice," Orrin says. "Apprentice, *now*."
+
+You go through.
+
+On the other side, it's the shop, and the door slams behind you, and turns back into a map on the drawing table, and the map goes white. All of it. Every line. The Inkwold is gone.
+
+Except for one thing. Lying on the floor of the shop, where it fell off the door when you tumbled through, is a panel of wood about the size of a tea tray. And on it, drawn in wobbly, hurried lines, is a library.
+
+Over the next few weeks, it grows.
+
+It starts small. A shelf appears in the back room, where there wasn't a shelf. It has maps on it you've never seen. Then another. The back room gets bigger, somehow, without the outside of the shop changing at all. A spiral staircase appears in the corner, going up into a ceiling that's suddenly much higher than it used to be. A great round desk turns up one morning under the skylight, with a silver pen lying in a groove at the top.
+
+Orrin stands and looks at it for a long time.
+
+"Well," he says, at last. "I suppose it had to go somewhere."
+
+The Library of Ammerhold is on Tallow Street now. It's in the back of a map shop, behind a counter, through a door with a bell over it. It's much bigger on the inside. Quill lives in the rafters and is extremely rude to customers.
+
+And people come. Mapmakers, at first. Then anyone. They come in off the street and sit down at the desk and draw what they love, and the maps go onto the shelves, and somewhere far away, where a country of ink used to be, a country of ink begins again, drawn this time by the whole town of Tallow.
+
+The silver pen stays in its groove. Nobody takes it up. Nobody needs to.
+
+On the door of the shop there's a new sign. Orrin painted it himself. It says: VELL & APPRENTICE. MAPS, CHARTS, AND LIBRARY. PLEASE WIPE YOUR FEET.
+
+## ending-old-archivist
+[art: library-dome | The Archivist of Ammerhold.]
+[end: The Old Man's Pen]
+You argue, of course. You argue for an hour. But Orrin has the silver pen in his hand and the whole of the Library humming round him, and he's never been easy to argue with, and now he's impossible.
+
+"I've spent fifty years minding the wrong thing," he says. "Let me mind the right one. And you mind the shop. That's how it was always supposed to go, I think. I was just too much of a coward to see it."
+
+He draws you a door. It's the best door you've ever seen: oak, with a brass knocker in the shape of a compass rose, and a little window at the top, and through the window, the shop. Your shop. With the dust on the counter and the late sun on the drawing table.
+
+"Will you come and visit?" you ask.
+
+"Archivists can't leave."
+
+"Will you write?"
+
+He smiles. "Look at the map," he says. "Every day. I'll be on it."
+
+You go home. Quill stays; the Library is his, and he's Orrin's now too. He walks you to the door, which for a crow is a long hop, and he says, "Don't sell the globe. I like the globe," and then flies back to the desk.
+
+You mind the shop.
+
+And Orrin keeps his word. Every morning, when you lift the cloth on the drawing table, the map has changed overnight. New roads. New rivers. A bridge in the glass city. Little notes in the margins, in his crabbed hand: *Fixed the hollow in the Whisperwood. Gate faces east. Travellers getting out nicely.* *Drew Pellow back. Plum cake looks a bit flat, will try again.* *Fennick's goat has eaten an atlas. Fennick says this is my fault.*
+
+Sometimes, the notes are for you. *Your left-hand coastlines lean. Fix it.* *Heard the Duke's man came round. Do not give him the map for half price. I know you.* *Mrs Hobb's sister's lane is back. Go and see.*
+
+You go and see. It's back.
+
+You get older. He doesn't, much. That's the way of it. You take on an apprentice, eventually, a sharp-eyed boy who knocks over the inkwell on his first day, and you laugh until you have to hold onto the counter. You show him the map. You show him the notes. You tell him that the Archivist of Ammerhold was your master, once, and he doesn't believe you.
+
+That evening, in the margin of the map, very small, there's a drawing of a boy knocking over an inkwell, and an old man laughing.
+
+## ending-ammerhold
+[art: two-pens | Master and apprentice, under the dome.]
+[end: Apprentice of Ammerhold]
+"No," you say.
+
+Orrin blinks at you.
+
+"You'll need an apprentice," you say. "Sefa had one. Two, actually, and they both ran away. You need somebody who won't."
+
+"You can't stay. You've got a whole life..."
+
+"I'm not taking the pen," you say. "I can leave whenever I like. I just don't like."
+
+He looks at you for a very long time. Then he sits back down at the desk, very slowly, as if his knees have finally given up arguing with him, and pulls up a second stool.
+
+"The east wing, then," he says. "Shelves forty to sixty. The Archivist can't be everywhere at once, it turns out. Let's see what you can do."
+
+You can do a lot, as it happens. More than either of you expected.
+
+You stay at Ammerhold for nine years. Orrin draws from the desk, with the silver pen, and the Library breathes through him; and you go out, with the good pen, to the places the Library can't quite reach. The Whisperwood, where you redraw the hollow so that nobody gets trapped there again. The River Lethe-Not, where you build a bridge, which the ferryman says is a liberty. The glass city. The edges. You learn the coasts at last. You learn the sea.
+
+Every evening you come home to the Library and tell Orrin what you've seen, and he draws it in, and it stays.
+
+In the tenth year, he puts down the silver pen one evening and looks at you over his spectacles, the way he used to look at you in the shop when you'd done something right and he didn't want to make a fuss.
+
+"You could take it," he says. "Whenever you're ready. You'd be better at it than me."
+
+"Would you go home?"
+
+"I'd go home. I'd mind the shop. I'd sit in the sun." He smiles. "I'd have biscuits. I haven't had a biscuit in nine years."
+
+You think about it. You think about it for a long time, as long as you've ever thought about anything.
+
+"Not yet," you say. "Ask me again in another nine."
+
+He laughs, and picks the pen back up, and goes on drawing. Outside, the Wold is the brightest it's been in a thousand years, full of roads, full of people. Somewhere in it, a crow is making rude remarks to a goat. And at the desk under the dome, there are two of you, and there's always tea.
+
+## ending-two-archivists
+[art: two-pens | Two hands on one pen.]
+[end: Two at the Desk]
+"No," you say. "Not a hundred. Not yet."
+
+Orrin looks at you, surprised.
+
+"If we call everyone up the mountain," you say, "it'll take weeks. The Blank's still coming. And I don't..." You stop. You look at the silver pen in its groove. "I don't want you to do it alone. That's all. And I don't want to do it alone either."
+
+Orrin follows your eyes to the silver pen. You can see him understand.
+
+"Nobody's ever tried it," he says slowly. "Two hands."
+
+"Nobody ever tried two pens, either. Until about an hour ago."
+
+He laughs. Then he stops laughing, and he looks at you properly over his spectacles, and you see him weighing it, the way he weighs a coastline before he draws it. Everything it'll cost. Forever, or near enough. The shop, the sea at Marrow, the sun on the bench outside the bakery. All of it, for both of you.
+
+"You're sure," he says.
+
+You're not. But you nod.
+
+He reaches out and picks up the silver pen. Then he holds it out, and you put your hand over his, and you hold it together.
+
+The Library opens. Not to one of you. To both. You feel it the way you'd feel a great house filling up with light, room after room, and you feel Orrin in it too, right beside you, the shape of his attention like a hand on your shoulder. You can feel what he's thinking, almost. Not words. Just the way he looks at things: carefully, lovingly, a little grumpy.
+
+And you draw. Both hands on one pen. It shouldn't work, and it does. His precision and your speed. His coastlines and your roads. The Blank goes back so fast you can hear it, like a tide going out.
+
+You stay. Both of you. A hundred years and more. You're the first Archivists of Ammerhold who ever shared the post, and the Library is different for it: warmer, noisier, full of arguments about whether a river should go left or right. Quill says it's like living with two cats in one basket. He doesn't leave either.
+
+You never go back to the shop. But you draw it, once a year, on the anniversary of the morning the bell didn't ring: the counter, the cabinets, the globe in its brass cradle, the bell over the door. You draw it together. And on the shelf in the north wing where its map is kept, if you take it down, you can see a light in the window, and two stools at the drawing table, side by side.

@@ -16,7 +16,7 @@
     "davy": {
       "name": "Davy Wick",
       "role": "a boy of about twelve from Ferris",
-      "voice": "Eager, brave, talks fast when frightened, idolises Ada, embarrassed about his uncle. Has a twisted ankle and is trying not to show how much it hurts. Plain 1950s boy's speech, says 'Miss Marrow'.",
+      "voice": "From the fishing town of Ferris on the mainland, not from Gull Rock.Eager, brave, talks fast when frightened, idolises Ada, embarrassed about his uncle. Has a twisted ankle and is trying not to show how much it hurts. Plain 1950s boy's speech, says 'Miss Marrow'.",
       "at": ["rocks", "lamp-davy", "shore"]
     }
   },
@@ -62,7 +62,7 @@
     "ossie": {
       "name": "Ossie",
       "role": "Thalassa Station's operations intelligence",
-      "voice": "A calm, friendly station AI that Commander Okafor called 'a librarian who has seen things'. Warm, precise, gently honest about bad news, quietly funny. Gives figures when they help. Cares about the reader's health. Never claims to know what the station's sensors couldn't know.",
+      "voice": "A calm, friendly station AI that Commander Okafor called 'a librarian who has seen things'. Warm, precise, gently honest about bad news, quietly funny. Gives figures when they help. Cares about the health of the crew member it's talking to. Never claims to know what the station's sensors couldn't know. A voice from the station's speakers, with no body or face.",
       "always": true
     },
     "okafor": {

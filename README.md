@@ -34,7 +34,7 @@ It's a Cloudflare Worker running Llama 3.1 8B on Workers AI, about 15 to 30 neur
 To try it locally alongside the site:
 
 ```bash
-MYW_ENV_FILE=../ai-mysteries/.env node tools/dev-worker.mjs   # http://localhost:8787
+MYW_ENV_FILE=../ai-mysteries/.env node tools/dev-worker.mjs   # http://localhost:8787 (add MYW_DEBUG=1 to log the model's raw replies)
 ```
 
 The site uses the local helper automatically when it's opened from localhost. To deploy it (it needs a Cloudflare login that can edit Workers):

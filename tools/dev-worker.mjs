@@ -22,6 +22,18 @@ const env = {
 };
 if (!env.CF_ACCOUNT_ID || !env.CF_API_TOKEN) console.warn("No Cloudflare credentials found; /act and /talk will fail.");
 
+// MYW_DEBUG=1 prints the model's raw reply for each call, to help tune the prompts.
+if (process.env.MYW_DEBUG) {
+  const realFetch = globalThis.fetch;
+  globalThis.fetch = async (url, init) => {
+    const res = await realFetch(url, init);
+    if (String(url).includes("/ai/run/")) {
+      res.clone().json().then((d) => console.log("MODEL:", JSON.stringify(d.result?.response ?? d.errors))).catch(() => {});
+    }
+    return res;
+  };
+}
+
 http.createServer(async (req, res) => {
   const chunks = [];
   for await (const c of req) chunks.push(c);

@@ -173,6 +173,27 @@ main { flex: 1; width: 100%; max-width: 980px; margin: 0 auto; padding: 0 16px 3
 .choice:active { transform: translateY(1px); }
 .choice .arrow { color: var(--accent); flex: none; font-family: "Fraunces", Georgia, serif; }
 
+/* Typed actions and talking to people (only shown when the storyteller helper is running). */
+.bridge { font-style: italic; color: var(--ink-soft); margin: 0 0 1.25em; padding-left: 1rem; border-left: 2px solid var(--accent-soft); }
+.write-in { margin-top: 1.25rem; }
+.write-in label { display: block; font-size: .9rem; color: var(--ink-soft); margin-bottom: .4rem; }
+.row { display: flex; gap: .5rem; }
+.row input { flex: 1; min-width: 0; font: inherit; font-size: 1rem; color: var(--ink); background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: .6rem .8rem; }
+.row input:focus { outline: none; border-color: var(--accent); }
+.write-in .reply { font-style: italic; color: var(--ink-soft); margin: .6rem 0 0; min-height: 1em; }
+.write-in.busy .reply, .said.pending { animation: pulse 1.2s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: .35; } }
+.talk { margin: 1.75rem 0 0; display: grid; gap: .6rem; }
+.talk-box { border: 1px solid var(--rule); border-radius: 10px; background: var(--card); }
+.talk-box summary { cursor: pointer; padding: .7rem 1rem; color: var(--ink-soft); font-size: .95rem; }
+.talk-box summary:hover, .talk-box[open] summary { color: var(--accent); }
+.talk-box .log { padding: 0 1rem; max-height: 22rem; overflow-y: auto; }
+.talk-box .row { padding: .5rem 1rem 1rem; }
+.said { margin: 0 0 .6rem; font-size: .98rem; line-height: 1.5; }
+.said.you { color: var(--ink-soft); font-style: italic; }
+.said.you::before { content: "You: "; font-style: normal; }
+.said.them strong { font-weight: 600; color: var(--accent); }
+
 .ending { text-align: center; margin: 2.5rem 0 0; padding: 2rem 1rem; border: 1px solid var(--rule); border-radius: 14px; background: var(--card); }
 .ending .label { font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin: 0 0 .25rem; }
 .ending h2 { font-family: "Fraunces", Georgia, serif; font-weight: 600; font-size: 1.6rem; margin: 0 0 .5rem; line-height: 1.2; }
@@ -212,3 +233,24 @@ main { flex: 1; width: 100%; max-width: 980px; margin: 0 auto; padding: 0 16px 3
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+/* ---------- Route map ---------- */
+.map-view { max-width: 40rem; margin: 0 auto; }
+.map-view h1 { font-family: "Fraunces", Georgia, serif; font-weight: 600; text-align: center; margin: .25rem 0 .5rem; }
+.map-stats { text-align: center; color: var(--ink-soft); margin: 0 0 .5rem; }
+.map-hint { text-align: center; color: var(--ink-soft); font-size: .9rem; font-style: italic; margin: 0 auto 1.25rem; max-width: 32rem; }
+.route-map { display: block; width: 100%; height: auto; background: var(--paper-2); border: 1px solid var(--rule); border-radius: 12px; }
+.route-map path { fill: none; stroke-linecap: round; }
+.route-map path.walked { stroke: var(--line); stroke-width: 1.6; }
+.route-map path.unwalked { stroke: var(--rule); stroke-width: 1.2; stroke-dasharray: 3 4; }
+.route-map path.now { stroke: var(--accent); stroke-width: 2.6; stroke-dasharray: 1; stroke-dashoffset: 1; animation: ink-in .5s ease-out forwards; }
+@keyframes ink-in { to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) { .route-map path.now { animation: none; stroke-dashoffset: 0; } }
+.route-map .node circle, .route-map .node rect { stroke-width: 1.5; }
+.route-map .node.seen circle { fill: var(--line); stroke: var(--line); }
+.route-map .node.seen.end rect { fill: var(--accent); stroke: var(--accent); }
+.route-map .node.fog circle, .route-map .node.fog rect { fill: var(--paper-2); stroke: var(--ink-soft); stroke-dasharray: 2 2; opacity: .7; }
+.route-map .node.current circle { fill: var(--accent); stroke: var(--paper-2); stroke-width: 2.5; }
+.route-map .node.seen:not(.end) { cursor: pointer; }
+.route-map .node.seen:not(.end):hover circle, .route-map .node.seen:not(.end):focus circle { fill: var(--accent); }
+.route-map .node:focus { outline: none; }

@@ -1,0 +1,10 @@
+name = "make-your-way"
+main = "src/index.mjs"
+compatibility_date = "2026-10-01"
+
+[ai]
+binding = "AI"
+
+[vars]
+SITE = "https://ryangano.github.io/make-your-way/"
+ALLOWED_ORIGINS = "https://ryangano.github.io"

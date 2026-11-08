@@ -20,6 +20,31 @@ It's a static site with no build step: `index.html`, `style.css`, `app.js` and `
 
 - Progress and the endings you've found are saved in your browser's local storage, so you can close the tab and pick up where you left off.
 - **Back a step** undoes your last choice, and **Start over** goes back to the beginning.
+- **Map** shows every place you've been on any reading, with the current one drawn in red. Places one step beyond stay as faint outlines until you reach them. Tap a place you've been to go back there and choose differently. The map is drawn by `route-map.js`.
+
+## The storyteller
+
+An optional helper in `worker/` adds two things to the reader:
+
+- **Write what you do.** Under the choices, the reader can type an action in their own words. The helper matches it to the closest choice and writes a sentence or two that leads into the next passage. If nothing fits, it answers in the story's voice and the reader stays where they are. It never invents new branches, so every route still comes from the written story.
+- **Talk to people.** When someone is in the scene with you, a "Talk to …" box lets you ask them things. They answer in character and know only what you've read so far. Talking never changes what happens. Who can be talked to, and where, is set in `stories/characters.json`.
+
+It's a Cloudflare Worker running Llama 3.1 8B on Workers AI, about 15 to 30 neurons a call, from the same daily quota as the drawings. The helper reads the stories from the site itself, so changing a story doesn't need a redeploy. When it can't be reached (not deployed, or out of quota), the boxes don't appear, or say so, and the site works with its buttons alone.
+
+To try it locally alongside the site:
+
+```bash
+MYW_ENV_FILE=../ai-mysteries/.env node tools/dev-worker.mjs   # http://localhost:8787
+```
+
+The site uses the local helper automatically when it's opened from localhost. To deploy it (it needs a Cloudflare login that can edit Workers):
+
+```bash
+cd worker
+npx wrangler deploy
+```
+
+Then put the Worker's URL in `AI_URL` in `app.js`.
 
 ## Writing a story
 

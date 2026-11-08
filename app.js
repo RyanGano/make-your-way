@@ -12,11 +12,20 @@ let artIndex = null;
 // ---------- storage (best effort: the site works without it) ----------
 
 function loadState(storyId) {
+  let state = { path: [], endings: [] };
   try {
     const raw = localStorage.getItem("myw:" + storyId);
-    if (raw) return JSON.parse(raw);
+    if (raw) state = JSON.parse(raw);
   } catch (_) { /* private mode or blocked storage */ }
-  return { path: [], endings: [] };
+  // trail: every step ("from>to") taken on any reading, for the route map.
+  if (!state.trail) state.trail = state.path.slice(1).map((id, i) => `${state.path[i]}>${id}`);
+  return state;
+}
+
+function takeStep(state, to) {
+  const step = `${state.path.at(-1)}>${to}`;
+  if (!state.trail.includes(step)) state.trail.push(step);
+  state.path.push(to);
 }
 
 function saveState(storyId, state) {
@@ -50,6 +59,40 @@ async function loadArt(name, alt = "") {
   if (!name || !(await artIndex).has(name)) return "";
   return `<img src="art/${name}.webp" alt="${esc(alt)}" width="1200" height="800" loading="lazy" decoding="async">`;
 }
+
+// ---------- the storyteller (optional AI helper in worker/) ----------
+// Lets the reader type what they do, and talk to the people in a scene. When the helper can't be
+// reached, none of this shows and the story works with its buttons alone.
+
+const AI_URL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? "http://localhost:8787" : "";
+let aiReady = null;
+let castList = null;
+let bridge = null; // { storyId, at, text }: the line that leads into the next passage after a typed action
+const talks = new Map(); // "story:passage:character" -> [{ q, a }]
+
+function storyteller() {
+  if (!aiReady) {
+    aiReady = AI_URL
+      ? fetch(AI_URL + "/health", { signal: AbortSignal.timeout(2500) }).then((r) => r.ok).catch(() => false)
+      : Promise.resolve(false);
+  }
+  return aiReady;
+}
+
+async function ask(endpoint, body) {
+  const res = await fetch(AI_URL + endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.error || "The storyteller didn't answer.");
+  return data;
+}
+
+// The people the reader can talk to in this passage.
+async function castHere(storyId, passage) {
+  if (!castList) castList = fetchText("stories/characters.json").then(JSON.parse).catch(() => ({}));
+  return Object.entries((await castList)[storyId] || {}).filter(([, c]) => c.always || (c.at || []).includes(passage.id));
+}
+
+const talkLog = (name, log) => log.map((t) => `<p class="said you">${esc(t.q)}</p><p class="said them"><strong>${esc(name)}:</strong> ${inline(t.a)}</p>`).join("");
 
 const minutes = (words) => Math.max(1, Math.round(words / WORDS_PER_MINUTE));
 
@@ -126,6 +169,11 @@ async function renderPassage(storyId, action) {
   }
   document.title = `${story.meta.title} · Make Your Way`;
 
+  const ai = !passage.end && await storyteller();
+  const cast = ai ? await castHere(storyId, passage) : [];
+  const lead = bridge && bridge.storyId === storyId && bridge.at === passage.id ? bridge.text : "";
+  bridge = null;
+
   if (passage.end && !state.endings.includes(passage.id)) {
     state.endings.push(passage.id);
     saveState(storyId, state);
@@ -134,6 +182,7 @@ async function renderPassage(storyId, action) {
   setHeader(`
     <button class="btn" id="back" ${state.path.length < 2 ? "disabled" : ""}>← Back a step</button>
     <button class="btn" id="restart">Start over</button>
+    <a class="btn" href="#/map/${storyId}">Map</a>
     <a class="btn" href="#/">All stories</a>`);
 
   const choicesHtml = passage.choices.length
@@ -141,6 +190,12 @@ async function renderPassage(storyId, action) {
          <h2 id="choose">What do you do?</h2>
          ${passage.choices.map((c, i) => `
            <button class="choice" data-i="${i}"><span class="arrow" aria-hidden="true">→</span><span>${inline(c.text)}</span></button>`).join("")}
+         ${ai ? `
+         <form class="write-in">
+           <label for="write-in">Or write what you do</label>
+           <div class="row"><input id="write-in" maxlength="200" autocomplete="off" placeholder="Something else…"><button class="btn primary">Go</button></div>
+           <p class="reply" aria-live="polite"></p>
+         </form>` : ""}
        </section>`
     : "";
 
@@ -151,6 +206,7 @@ async function renderPassage(storyId, action) {
          <p>You've found ${state.endings.length} of ${story.endings.length} endings. Other choices lead to other places.</p>
          <div class="actions">
            <button class="btn primary" id="again">Read it again</button>
+           <a class="btn" href="#/map/${storyId}">See your map</a>
            <a class="btn" href="#/">Pick another story</a>
          </div>
          <ul class="endings-list" aria-label="Endings">
@@ -164,18 +220,77 @@ async function renderPassage(storyId, action) {
       <p class="story-title">${esc(story.meta.title)}</p>
       <p class="progress-line">Part ${state.path.length} · about ${minutes(wordsSoFar)} min read so far</p>
       ${art ? `<figure class="art">${art}${caption ? `<figcaption>${esc(caption)}</figcaption>` : ""}</figure>` : ""}
+      ${lead ? `<p class="bridge">${esc(lead)}</p>` : ""}
       <div class="passage">${passage.paragraphs.map((p) => `<p>${inline(p)}</p>`).join("")}</div>
+      ${cast.length ? `<section class="talk" aria-label="People here">
+        ${cast.map(([key, c]) => `
+          <details class="talk-box" data-key="${key}">
+            <summary>Talk to ${esc(c.name)}</summary>
+            <div class="log" aria-live="polite">${talkLog(c.name, talks.get(`${storyId}:${passage.id}:${key}`) || [])}</div>
+            <form class="row"><input maxlength="300" autocomplete="off" placeholder="Say something…" aria-label="Say something to ${esc(c.name)}"><button class="btn">Say it</button></form>
+          </details>`).join("")}
+      </section>` : ""}
       ${choicesHtml}
       ${endingHtml}
     </article>`;
 
   app.querySelectorAll(".choice").forEach((btn) => {
     btn.addEventListener("click", () => {
-      state.path.push(passage.choices[+btn.dataset.i].to);
+      takeStep(state, passage.choices[+btn.dataset.i].to);
       saveState(storyId, state);
       renderPassage(storyId);
     });
   });
+  const writeIn = app.querySelector(".write-in");
+  if (writeIn) writeIn.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const input = writeIn.querySelector("input"), reply = writeIn.querySelector(".reply"), text = input.value.trim();
+    if (!text) return;
+    writeIn.classList.add("busy");
+    input.disabled = true;
+    reply.textContent = "…";
+    try {
+      const out = await ask("/act", { story: storyId, at: passage.id, path: state.path, text });
+      if (out.choice) {
+        bridge = { storyId, at: out.to, text: out.text };
+        takeStep(state, out.to);
+        saveState(storyId, state);
+        return renderPassage(storyId);
+      }
+      reply.textContent = out.text;
+      input.value = "";
+    } catch (err) {
+      reply.textContent = `${err.message} You can still pick one of the choices above.`;
+    }
+    writeIn.classList.remove("busy");
+    input.disabled = false;
+    input.focus();
+  });
+
+  app.querySelectorAll(".talk-box").forEach((box) => {
+    const key = box.dataset.key, who = cast.find(([k]) => k === key)[1];
+    const id = `${storyId}:${passage.id}:${key}`, form = box.querySelector("form"), input = form.querySelector("input"), log = box.querySelector(".log");
+    box.addEventListener("toggle", () => { if (box.open) input.focus(); });
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const q = input.value.trim();
+      if (!q) return;
+      const history = talks.get(id) || [];
+      input.value = "";
+      input.disabled = true;
+      log.insertAdjacentHTML("beforeend", `<p class="said you">${esc(q)}</p><p class="said them pending">…</p>`);
+      try {
+        const out = await ask("/talk", { story: storyId, at: passage.id, path: state.path, character: key, question: q, history });
+        talks.set(id, [...history, { q, a: out.reply }]);
+        log.innerHTML = talkLog(who.name, talks.get(id));
+      } catch (err) {
+        log.querySelector(".pending").outerHTML = `<p class="said them">${esc(err.message)}</p>`;
+      }
+      input.disabled = false;
+      input.focus();
+    });
+  });
+
   document.getElementById("back").onclick = () => {
     if (state.path.length > 1) { state.path.pop(); saveState(storyId, state); renderPassage(storyId); }
   };
@@ -186,12 +301,46 @@ async function renderPassage(storyId, action) {
   focusMain();
 }
 
+async function renderMap(storyId) {
+  const story = await loadStory(storyId);
+  const state = loadState(storyId);
+  if (!state.path.length) state.path = [story.start];
+  document.title = `Map · ${story.meta.title} · Make Your Way`;
+  setHeader(`
+    <a class="btn" href="#/read/${storyId}">← Back to the story</a>
+    <a class="btn" href="#/">All stories</a>`);
+
+  const seen = new Set([story.start, ...state.trail.flatMap((t) => t.split(">"))]);
+  app.innerHTML = `
+    <article class="map-view">
+      <p class="story-title">${esc(story.meta.title)}</p>
+      <h1>Your map</h1>
+      <p class="map-stats">${seen.size} of ${story.order.length} places visited · ${state.endings.length} of ${story.endings.length} endings found</p>
+      <p class="map-hint">Your current reading is drawn in red. Faint outlines are places you haven't reached yet. Tap any inked place to go back there and choose differently.</p>
+      ${RouteMap.render(story, state)}
+    </article>`;
+
+  app.querySelectorAll(".node.seen:not(.end)").forEach((node) => {
+    const go = () => {
+      const path = RouteMap.routeTo(story, state.trail, node.dataset.id);
+      if (!path) return;
+      state.path = path;
+      saveState(storyId, state);
+      location.hash = `#/read/${storyId}`;
+    };
+    node.addEventListener("click", go);
+    node.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
+  });
+  focusMain();
+}
+
 // ---------- routing ----------
 
 async function route() {
   const [, view, id] = location.hash.split("/");
   try {
     if (view === "read" && id) await renderPassage(decodeURIComponent(id));
+    else if (view === "map" && id) await renderMap(decodeURIComponent(id));
     else await renderHome();
   } catch (err) {
     console.error(err);

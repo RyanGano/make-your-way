@@ -67,7 +67,9 @@ async function loadArt(name, alt = "") {
 // Lets the reader type what they do, and talk to the people in a scene. When the helper can't be
 // reached, none of this shows and the story works with its buttons alone.
 
-const AI_URL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname) ? "http://localhost:8787" : "";
+const AI_URL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname)
+  ? "http://localhost:8787"
+  : "https://make-your-way.make-your-way.workers.dev";
 let aiReady = null;
 let castList = null;
 let bridge = null; // { storyId, at, text }: the line that leads into the next passage after a typed action

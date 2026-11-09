@@ -44,7 +44,7 @@ cd worker
 npx wrangler deploy
 ```
 
-Then put the Worker's URL in `AI_URL` in `app.js`.
+It's deployed at https://make-your-way.make-your-way.workers.dev, which is the `AI_URL` in `app.js`. It runs on its own Cloudflare account, so it has its own 10,000 neurons a day, separate from the drawings.
 
 ## Writing a story
 

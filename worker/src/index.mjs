@@ -45,21 +45,24 @@ async function act(body, env) {
   const text = cleanInput(body.text, 200);
   if (!passage.choices.length) throw bad("This passage has no choices");
 
-  const options = passage.choices.map((c, i) => `${i + 1}. ${plain(c.text)}`).join("\n");
-  const system = `You are the narrator of an interactive story, "${story.meta.title}". The reader has just read the passage below and, instead of picking one of the listed options, typed what they want to do.
+  // Options are lettered: small models mix up "option 1" with "0 means none" far more than letters.
+  const letters = "ABCDEFGH";
+  const options = passage.choices.map((c, i) => `${letters[i]}) ${plain(c.text)}`).join("\n");
+  const system = `You are the narrator of an interactive story, "${story.meta.title}". The reader has just read the passage below and, instead of picking one of the lettered options, typed what they want to do.
 
-Decide which option their action is closest to in intent. Be generous: if the action is a reasonable way of doing one of the options, or clearly leads into it, pick that option. Only pick 0 if the action doesn't fit any option at all, is impossible in the scene, or isn't an action in the story.
+Decide which option their action is a way of doing, or clearly leads straight into. If it doesn't clearly lead into one of them (it's something else, impossible here, or not an action in the story), the option is "none".
 
 If you pick an option, write a "bridge": one short sentence, under 30 words, second person, present tense, describing the reader doing what they typed in a way that leads naturally into that option. Match the story's tone. Don't decide anything beyond the option, don't introduce new people or objects, and don't describe what happens next.
 
-If you pick 0, write a "reply": one or two short sentences, second person, present tense, in the story's voice, showing why that doesn't work right now, and gently pointing back toward what the reader can do. Don't move the story on.
+If the option is "none", write a "reply": one or two short sentences, second person, present tense, in the story's voice, showing why that doesn't work right now, and gently pointing back toward what the reader can do. Don't move the story on.
 
-Respond with JSON only: {"choice": <number>, "bridge": "<text>"} or {"choice": 0, "reply": "<text>"}.`;
+Respond with JSON only, in this order. "why": a few words on what the reader is trying to do. "option": the letter of the matching option, or "none". Then "bridge" or "reply".
+{"why": "<text>", "option": "<letter>", "bridge": "<text>"} or {"why": "<text>", "option": "none", "reply": "<text>"}`;
   const user = `PASSAGE:\n${passageText(passage)}\n\nOPTIONS:\n${options}\n\nTHE READER TYPED: ${text}`;
 
-  const out = parseJson(await runModel(env, [{ role: "system", content: system }, { role: "user", content: user }], 200, 0.2));
-  const n = Number.parseInt(out?.choice, 10);
-  if (n >= 1 && n <= passage.choices.length) {
+  const out = parseJson(await runModel(env, [{ role: "system", content: system }, { role: "user", content: user }], 260, 0));
+  const n = letters.indexOf(String(out?.option || "").trim().toUpperCase().charAt(0)) + 1;
+  if (n >= 1 && n <= passage.choices.length && out?.bridge) {
     return { choice: n, to: passage.choices[n - 1].to, text: trimReply(out.bridge || "", 320) };
   }
   return { choice: 0, text: trimReply(out?.reply || "Nothing comes of it. Perhaps try one of the ways forward.", 320) };

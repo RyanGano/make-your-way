@@ -10,6 +10,7 @@
   --card: #fbf7ef;
   --shadow: 0 1px 0 rgba(60, 40, 20, .08), 0 8px 24px -12px rgba(60, 40, 20, .25);
   --art-filter: none;
+  --cloud-filter: contrast(.45) brightness(1.25);
   --art-blend: multiply;
   color-scheme: light;
 }
@@ -26,6 +27,7 @@
     --card: #221e1a;
     --shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 8px 24px -12px rgba(0, 0, 0, .6);
   --art-filter: invert(.88) sepia(.2);
+  --cloud-filter: invert(.88) sepia(.2) contrast(.45) brightness(.55);
   --art-blend: screen;
     color-scheme: dark;
   }
@@ -42,6 +44,7 @@
   --card: #221e1a;
   --shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 8px 24px -12px rgba(0, 0, 0, .6);
   --art-filter: invert(.88) sepia(.2);
+  --cloud-filter: invert(.88) sepia(.2) contrast(.45) brightness(.55);
   --art-blend: screen;
   color-scheme: dark;
 }
@@ -235,22 +238,33 @@ main { flex: 1; width: 100%; max-width: 980px; margin: 0 auto; padding: 0 16px 3
 }
 
 /* ---------- Route map ---------- */
-.map-view { max-width: 40rem; margin: 0 auto; }
+.map-view { max-width: 52rem; margin: 0 auto; }
 .map-view h1 { font-family: "Fraunces", Georgia, serif; font-weight: 600; text-align: center; margin: .25rem 0 .5rem; }
 .map-stats { text-align: center; color: var(--ink-soft); margin: 0 0 .5rem; }
 .map-hint { text-align: center; color: var(--ink-soft); font-size: .9rem; font-style: italic; margin: 0 auto 1.25rem; max-width: 32rem; }
-.route-map { display: block; width: 100%; height: auto; background: var(--paper-2); border: 1px solid var(--rule); border-radius: 12px; }
-.route-map path { fill: none; stroke-linecap: round; }
-.route-map path.walked { stroke: var(--line); stroke-width: 1.6; }
-.route-map path.unwalked { stroke: var(--rule); stroke-width: 1.2; stroke-dasharray: 3 4; }
-.route-map path.now { stroke: var(--accent); stroke-width: 2.6; stroke-dasharray: 1; stroke-dashoffset: 1; animation: ink-in .5s ease-out forwards; }
+/* A wide map scrolls sideways inside its frame on a phone, rather than shrinking the pictures away. */
+.route-map-wrap { overflow-x: auto; background: var(--paper-2); border: 1px solid var(--rule); border-radius: 12px; }
+.route-map { display: block; width: 100%; height: auto; }
+.route-map .trail { fill: none; stroke: var(--ink); stroke-linecap: round; stroke-linejoin: round; }
+.route-map .trail.walked { stroke-width: 2; }
+.route-map .trail.unwalked { stroke-width: 1.4; stroke-dasharray: 2 5; opacity: .55; }
+.route-map .trail.now { stroke: var(--accent); stroke-width: 3; stroke-dasharray: 1; stroke-dashoffset: 1; animation: ink-in 1.2s ease-out forwards; }
 @keyframes ink-in { to { stroke-dashoffset: 0; } }
-@media (prefers-reduced-motion: reduce) { .route-map path.now { animation: none; stroke-dashoffset: 0; } }
-.route-map .node circle, .route-map .node rect { stroke-width: 1.5; }
-.route-map .node.seen circle { fill: var(--line); stroke: var(--line); }
-.route-map .node.seen.end rect { fill: var(--accent); stroke: var(--accent); }
-.route-map .node.fog circle, .route-map .node.fog rect { fill: var(--paper-2); stroke: var(--ink-soft); stroke-dasharray: 2 2; opacity: .7; }
-.route-map .node.current circle { fill: var(--accent); stroke: var(--paper-2); stroke-width: 2.5; }
+@media (prefers-reduced-motion: reduce) { .route-map .trail.now { animation: none; stroke-dashoffset: 0; } }
+.route-map .art-img { filter: var(--art-filter); mix-blend-mode: var(--art-blend); }
+.route-map .vig-bg { fill: var(--paper); }
+.route-map .ring { fill: none; stroke: var(--ink); stroke-width: 1.8; }
+.route-map .ring-outer { fill: none; stroke: var(--ink); stroke-width: .7; }
+.route-map .node.current .ring { stroke: var(--accent); stroke-width: 3.5; }
+.route-map .node.current .ring-outer { stroke: var(--accent); }
+.route-map .place-label { font-family: "IM Fell English", Georgia, serif; font-style: italic; font-size: 13px; fill: var(--ink); paint-order: stroke; stroke: var(--paper-2); stroke-width: 4px; stroke-linejoin: round; }
+.route-map .place-label.end { fill: var(--accent); stroke: none; }
+.route-map .banner { fill: var(--paper); stroke: var(--accent); stroke-width: 1.2; }
+.route-map .cloud-bg { fill: var(--paper-2); }
+.route-map .node.fog { opacity: .85; }
+/* Softened, so a cloud reads as billows rather than the dark gaps between them. */
+.route-map .cloud-img { filter: var(--cloud-filter); }
+.route-map .cloud-plain { fill: var(--paper); stroke: var(--ink-soft); stroke-width: 1; }
 .route-map .node.seen:not(.end) { cursor: pointer; }
-.route-map .node.seen:not(.end):hover circle, .route-map .node.seen:not(.end):focus circle { fill: var(--accent); }
+.route-map .node.seen:not(.end):hover .ring, .route-map .node.seen:not(.end):focus-visible .ring { stroke: var(--accent); stroke-width: 3.5; }
 .route-map .node:focus { outline: none; }

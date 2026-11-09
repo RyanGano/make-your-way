@@ -51,12 +51,15 @@ async function loadStory(id) {
   return storyCache.get(id);
 }
 
+// The names of the scenes that have been drawn.
+function drawnArt() {
+  if (!artIndex) artIndex = fetchText("art/index.json").then((t) => new Set(JSON.parse(t))).catch(() => new Set());
+  return artIndex;
+}
+
 // Returns an <img> for a scene that has been drawn, or "" for one still waiting on the generator.
 async function loadArt(name, alt = "") {
-  if (!artIndex) {
-    artIndex = fetchText("art/index.json").then((t) => new Set(JSON.parse(t))).catch(() => new Set());
-  }
-  if (!name || !(await artIndex).has(name)) return "";
+  if (!name || !(await drawnArt()).has(name)) return "";
   return `<img src="art/${name}.webp" alt="${esc(alt)}" width="1200" height="800" loading="lazy" decoding="async">`;
 }
 
@@ -316,8 +319,8 @@ async function renderMap(storyId) {
       <p class="story-title">${esc(story.meta.title)}</p>
       <h1>Your map</h1>
       <p class="map-stats">${seen.size} of ${story.order.length} places visited · ${state.endings.length} of ${story.endings.length} endings found</p>
-      <p class="map-hint">Your current reading is drawn in red. Faint outlines are places you haven't reached yet. Tap any inked place to go back there and choose differently.</p>
-      ${RouteMap.render(story, state)}
+      <p class="map-hint">Your current reading is the red trail. Clouds hide the places you haven't reached yet. Tap any picture to go back there and choose differently.</p>
+      ${RouteMap.render(story, { ...state, art: await drawnArt() })}
     </article>`;
 
   app.querySelectorAll(".node.seen:not(.end)").forEach((node) => {
@@ -332,6 +335,9 @@ async function renderMap(storyId) {
     node.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
   });
   focusMain();
+  // On a long map, start with the place you're at in view.
+  const here = app.querySelector(".node.current");
+  if (here && here.getBoundingClientRect().bottom > innerHeight) here.scrollIntoView({ block: "center", inline: "center" });
 }
 
 // ---------- routing ----------

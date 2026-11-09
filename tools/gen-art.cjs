@@ -4,6 +4,7 @@
 //   node tools/gen-art.cjs <name> [<name> ...]     # generate these scenes
 //   node tools/gen-art.cjs --next 3                 # the next 3 scenes without an image, in priority order
 //   node tools/gen-art.cjs --list                   # show which scenes have images
+//   node tools/gen-art.cjs --thumbs                 # only rebuild the small copies the route map uses
 //   options: --model flux|sdxl   --force (regenerate even if the image exists)
 //
 // Scene prompts live in art/prompts.json: a shared "style" block plus one description per
@@ -11,7 +12,8 @@
 // to draw first: covers, then one key scene per story, round-robin.
 //
 // Each image is cropped to 3:2 and written as art/<name>.webp; art/index.json lists every
-// scene that has an image, and the site only shows images that are listed there.
+// scene that has an image, and the site only shows images that are listed there. A 300x200 copy
+// goes in art/thumbs/ for the route map's vignettes, so the map doesn't load every full drawing.
 //
 // Credentials: CF_ACCOUNT_ID and CF_API_TOKEN from the environment, a gitignored .env in this
 // repo, or the .env file named by MYW_ENV_FILE (e.g. MYW_ENV_FILE=../ai-mysteries/.env).
@@ -46,6 +48,7 @@ function parseArgs(argv) {
     else if (argv[i] === "--next") a.next = Number(argv[++i]);
     else if (argv[i] === "--list") a.list = true;
     else if (argv[i] === "--force") a.force = true;
+    else if (argv[i] === "--thumbs") a.thumbs = true;
     else a.names.push(argv[i]);
   }
   return a;
@@ -58,6 +61,21 @@ function writeIndex() {
   const names = fs.readdirSync(ART).filter((f) => f.endsWith(".webp")).map((f) => f.slice(0, -5)).sort();
   fs.writeFileSync(path.join(ART, "index.json"), JSON.stringify(names, null, 2) + "\n");
   return names;
+}
+
+// Small copies for the route map, remade whenever the full drawing is newer.
+async function writeThumbs(names) {
+  const sharp = require("sharp");
+  const dir = path.join(ART, "thumbs");
+  fs.mkdirSync(dir, { recursive: true });
+  let made = 0;
+  for (const name of names) {
+    const src = path.join(ART, name + ".webp"), out = path.join(dir, name + ".webp");
+    if (fs.existsSync(out) && fs.statSync(out).mtimeMs >= fs.statSync(src).mtimeMs) continue;
+    await sharp(src).resize(300, 200, { fit: "cover" }).webp({ quality: 70 }).toFile(out);
+    made++;
+  }
+  return made;
 }
 
 class QuotaError extends Error {}
@@ -114,6 +132,11 @@ async function main() {
     return;
   }
 
+  if (args.thumbs) {
+    console.log(`Made ${await writeThumbs(writeIndex())} thumbnails.`);
+    return;
+  }
+
   let queue = args.names;
   if (args.next) {
     const order = [...prompts.priority, ...Object.keys(prompts.scenes)];
@@ -141,6 +164,7 @@ async function main() {
     }
   }
   const all = writeIndex();
+  await writeThumbs(all);
   console.log(`\nMade ${made}. ${all.length} images in art/index.json.`);
 }
 

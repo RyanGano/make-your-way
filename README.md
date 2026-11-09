@@ -20,7 +20,7 @@ It's a static site with no build step: `index.html`, `style.css`, `app.js` and `
 
 - Progress and the endings you've found are saved in your browser's local storage, so you can close the tab and pick up where you left off.
 - **Back a step** undoes your last choice, and **Start over** goes back to the beginning.
-- **Map** shows every place you've been on any reading, with the current one drawn in red. Places one step beyond stay as faint outlines until you reach them. Tap a place you've been to go back there and choose differently. The map is drawn by `route-map.js`.
+- **Map** draws your readings as a storybook trail. Each place you've been is a round picture cut from its illustration, joined by inked trails, with the current reading in red. Places one step beyond where you've been are hidden under clouds, each a different piece of one cloud drawing (`art/clouds.webp`). Tap a picture to go back there and choose differently. The map is drawn by `route-map.js`.
 
 ## The storyteller
 
@@ -82,7 +82,7 @@ The script reports broken links, unreachable passages, loops, dead ends, and ill
 
 ## Drawings
 
-The illustrations are black-ink line art, generated with Cloudflare Workers AI (FLUX schnell), the same service the ai-mysteries project uses for its covers. Each scene has a prompt in `art/prompts.json`, which also holds the shared line-art style and the order to draw scenes in. Generated images go in `art/<name>.webp`, and `art/index.json` lists the scenes that have one. A scene with no image yet is simply shown without a picture.
+The illustrations are black-ink line art, generated with Cloudflare Workers AI (FLUX schnell), the same service the ai-mysteries project uses for its covers. Each scene has a prompt in `art/prompts.json`, which also holds the shared line-art style and the order to draw scenes in. Generated images go in `art/<name>.webp`, with a small copy in `art/thumbs/` for the map, and `art/index.json` lists the scenes that have one. A scene with no image yet is simply shown without a picture.
 
 The free daily quota is 10,000 neurons, which works out to roughly 80 images a day (about 120 neurons each). The quota is shared with anything else on the same Cloudflare account. So the art is filled in over a few days:
 
@@ -91,6 +91,7 @@ npm install
 MYW_ENV_FILE=../ai-mysteries/.env node tools/gen-art.cjs --next 3   # draw the next 3 scenes in priority order
 node tools/gen-art.cjs --list                                        # see which scenes are still missing
 node tools/gen-art.cjs --force crow                                  # redraw one scene
+node tools/gen-art.cjs --thumbs                                      # rebuild the map's small copies
 ```
 
 The script needs `CF_ACCOUNT_ID` and `CF_API_TOKEN`. It reads them from the environment, a gitignored `.env` in this repo, or the file named by `MYW_ENV_FILE`. When the quota runs out it stops and says so; run it again after the reset. Look over new images before committing them: the model sometimes adds made-up lettering, stray colour, or the wrong subject. Rewrite the scene description and redraw it. Rejected drafts can be parked in the gitignored `art/rejects/` folder; the site only shows images listed in `art/index.json`, which the script rebuilds from the files in `art/`.

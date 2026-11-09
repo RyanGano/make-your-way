@@ -1,5 +1,4 @@
-// Generate the story illustrations via Cloudflare Workers AI (free daily quota), the same
-// service ai-mysteries uses for its covers (see its scripts/gen-cover.cjs).
+// Generate the story illustrations via Cloudflare Workers AI (free daily quota).
 //
 //   node tools/gen-art.cjs <name> [<name> ...]     # generate these scenes
 //   node tools/gen-art.cjs --next 3                 # the next 3 scenes without an image, in priority order
@@ -16,7 +15,7 @@
 // goes in art/thumbs/ for the route map's vignettes, so the map doesn't load every full drawing.
 //
 // Credentials: CF_ACCOUNT_ID and CF_API_TOKEN from the environment, a gitignored .env in this
-// repo, or the .env file named by MYW_ENV_FILE (e.g. MYW_ENV_FILE=../ai-mysteries/.env).
+// repo, or the .env file named by MYW_ENV_FILE (e.g. MYW_ENV_FILE=path/to/.env).
 //
 // When the daily quota runs out the script stops and says so; run it again after the reset.
 

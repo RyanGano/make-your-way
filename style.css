@@ -184,6 +184,7 @@ main { flex: 1; width: 100%; max-width: 980px; margin: 0 auto; padding: 0 16px 3
 .row input { flex: 1; min-width: 0; font: inherit; font-size: 1rem; color: var(--ink); background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: .6rem .8rem; }
 .row input:focus { outline: none; border-color: var(--accent); }
 .write-in .reply { font-style: italic; color: var(--ink-soft); margin: .6rem 0 0; min-height: 1em; }
+.write-in .ai-note { font-size: .78rem; color: var(--ink-soft); margin: .4rem 0 0; opacity: .85; }
 .write-in.busy .reply, .said.pending { animation: pulse 1.2s ease-in-out infinite; }
 @keyframes pulse { 50% { opacity: .35; } }
 .talk { margin: 1.75rem 0 0; display: grid; gap: .6rem; }

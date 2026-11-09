@@ -200,6 +200,7 @@ async function renderPassage(storyId, action) {
            <label for="write-in">Or write what you do</label>
            <div class="row"><input id="write-in" maxlength="200" autocomplete="off" placeholder="Something else…"><button class="btn primary">Go</button></div>
            <p class="reply" aria-live="polite"></p>
+           <p class="ai-note">What you type here, or say to someone in the scene, is sent to an AI service to write the reply. It isn't saved.</p>
          </form>` : ""}
        </section>`
     : "";

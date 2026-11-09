@@ -1,7 +1,7 @@
 // Runs the Worker locally on http://localhost:8787 for testing, reading stories from the local
 // site (http://localhost:8123) and calling Workers AI over REST with CF_ACCOUNT_ID and
 // CF_API_TOKEN from the environment, a .env in this repo, or the file named by MYW_ENV_FILE.
-//   MYW_ENV_FILE=../ai-mysteries/.env node tools/dev-worker.mjs
+//   MYW_ENV_FILE=path/to/.env node tools/dev-worker.mjs
 import http from "node:http";
 import fs from "node:fs";
 import worker from "../worker/src/index.mjs";
